@@ -48,7 +48,7 @@ percent.
 ## The build
 
 The playable build is an Android APK for Meta Quest 3 and 3S (version code 15, `0.3.0-competition`). It is attached
-to this repository's **Releases** page, because it is too large for the file list.
+to this repository's **Releases** page.
 
 The competition entry itself is the same build in the "Competition" release channel on the Meta Horizon Developer
 Dashboard; judges should use the link on the Devpost page.
@@ -77,6 +77,35 @@ Meta XR Simulator, real OpenXR hand data drew the hands, and pinches drove the m
 | ![The canvas choice](media/07_the_canvas_choice.jpg) | ![Seated: point and pinch to move](media/08_seated_point_and_pinch_to_move.jpg) |
 | ![The harbour before the war](media/09_harbour_before_the_war.jpg) | ![The same harbour twenty years after](media/10_harbour_twenty_years_after.jpg) |
 
+## Source
+
+The whole game project is in this repository.
+
+| Path | What it is |
+|---|---|
+| `game_unreal/` | The Unreal Engine 5.8 project: `YesterdayHarbor.uproject`, `Config/`, `Content/` (about 1 GB of assets), `Source/` (C++), `Python/` (the scripts that author the Blueprints, maps and tests), `ContentData/` (dialogue and story data), `Plugins/YesterdaySaveGuard/` (save-file plugin source) |
+| `verdant/` | The Blender pipeline that builds the two-era city |
+| `tools/` | Build, packaging, APK inspection, capture and trailer tools |
+| `*.py` at the top level | Blender scripts for the house, harbour, props and characters |
+| `native_save_guard/`, `tests/`, `assets/` | Plugin notes and audit, a contract test, a reference material |
+| `media/` | Screenshots for this page |
+
+To open it: install Unreal Engine 5.8, open `game_unreal/YesterdayHarbor.uproject` and let the editor build the C++
+modules. The Quest build needs the Android SDK, NDK and JDK that Unreal 5.8 asks for.
+
+Not included: build output (`Binaries`, `Intermediate`, `Saved`), the packaged builds (see Releases), the recorded test
+evidence and captures (about 16 GB), and the working notes. Scripts contain absolute Windows paths from the machine
+they were written on, with the user folder written as `C:\Users\USER`; change them to your own checkout. The same
+replacement was made inside the asset files' import paths in this copy.
+
+## Third-party content
+
+- Surfaces and sky from [Poly Haven](https://polyhaven.com), CC0.
+- Human figures exported from MakeHuman Community / MPFB assets, CC0.
+- Unreal Engine template content and character animation from Epic Games (the mannequins and the first-person,
+  third-person and XR template assets), under the Unreal Engine EULA.
+- The family photograph is an AI-assisted image of a fictional character.
+
 ## Rights
 
-All rights reserved. This repository holds the playable build and its presentation material, not the source project.
+Everything else is the author's own work. All rights reserved.

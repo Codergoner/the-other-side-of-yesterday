@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "map": "/Game/Quest/Maps/Verdant_Desktop",
+  "owner": "TOSOY.ReleaseHeroOwned",
+  "floor_scope": [
+    {"mesh": "SM_Home_Floors", "slot": 0, "expected_original_material": "M_Stone", "role": "room_floor", "repeat_metres": 1.6, "uv_scale": 1.25, "normal_strength": 0.32, "base_color_gain": 1.10, "roughness_scale": 0.26, "roughness_bias": 0.68},
+    {"mesh": "SM_StreetSurface", "slot": 0, "expected_original_material": "M_Cobble", "role": "street_floor", "repeat_metres": 1.2, "uv_scale": 1.6666666667, "normal_strength": 0.42, "base_color_gain": 1.20, "roughness_scale": 0.25, "roughness_bias": 0.70}
+  ],
+  "cloth": {"role": "woven_panel", "repeat_metres": 0.27, "uv_scale": 7.4074074074, "normal_strength": 0.16, "base_color_gain": 1.0, "roughness_scale": 0.18, "roughness_bias": 0.80},
+  "props": [
+    {"id": "release.hero.wall_shelf", "mesh": "SM_ReleaseHero_WallShelf", "position_cm": [-1054, 1500, 1228], "yaw": -90, "era": "Present", "collision": false},
+    {"id": "release.hero.woven_panel", "mesh": "SM_ReleaseHero_WovenPanel", "position_cm": [-1054, 1322, 1250], "yaw": -90, "era": "Present", "collision": false}
+  ],
+  "caps": {"new_groups": 10, "new_triangles": 12000, "new_lights": 0, "new_colliders": 0},
+  "native_review_required": true,
+  "native_prop_fit_required": true,
+  "floor_review_precedes_detail_application": true,
+  "preserved": ["Original actor transforms and source geometry", "All original collision", "Mother and story actor identities/routes", "Existing interaction ray approaches", "Existing sunset and selected skylight", "All original material assets", "Protected Quest project"]
+}

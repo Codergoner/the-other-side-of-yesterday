@@ -1,0 +1,652 @@
+{
+  "schema": 1,
+  "status": "source_geometry_prepared_native_fit_and_bypass_pending",
+  "map": "/Game/Quest/Maps/Verdant_Desktop",
+  "owner": "TOSOY.ReleaseUpstairsClosureOwned",
+  "stable_id": "release.home.upstairs_closed",
+  "intentional_new_collision_scope": true,
+  "not_part_of_floor_no_collision_claim": true,
+  "source_guard": {
+    "house_sha256": "21e6111a23758c85cfc9b509a6a589a7e4bf8e1d598fe7811de083dcc4b6aa58",
+    "chapter_story_sha256": "c89f58c305d9529e369305e581770df17d3741fb4fc069760b5955e951524115",
+    "current_native_floor_baseline_file": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\validation\\release_hero_baselines\\20261025T185915_077483_floors_before.json",
+    "current_native_floor_baseline_sha256": "03041ce110b734302ee3d930a9dbecdb23f8cc7d8d7d50025d09da847a553cda",
+    "ordinary_walk_report": "game_unreal/release_upstairs_walk_probe.json",
+    "ordinary_walk_run": "20261025T191053_846979",
+    "ordinary_walk_waypoints_passed": 35
+  },
+  "existing_mother_actual_native_snapshot": {
+    "name": "SkeletalMeshActor_0",
+    "label": "Opening - Mother",
+    "class": "/Script/Engine.SkeletalMeshActor",
+    "location_cm": [
+      -915.0,
+      1412.0,
+      1011.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.96,
+      0.96,
+      0.96
+    ],
+    "tags": [
+      "Opening.Chapter2SceneOwned",
+      "Opening.Interactable",
+      "Opening.PresentOnly",
+      "Opening.SceneOwned",
+      "npc.mother"
+    ],
+    "hidden_in_game": false,
+    "actor_collision": true,
+    "mesh": null,
+    "materials": [],
+    "raw_override_materials": [],
+    "collision_enabled": null,
+    "collision_profile": null,
+    "collision_responses": {}
+  },
+  "mother_route_source": "game_unreal/Python/build_chapters_story.py:403-404",
+  "mother_departure_center_route_cm": [
+    [
+      -915.0,
+      1412.0,
+      1011.0
+    ],
+    [
+      -915,
+      1240,
+      1011
+    ],
+    [
+      -760,
+      1240,
+      1011
+    ],
+    [
+      -600,
+      1240,
+      1011
+    ],
+    [
+      -430,
+      1240,
+      1011
+    ],
+    [
+      -300,
+      1240,
+      966
+    ],
+    [
+      -150,
+      1240,
+      920
+    ],
+    [
+      -40,
+      1240,
+      896
+    ]
+  ],
+  "mother_return_center_route_cm": [
+    [
+      -40,
+      1240,
+      896
+    ],
+    [
+      -430,
+      1240,
+      1011
+    ],
+    [
+      -600,
+      1240,
+      1011
+    ],
+    [
+      -760,
+      1240,
+      1011
+    ],
+    [
+      -915,
+      1240,
+      1011
+    ],
+    [
+      -915.0,
+      1412.0,
+      1011.0
+    ]
+  ],
+  "mother_route_minimum_y_separation_cm": 84.5,
+  "player_radius_used_only_for_source_clearance_cm": 33.99907684326172,
+  "source_center_route_margin_after_player_radius_cm": 50.50092315673828,
+  "actual_mother_animated_bounds_native_verified": false,
+  "blocking_visible_solids": [
+    {
+      "id": "closed_leaf_core",
+      "center_ue_cm": [
+        -512,
+        1585,
+        1123
+      ],
+      "size_ue_cm": [
+        5,
+        140,
+        224
+      ],
+      "material": "wood",
+      "blocking": true,
+      "visible_solid_body": true,
+      "bounds_ue_cm": {
+        "min": [
+          -514.5,
+          1515.0,
+          1011.0
+        ],
+        "max": [
+          -509.5,
+          1655.0,
+          1235.0
+        ]
+      }
+    },
+    {
+      "id": "south_jamb",
+      "center_ue_cm": [
+        -512,
+        1509,
+        1123
+      ],
+      "size_ue_cm": [
+        16,
+        12,
+        224
+      ],
+      "material": "wood",
+      "blocking": true,
+      "visible_solid_body": true,
+      "bounds_ue_cm": {
+        "min": [
+          -520.0,
+          1503.0,
+          1011.0
+        ],
+        "max": [
+          -504.0,
+          1515.0,
+          1235.0
+        ]
+      }
+    },
+    {
+      "id": "north_jamb",
+      "center_ue_cm": [
+        -512,
+        1661,
+        1123
+      ],
+      "size_ue_cm": [
+        16,
+        12,
+        224
+      ],
+      "material": "wood",
+      "blocking": true,
+      "visible_solid_body": true,
+      "bounds_ue_cm": {
+        "min": [
+          -520.0,
+          1655.0,
+          1011.0
+        ],
+        "max": [
+          -504.0,
+          1667.0,
+          1235.0
+        ]
+      }
+    },
+    {
+      "id": "head_lintel",
+      "center_ue_cm": [
+        -512,
+        1585,
+        1241
+      ],
+      "size_ue_cm": [
+        16,
+        164,
+        12
+      ],
+      "material": "wood",
+      "blocking": true,
+      "visible_solid_body": true,
+      "bounds_ue_cm": {
+        "min": [
+          -520.0,
+          1503.0,
+          1235.0
+        ],
+        "max": [
+          -504.0,
+          1667.0,
+          1247.0
+        ]
+      }
+    },
+    {
+      "id": "visible_upper_infill",
+      "center_ue_cm": [
+        -512,
+        1585,
+        1274.5
+      ],
+      "size_ue_cm": [
+        13,
+        164,
+        55
+      ],
+      "material": "plaster",
+      "blocking": true,
+      "visible_solid_body": true,
+      "bounds_ue_cm": {
+        "min": [
+          -518.5,
+          1503.0,
+          1247.0
+        ],
+        "max": [
+          -505.5,
+          1667.0,
+          1302.0
+        ]
+      }
+    },
+    {
+      "id": "north_wall_return",
+      "center_ue_cm": [
+        -512,
+        1686.5,
+        1156.5
+      ],
+      "size_ue_cm": [
+        13,
+        39,
+        291
+      ],
+      "material": "plaster",
+      "blocking": true,
+      "visible_solid_body": true,
+      "bounds_ue_cm": {
+        "min": [
+          -518.5,
+          1667.0,
+          1011.0
+        ],
+        "max": [
+          -505.5,
+          1706.0,
+          1302.0
+        ]
+      }
+    },
+    {
+      "id": "full_visible_side_return",
+      "center_ue_cm": [
+        -784.0,
+        1503,
+        1156.5
+      ],
+      "size_ue_cm": [
+        544,
+        13,
+        291
+      ],
+      "material": "plaster",
+      "blocking": true,
+      "visible_solid_body": true,
+      "bounds_ue_cm": {
+        "min": [
+          -1056,
+          1496.5,
+          1011.0
+        ],
+        "max": [
+          -512.0,
+          1509.5,
+          1302.0
+        ]
+      }
+    }
+  ],
+  "design": {
+    "leaf": "Closed timber plank door with backing, jambs/lintel, latch and visible upper infill. No fake interaction prompt.",
+    "return": "One coherent full-length visible limewash-and-timber stair enclosure, not an invisible blocker or short bypassable strip.",
+    "side_return_length_cm": 544,
+    "ceiling_underside_cm": 1302,
+    "north_return_meets_existing_inner_wall_y_cm": 1706,
+    "ground_floor_route_y_cm": 1240,
+    "common_to_eras": true,
+    "manager_era_array_delta": 0,
+    "original_actor_transform_edits": 0,
+    "original_mesh_or_collision_edits": 0,
+    "new_semantic_meshes": 1,
+    "new_owned_scene_actors": 1,
+    "triangles_cap": 5000,
+    "expected_ucx_boxes": 7,
+    "new_textures_or_materials": 0,
+    "coordinate_conversion": "Author UE cm as Blender metres (x/100,-y/100,z/100); native import must independently prove actual UE bounds and7 UCX hulls, with no actor-scale workaround."
+  },
+  "source_ray_intersection_checks": {
+    "scope": "Analytic line-vs-proposed-AABB only; no claim of actual native line-of-sight/capsule fit.",
+    "rays": [
+      {
+        "id": "existing_anchor_1",
+        "from_cm": [
+          -305,
+          1281.544,
+          1178.369
+        ],
+        "to_cm": [
+          -305.0,
+          1450.0,
+          1046.5
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "existing_anchor_2",
+        "from_cm": [
+          -132.964,
+          1536.018,
+          1034.689
+        ],
+        "to_cm": [
+          -305.0,
+          1450.0,
+          1046.5
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "existing_anchor_3",
+        "from_cm": [
+          -101.544,
+          1450,
+          1042.689
+        ],
+        "to_cm": [
+          -305.0,
+          1450.0,
+          1046.5
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "existing_anchor_4",
+        "from_cm": [
+          -132.964,
+          1363.982,
+          1142.212
+        ],
+        "to_cm": [
+          -305.0,
+          1450.0,
+          1046.5
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "existing_anchor_5",
+        "from_cm": [
+          -305,
+          1251.544,
+          1178.369
+        ],
+        "to_cm": [
+          -305.0,
+          1450.0,
+          1046.5
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "existing_anchor_6",
+        "from_cm": [
+          -305,
+          1648.456,
+          1178.369
+        ],
+        "to_cm": [
+          -305.0,
+          1450.0,
+          1046.5
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "home_home.photo",
+        "from_cm": [
+          -620,
+          1240,
+          1173.4
+        ],
+        "to_cm": [
+          -782.0,
+          1370.0,
+          1112.0
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "home_home.letter",
+        "from_cm": [
+          -620,
+          1240,
+          1173.4
+        ],
+        "to_cm": [
+          -782.0,
+          1275.0,
+          1098.5
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "home_npc.mother",
+        "from_cm": [
+          -620,
+          1240,
+          1173.4
+        ],
+        "to_cm": [
+          -915.0,
+          1412.0,
+          1121.0
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "home_home.workbench",
+        "from_cm": [
+          -620,
+          1240,
+          1173.4
+        ],
+        "to_cm": [
+          -1010.0,
+          1192.0,
+          1116.5
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "home_home.drawer",
+        "from_cm": [
+          -620,
+          1240,
+          1173.4
+        ],
+        "to_cm": [
+          -1012.0,
+          1290.0,
+          1109.0
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "home_home.calibration_component",
+        "from_cm": [
+          -620,
+          1240,
+          1173.4
+        ],
+        "to_cm": [
+          -1009.0,
+          1290.0,
+          1114.4
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "home_home.anchor",
+        "from_cm": [
+          -620,
+          1240,
+          1173.4
+        ],
+        "to_cm": [
+          -305.0,
+          1450.0,
+          1046.5
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "workshop_home.photo",
+        "from_cm": [
+          -830,
+          1200,
+          1173.4
+        ],
+        "to_cm": [
+          -782.0,
+          1370.0,
+          1112.0
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "workshop_home.letter",
+        "from_cm": [
+          -830,
+          1200,
+          1173.4
+        ],
+        "to_cm": [
+          -782.0,
+          1275.0,
+          1098.5
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "workshop_npc.mother",
+        "from_cm": [
+          -830,
+          1200,
+          1173.4
+        ],
+        "to_cm": [
+          -915.0,
+          1412.0,
+          1121.0
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "workshop_home.workbench",
+        "from_cm": [
+          -830,
+          1200,
+          1173.4
+        ],
+        "to_cm": [
+          -1010.0,
+          1192.0,
+          1116.5
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "workshop_home.drawer",
+        "from_cm": [
+          -830,
+          1200,
+          1173.4
+        ],
+        "to_cm": [
+          -1012.0,
+          1290.0,
+          1109.0
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "workshop_home.calibration_component",
+        "from_cm": [
+          -830,
+          1200,
+          1173.4
+        ],
+        "to_cm": [
+          -1009.0,
+          1290.0,
+          1114.4
+        ],
+        "candidate_box_intersections": []
+      },
+      {
+        "id": "workshop_home.anchor",
+        "from_cm": [
+          -830,
+          1200,
+          1173.4
+        ],
+        "to_cm": [
+          -305.0,
+          1450.0,
+          1046.5
+        ],
+        "candidate_box_intersections": []
+      }
+    ],
+    "all_proposed_solids_avoid_segments": true
+  },
+  "required_native_tests_before_persistent_save": [
+    "Read back actual render/UCX bounds, floor/ceiling fit and new material references.",
+    "Check current Mother skeletal animated bounds and departure/return center route against visible solids; run actual story470 afterwards. NPC source uses unswept authored motion, so a position-only simulation must not mask geometry clipping.",
+    "Fire all6 exact existing anchor interaction rays and actual room photo/letter/Mother/workbench/drawer/component approaches through unchanged manager ranges.",
+    "Normal fresh-game AddMovementInput frontal approach is blocked by the visible closed leaf; no hidden actor, input lock or collision-only volume manufactures success.",
+    "Both side approaches plus native Jump/StopJumping and crouch if enabled fail to reach the upper landing. Test access around the rear end/under the stair without assuming a blocked single plane proves closure.",
+    "Walk the unchanged home Y1240\u2192porch\u2192stairs\u2192gate route and return with no setup teleports; retain the four narrative routes.",
+    "No original collider, actor position, story ID, camera, lighting property, save or Quest project changes. New closure alone owns the intentional added collision.",
+    "Capture normal-eye-height room/front/side views so the physical blocker is visible and belongs to the house.",
+    "Use first-baseline/idempotent/revert/manual guards; revert removes only unchanged new owned closure and preserves any artist edits."
+  ],
+  "native_importer_prepared": false,
+  "native_or_blender_run": false,
+  "closure_applied": false,
+  "source_geometry_builder": "build_release_upstairs_closure.py",
+  "blender_builder_prepared": true,
+  "source_confirmed_rear_wall_inner_x_cm": -1056,
+  "extension_reason": "Main rear wall localY2.7/thickness.28 transforms to worldX-1070, innerface-1056; close the formerly91cm rear-side gap with the same visible solid and matched UCX."
+}

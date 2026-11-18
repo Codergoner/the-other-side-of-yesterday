@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-26T09:59:37.605108+00:00",
+  "tool": "built_in_image_gen",
+  "asset": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\assets\\release_v02\\materials\\T_Reference_TealLinen_BaseColor_v01.png",
+  "sha256": "0e36d933f845177acad8125e7c962deed0a14a6c91a0acde1203adc72c46b98a",
+  "reference": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\docs\\Release_20261026\\References\\05_Character_Design_Reference_v02.png",
+  "reference_sha256": "cdf62650ef06e91821193ab1a7b72d92d3bc03401677ff37d642c2a2248140f6",
+  "prompt": "One seamless faded muted teal-blue woven linen fabric basecolor, sparse warm sand-gold botanical thread flecks; flat unlit orthographic material only, no folds shadows characters text grid or border. Character sheet used only for palette/textile reference.",
+  "intended_use": "Actual animated clothing material; not a substitute character or gameplay image",
+  "native_imported": false,
+  "seamless_verified": false,
+  "quest_design": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\docs\\Release_20261026\\QUEST_AND_STORY_DESIGN_v02.md",
+  "quest_design_sha256": "00c1abca625fda3d71e27cf3fd7b0132557cbfc30176bc27c21d644035ca1d4d"
+}

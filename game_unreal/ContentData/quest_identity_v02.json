@@ -1,0 +1,49 @@
+{
+  "revision": "quest-story-v0.2-identity",
+  "scene": "C2_IDENTITY_01",
+  "start": [
+    ["Tavi", "I'm Tavi. My brother will ask here. If my name isn't on the page, he won't know where I went."],
+    ["Enna", "Then we can write it down."],
+    ["Tavi", "So can the man I owe. He asks questions too."],
+    ["Protagonist", "Who gets to read the book?"],
+    ["Enna", "The full list? Anyone asking after someone. A private note is different, but it has to stay with a person."]
+  ],
+  "choices": [
+    {"method": 1, "label": "Suggest a public name and agreed contact point.", "node": "C2_IDENTITY_01.public", "lines": [
+      ["Protagonist", "You could give a name and a place to ask, without writing down where you sleep."],
+      ["Enna", "Your brother could search the index directly. So could a stranger. Are you willing to put that much in the public book?"],
+      ["Tavi", "Yes. Put Tavi, and the harbor clerk's desk as the contact point. I agree to that. No lodging address."],
+      ["Enna", "That is what I will record. A public contact entry, not permission to disclose anything else."]
+    ]},
+    {"method": 2, "label": "Ask about initials and a sealed note with a willing keeper.", "node": "C2_IDENTITY_01.sealed", "lines": [
+      ["Protagonist", "Could the public page carry initials, with a sealed note kept for his brother?"],
+      ["Enna", "I am willing to keep it. I would record the packet reference and sign for custody. If it moves to the Record House, its next keeper must sign the transfer."],
+      ["Tavi", "Use T in the public index. My brother has my permission to request the note. Nobody else. I agree to leave it with you, Enna."],
+      ["Enna", "I accept that responsibility. Finding the keeper may take longer than searching a public name. A sealed note is not a guarantee that a family finds each other."]
+    ]},
+    {"method": 3, "label": "Support his choice to leave no personal entry.", "node": "C2_IDENTITY_01.anonymous", "lines": [
+      ["Protagonist", "You do not owe the register a name. It is your decision."],
+      ["Tavi", "Then no personal entry. Count me with the people here, but do not write down my identity."],
+      ["Enna", "An anonymous headcount, then. You still have a place under the roof. Your brother will not be able to trace you through this page."],
+      ["Tavi", "I understand. That is what I want."]
+    ]}
+  ],
+  "repeat": {
+    "0": [["Enna", "Nothing personal has been entered. We can discuss the options when you are ready."]],
+    "1": [["Tavi", "Only the name and agreed contact point are public. That is still my decision."]],
+    "2": [["Enna", "I have accepted the sealed note. The public reference does not authorize anyone to open it."]],
+    "3": [["Tavi", "No personal entry. Thank you for respecting that."]]
+  },
+  "archive": {
+    "0": "ANONYMOUS HEADCOUNT\nNo personal handling agreement was recorded. This source confirms a group, without an identifiable trail for a particular worker. It does not establish anyone's later fate.",
+    "1": "AGREED PUBLIC CONTACT\nTavi authorized his name and the harbor clerk's desk as a contact point. No private lodging address was recorded. Relatives or strangers could use this index; this entry does not establish what happened to him later.",
+    "2": "LIMITED PUBLIC REFERENCE\nInitial T; deposited packet V17-Contact-T. Enna's custody receipt and a signed transfer to Record House keeper Mira survive with the reference. The note remains sealed; access is restricted to the brother named in the depositor's permission. The exhibit does not disclose its contents or establish his later fate.",
+    "3": "ANONYMOUS HEADCOUNT\nA worker explicitly declined a personal entry and still received shelter. The register confirms the group but cannot trace his individual route. His later whereabouts remain unknown."
+  },
+  "journal": {
+    "0": "REGISTER HANDLING\nNo personal agreement was completed. An anonymous headcount must not be treated as permission to publish a name.",
+    "1": "REGISTER HANDLING\nTavi agreed to a public name and contact point. I did not give permission for his private address, and the register contains none.",
+    "2": "REGISTER HANDLING\nTavi agreed to initials publicly and a sealed note for his brother. Enna explicitly accepted custody and a signed transfer obligation. The chain may be slower than a public index; privacy is not proof of a safe outcome.",
+    "3": "REGISTER HANDLING\nTavi asked for no personal entry. The anonymous headcount still includes him. This source cannot establish his later fate."
+  }
+}

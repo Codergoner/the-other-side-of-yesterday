@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "status": "root_review_approved_pending_persistent_native_grant",
+  "approved_at_utc": "2026-10-25T19:24:46.566213+00:00",
+  "candidate": "Warm01",
+  "candidate_signature": "fd5a6d2471680738",
+  "linear_tints": {
+    "room_floor": [
+      0.85,
+      0.8,
+      0.65
+    ],
+    "street_floor": [
+      0.72,
+      0.68,
+      0.58
+    ]
+  },
+  "extra_gain": 1,
+  "policy_sha256": "c01cba758a23d91f9debac7a6d49b6797e1ed96355657dad325222ae1d311ce3",
+  "base_plan_sha256": "28ae568539a87be1d1175d7d134545a71fdfdff5390e8df212d2472007819be2",
+  "hero_importer_sha256": "18716ae1505e0d7171c9321e9bf7ca34192ca7210ef19b982106654e60dd0430",
+  "source_manifest_sha256": "c57925e133a73888ad537bc622043704ad070df88cea63b6860ed7e43b15e594",
+  "first_floor_baseline_sha256": "03041ce110b734302ee3d930a9dbecdb23f8cc7d8d7d50025d09da847a553cda",
+  "capture_run": "20261025T191742_441491",
+  "capture_report_sha256": "d3ebee2bff16472ceb0e6f89cc6a6e5ec7c1d36d8a493cf6cfd72879b650fef9",
+  "selected_image_hashes": {
+    "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\validation\\release_floor_tint_capture\\20261025T191742_441491\\Before_Present_SurvivingRoom_Lit.png": "56febdb2ddd8db6b75383adbbb5755c037c113827078f92e7cd0ce00fa35a976",
+    "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\validation\\release_floor_tint_capture\\20261025T191742_441491\\Before_Present_RoomFloor_Lit.png": "43b371a1fc8527292e14964410a9e01b905de49241cd1e9c21e2562c20297aaf",
+    "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\validation\\release_floor_tint_capture\\20261025T191742_441491\\Before_Present_StreetFloor_Lit.png": "4739e4a8d6dd9d8118935511f04b2c128d5fbb41f68f38eb047162ff27a948dd",
+    "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\validation\\release_floor_tint_capture\\20261025T191742_441491\\After_Present_SurvivingRoom_Lit.png": "9e957e966caaf856cebd15cd38adc1d7b5d214d438a478a1da7c084dfdbc850e",
+    "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\validation\\release_floor_tint_capture\\20261025T191742_441491\\After_Present_RoomFloor_Lit.png": "09956af5dc154da69c1ca424c4c5767e838956b2ed2464956ee3d87fce1a5758",
+    "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\validation\\release_floor_tint_capture\\20261025T191742_441491\\After_Present_StreetFloor_Lit.png": "0576c24c762f7a2fac2fe80ac0ec0e38c6b1785a55602c2e3fb2007e4ad1c32a",
+    "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\validation\\release_floor_tint_capture\\20261025T191742_441491\\After_Present_RoomFloor_BaseColor.png": "6a015509eb9590a8aa2833ec0af5b487179705cfb3442296e5b3942ddb0046b8"
+  },
+  "native_capture_transient": true,
+  "persistent_adopted": false,
+  "review_scope": "Floor palette only; no overall art/gameplay/performance/device acceptance."
+}

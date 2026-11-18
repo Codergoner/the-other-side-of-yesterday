@@ -1,0 +1,74 @@
+HISTORICAL MILESTONE A NOTES — SUPERSEDED BY OPENING_CHAPTERS_1_2.txt
+
+The user-supplied Chapters 1–2 draft replaces the provisional dialogue and
+one-test calibration sequence below. Use OPENING_CHAPTERS_1_2.txt for the
+current authored opening. These notes describe the earlier validation only.
+
+THE OTHER SIDE OF YESTERDAY — OPENING / MILESTONE A
+
+Open YesterdayHarbor.uproject and play either existing Home map, or use
+PlayHomeFirstPerson.bat / PlayHomeThirdPerson.bat. The original Harbor maps,
+character classes, controllers, input assets and project identifier remain.
+
+CONTROLS
+WASD / mouse     Existing movement and look
+Left Shift       Jog
+Left Ctrl        Toggle crouch (capsule support; custom crouch pose pending)
+E                One contextual interaction, or close the active reading view
+F                Inspect the selected photograph / read the selected letter
+R                Turn the photograph over during inspection
+Left / Right     Rotate the held photograph
+Q                Open / close the Chronowatch
+Tab              Open / close the journal
+Escape           Pause menu; 1 resumes, 2 saves, 3 loads
+
+Unreal's editor may reserve Escape to stop PIE. The game-mode launchers use
+Escape for the actual in-game menu.
+
+AUTHORED HOME SEQUENCE
+Explore the surviving room. Inspect the photograph, including its reverse.
+Read Mother's letter, then speak with Mother and ask about the calibration.
+Examine the workbench. Open its parts box, take the alignment collar, fit the
+collar at the bench, and interact again to test the final calibration.
+Closing the watch or pausing cancels an unfinished test; the fitted part stays.
+Register the first time anchor on the porch after the test succeeds.
+
+Important items use stable actor identifiers and designated recovery positions.
+The photograph returns to its original transform when inspection closes.
+The alignment collar is a lightweight quest item rather than a physics pickup.
+Completed steps and found/read documents persist in a native Unreal SaveGame.
+Loading restores a stable porch position without discarding earned progress.
+Default save slot: Yesterday_Opening_v1. Existing save identifiers did not exist
+in the environment prototype. Automated tests use distinct isolated slots.
+
+SCOPE AND PRESENTATION
+All new dialogue, letter text and photo inscriptions are provisional because no
+approved story script was found. No permanent protagonist name or exact age is
+assigned. No future healer/family revelation is exposed.
+The portrait uses original sepia silhouette placeholder art. Mother reuses the
+existing Quinn mesh and unarmed idle. The watch, parts box and collar use simple
+temporary meshes. Inspection is a real controlled object view with readable
+text; bespoke reach/grab/read/watch hand animations have not been supplied.
+There is no claim of a complete interaction animation system.
+No XR pawn, tracking setup or enabled headset plugin was present. Desktop
+functionality is the executable target; headset interactions remain unverified.
+The existing legacy XR input entries are preserved.
+
+Milestone B time travel / Chapter 2 and Milestone C trust / perspective / limited
+time pause are separate following stages. Locked watch functions explain their
+current availability and cannot accidentally activate a nearby object.
+
+IMPLEMENTATION AND REBUILD
+Native assets: /Game/Opening/Blueprints/BP_OpeningActions, BP_OpeningHUD,
+BP_OpeningSave. Gameplay runs native Blueprint nodes and does not require Python.
+Editor-time authoring: Python/build_opening_actions.py, opening_graph.py,
+build_opening_hud.py and build_opening_scene.py.
+Authoring does not install or upgrade an engine, plugin, compiler or dependency.
+The only existing character default changed is the movement capsule's crouch
+capability. Original player asset bytes are backed up in output/opening relative
+to the project parent. Existing locomotion, camera and Enhanced Input graphs are
+reused. The new actions actor is placed only in the two Home maps.
+
+opening_build_report.json distinguishes successful asset compilation from play
+testing. opening_a_runtime_validation.json records executed native gameplay
+tests and screenshots; read its success field for the latest run's result.

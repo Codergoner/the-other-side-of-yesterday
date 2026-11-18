@@ -1,0 +1,467 @@
+{
+  "schema": 1,
+  "status": "source_prepared_native_probe_pending",
+  "map": "/Game/Quest/Maps/Verdant_Desktop",
+  "brief_source": "docs/Release_20261026/FULL_RELEASE_PROMPT.md:342",
+  "brief_requirement": "Keep the upstairs and past-era house interior closed in this slice.",
+  "native_evidence_status": "Not run for the Release upstairs; no closure is authored by this plan.",
+  "generator_source_sha256": {
+    "build_player_house.py": "21e6111a23758c85cfc9b509a6a589a7e4bf8e1d598fe7811de083dcc4b6aa58",
+    "house_details.py": "de203f3dfad9afb2d8288d0535ad2ace0e40371b74a96a86bd4a09e331571a4a",
+    "game_unreal/Python/import_house.py": "6a5a12a7cd545f8f774a192646db3390a8cbb51fdfd22850493f04e113200a2f"
+  },
+  "source_geometry": {
+    "conversion": "WorldUEcm=[(-8-localY)*100,(13-localX)*100,(8.96+localZ)*100]",
+    "stairs": {
+      "source": "build_player_house.py:115-125",
+      "mesh": "SM_Home_Staircase",
+      "decorative_treads": 18,
+      "ramp_floor_foot_cm": [
+        -528,
+        1585,
+        1011
+      ],
+      "ramp_floor_top_cm": [
+        -965,
+        1585,
+        1326
+      ],
+      "ramp_width_cm": 144,
+      "ramp_run_cm": 437,
+      "ramp_rise_cm": 315,
+      "ramp_angle_degrees": 35.784961,
+      "decorative_handrails_collide": false,
+      "actual_collision_proxies": [
+        "Continuous interior stair ramp",
+        "Stairwell safety blocking"
+      ]
+    },
+    "existing_upper_guard_bounds_cm": {
+      "min": [
+        -904,
+        1496.5,
+        1326
+      ],
+      "max": [
+        -560,
+        1509.5,
+        1416
+      ]
+    },
+    "existing_upper_floor_underside_cm": 1302,
+    "upstairs_floor_cm": 1326,
+    "balcony_support_floor_cm": 1326,
+    "balcony_visible_boards_top_cm": 1330.5,
+    "balcony_leaves": "Both parked open in house_details.py:202-204; no closure inferred.",
+    "other_blockers": "Existing ruined-side-wing barricade and Past front door do not close this stairwell."
+  },
+  "ordinary_walk": {
+    "fixture": "Python/probe_release_upstairs_walk.py",
+    "launch_gate": "Root native queue, -ReleaseUpstairsProbe and dedicated short -UserDir",
+    "route": [
+      {
+        "id": "fresh_home",
+        "floor_cm": [
+          -620,
+          1240,
+          1011
+        ],
+        "phase": "ground_floor"
+      },
+      {
+        "id": "front_room_approach",
+        "floor_cm": [
+          -560,
+          1240,
+          1011
+        ],
+        "phase": "ground_floor"
+      },
+      {
+        "id": "front_room_turn",
+        "floor_cm": [
+          -500,
+          1440,
+          1011
+        ],
+        "phase": "ground_floor"
+      },
+      {
+        "id": "stair_apron",
+        "floor_cm": [
+          -500,
+          1585,
+          1011
+        ],
+        "phase": "ground_floor"
+      },
+      {
+        "id": "stair_foot",
+        "floor_cm": [
+          -528,
+          1585,
+          1011
+        ],
+        "phase": "ascent"
+      },
+      {
+        "id": "stair_lower",
+        "floor_cm": [
+          -640,
+          1585,
+          1091.732
+        ],
+        "phase": "ascent"
+      },
+      {
+        "id": "stair_middle",
+        "floor_cm": [
+          -746.5,
+          1585,
+          1168.5
+        ],
+        "phase": "ascent"
+      },
+      {
+        "id": "stair_upper",
+        "floor_cm": [
+          -875,
+          1585,
+          1261.126
+        ],
+        "phase": "ascent"
+      },
+      {
+        "id": "stair_top",
+        "floor_cm": [
+          -965,
+          1585,
+          1326
+        ],
+        "phase": "ascent"
+      },
+      {
+        "id": "upper_landing",
+        "floor_cm": [
+          -1005,
+          1585,
+          1326
+        ],
+        "phase": "upstairs"
+      },
+      {
+        "id": "upper_landing_turn",
+        "floor_cm": [
+          -1005,
+          1440,
+          1326
+        ],
+        "phase": "upstairs"
+      },
+      {
+        "id": "upper_hall",
+        "floor_cm": [
+          -800,
+          1440,
+          1326
+        ],
+        "phase": "upstairs"
+      },
+      {
+        "id": "balcony_approach",
+        "floor_cm": [
+          -510,
+          1465,
+          1326
+        ],
+        "phase": "upstairs"
+      },
+      {
+        "id": "balcony_doorway",
+        "floor_cm": [
+          -435,
+          1465,
+          1326
+        ],
+        "phase": "upstairs"
+      },
+      {
+        "id": "balcony_view",
+        "floor_cm": [
+          -335,
+          1465,
+          1326
+        ],
+        "phase": "upstairs"
+      },
+      {
+        "id": "return_balcony_doorway",
+        "floor_cm": [
+          -435,
+          1465,
+          1326
+        ],
+        "phase": "return"
+      },
+      {
+        "id": "return_balcony_approach",
+        "floor_cm": [
+          -510,
+          1465,
+          1326
+        ],
+        "phase": "return"
+      },
+      {
+        "id": "return_upper_hall",
+        "floor_cm": [
+          -800,
+          1440,
+          1326
+        ],
+        "phase": "return"
+      },
+      {
+        "id": "return_upper_landing_turn",
+        "floor_cm": [
+          -1005,
+          1440,
+          1326
+        ],
+        "phase": "return"
+      },
+      {
+        "id": "return_upper_landing",
+        "floor_cm": [
+          -1005,
+          1585,
+          1326
+        ],
+        "phase": "return"
+      },
+      {
+        "id": "return_stair_top",
+        "floor_cm": [
+          -965,
+          1585,
+          1326
+        ],
+        "phase": "return"
+      },
+      {
+        "id": "return_stair_upper",
+        "floor_cm": [
+          -875,
+          1585,
+          1261.126
+        ],
+        "phase": "return"
+      },
+      {
+        "id": "return_stair_middle",
+        "floor_cm": [
+          -746.5,
+          1585,
+          1168.5
+        ],
+        "phase": "return"
+      },
+      {
+        "id": "return_stair_lower",
+        "floor_cm": [
+          -640,
+          1585,
+          1091.732
+        ],
+        "phase": "return"
+      },
+      {
+        "id": "return_stair_foot",
+        "floor_cm": [
+          -528,
+          1585,
+          1011
+        ],
+        "phase": "return"
+      },
+      {
+        "id": "return_stair_apron",
+        "floor_cm": [
+          -500,
+          1585,
+          1011
+        ],
+        "phase": "return"
+      },
+      {
+        "id": "return_front_room_turn",
+        "floor_cm": [
+          -500,
+          1440,
+          1011
+        ],
+        "phase": "return"
+      },
+      {
+        "id": "return_front_room_approach",
+        "floor_cm": [
+          -560,
+          1240,
+          1011
+        ],
+        "phase": "return"
+      },
+      {
+        "id": "return_fresh_home",
+        "floor_cm": [
+          -620,
+          1240,
+          1011
+        ],
+        "phase": "ground_route_regression"
+      },
+      {
+        "id": "inside_front_door",
+        "floor_cm": [
+          -480,
+          1240,
+          1011
+        ],
+        "phase": "ground_route_regression"
+      },
+      {
+        "id": "front_porch",
+        "floor_cm": [
+          -285,
+          1240,
+          1011
+        ],
+        "phase": "ground_route_regression"
+      },
+      {
+        "id": "entry_stair_top",
+        "floor_cm": [
+          -230,
+          1240,
+          1011
+        ],
+        "phase": "ground_route_regression"
+      },
+      {
+        "id": "entry_stair_middle",
+        "floor_cm": [
+          -115,
+          1240,
+          953.5
+        ],
+        "phase": "ground_route_regression"
+      },
+      {
+        "id": "entry_stair_foot",
+        "floor_cm": [
+          -5,
+          1240,
+          896
+        ],
+        "phase": "ground_route_regression"
+      },
+      {
+        "id": "courtyard_gate",
+        "floor_cm": [
+          50,
+          1240,
+          896
+        ],
+        "phase": "ground_route_regression"
+      }
+    ],
+    "movement": "Normal fresh HUD New Game, SkipRecollections once if active, AddMovementInput(force=False) only. No setup placement or camera rotation.",
+    "xy_tolerance_cm": 14,
+    "floor_tolerance_cm": 30,
+    "stall_seconds": 2.5,
+    "max_falling_seconds": 1,
+    "direct_story_flag_writes": false,
+    "save_map_or_assets": false,
+    "jump_or_crouch_used": false,
+    "interpretation": "Reaching the actual upper landing proves the current slice admits ordinary upstairs access. A stalled source route remains unresolved, not an authored-closure pass."
+  },
+  "closure_proposal": {
+    "status": "UNVERIFIED CANDIDATE ONLY. Do not import or spawn until ordinary probe and fit/bypass review.",
+    "owner_if_approved": "TOSOY.ReleaseUpstairsClosureOwned",
+    "stable_id_if_approved": "release.home.upstairs_closed",
+    "separate_intentional_collision_scope": true,
+    "visible_door_candidate": {
+      "plane_axis": "X",
+      "center_x_cm": -512,
+      "center_y_cm": 1585,
+      "floor_cm": 1011,
+      "overall_width_y_cm": 164,
+      "leaf_width_y_cm": 140,
+      "leaf_height_cm": 224,
+      "leaf_thickness_x_cm": 5,
+      "frame_depth_x_cm": 16,
+      "jamb_width_y_cm": 12,
+      "lintel_height_cm": 12,
+      "overall_bounds_cm": {
+        "min": [
+          -520,
+          1503,
+          1011
+        ],
+        "max": [
+          -504,
+          1667,
+          1302
+        ]
+      },
+      "leaf_bounds_cm": {
+        "min": [
+          -514.5,
+          1515,
+          1011
+        ],
+        "max": [
+          -509.5,
+          1655,
+          1235
+        ]
+      },
+      "visible_upper_infill_z_cm": [
+        1247,
+        1302
+      ],
+      "appearance": "Closed original timber leaf, visible jambs/lintel, small latch and opaque timber/plaster upper infill. Existing approved materials only, no emissive or invisible collider."
+    },
+    "known_risk": "The lower stair side is open on its room-facing Y edge. A single door plane can be walked around into low treads; decorative rails do not block the pawn. A visible side return or a revised architectural location may be required.",
+    "side_return_option": {
+      "status": "No fixed approved dimensions. Fit only after native pawn/ramp probes.",
+      "allowed_intent": "One coherent visible timber-and-plaster stair enclosure; collider must match visible leaf/infill/return, not hidden collision.",
+      "source_envelope_to_study_cm": {
+        "min": [
+          -965,
+          1495,
+          1011
+        ],
+        "max": [
+          -504,
+          1515,
+          1302
+        ]
+      },
+      "risk": "A full roughly4.5m side enclosure changes the room more than a door; a short return may remain jumpable/bypassable. Review before accepting either."
+    },
+    "native_acceptance_before_save": [
+      "Capture actual floor, ceiling, visible frame and capsule fit at the proposed station.",
+      "Run ordinary frontal approach plus both side approaches, walking and native jump/crouch if the shipped controller supports them. No collision/range/flag bypass.",
+      "Confirm a blocked player sees the closed physical leaf or return that caused the block.",
+      "Walk the original Y1240 home-to-porch-to-gate route with unchanged collision on all existing actors.",
+      "Recheck Mother, table/photo/letter, drawer/component, workbench, porch anchor and Mother destination/route; existing six anchor rays and story routes stay valid.",
+      "Use new owned versioned assets/actors only. Preserve original meshes, story IDs, manager fields/era membership, save files, manual edits and lighting.",
+      "Read back saved collision/transform and record exact approved delta; scope explicitly excluded from floor no-collision-change claims.",
+      "Apply repeat must be idempotent. Revert removes only unchanged generated closure actors and exact added era refs; preserve explicit/inferred manual overrides."
+    ],
+    "preserve_ground_floor_corridor_y_cm": 1240,
+    "preserve_original_actor_coordinates": true,
+    "persistent_apply_prepared": false
+  }
+}

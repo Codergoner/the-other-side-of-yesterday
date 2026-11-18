@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "scope": "Pure content import safety and source-reference regression; no Unreal process",
+  "checks": [
+    {
+      "name": "Legacy 2/3 heading depth remains supported without writes",
+      "passed": true
+    },
+    {
+      "name": "Missing scene source is rejected before any managed file changes",
+      "passed": true,
+      "exit_code": 1,
+      "managed_files_unchanged": true
+    },
+    {
+      "name": "Unapproved dialogue change is rejected before any managed file changes",
+      "passed": true,
+      "exit_code": 1,
+      "managed_files_unchanged": true
+    },
+    {
+      "name": "All 203 graph line references resolve to exact quoted text in the full master",
+      "passed": true,
+      "graph_line_entries": 203
+    },
+    {
+      "name": "Full master copy stays byte-identical to authoritative docs source",
+      "passed": true
+    },
+    {
+      "name": "Preceding full dialogue source stays byte-identical",
+      "passed": true
+    },
+    {
+      "name": "Only C1_03.start changes graph semantics; all other node IDs, links and effects stay unchanged",
+      "passed": true,
+      "changed_nodes": [
+        "C1_03.start"
+      ]
+    }
+  ],
+  "authoritative_master_sha256": "7284014479206b43ab03e56b25f78529ce5dd4d6718ff3882b5f2ac2e32cf34e",
+  "preceding_source_sha256": "80727eadd27cdb9b2713fba195943fb2d0cc8c861e91d7bc435d41afb4c84ee1",
+  "gameplay_tested": false,
+  "assets_compiled": false
+}

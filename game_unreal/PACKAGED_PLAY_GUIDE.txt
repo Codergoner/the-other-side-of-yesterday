@@ -1,0 +1,43 @@
+THE OTHER SIDE OF YESTERDAY — CHAPTERS 1–2
+
+ILLUSTRATED-BRIEF DEVELOPMENT COPY
+This separate build uses the reversible Quarter maps, authored frontage and
+household props, the full master dialogue, and Chapter 1 recovery/UI fixes.
+The original project and its prior Windows build were preserved separately.
+
+Use PlayFirstPerson.bat / PlayThirdPerson.bat for a 1600 x 900 window.
+These launchers use the project's existing DirectX 11 compatibility path.
+The default DirectX 12 path reported an AMD driver error in offscreen tests;
+run through these launchers on this PC. No driver or engine settings were
+changed. Lighting and shadows may differ from the DirectX 12 editor view.
+Keep this Windows folder together: the executable needs Engine and
+YesterdayHarbor/Content. Unreal Editor is not required to run this build.
+
+WASD / mouse: move / look. Shift: jog. Ctrl: crouch. Space: jump.
+E: interact or advance text. 1 / 2 / 3: choose a displayed response.
+F: inspect the selected photograph/letter. R: turn over a held photo.
+Q: watch. Wheel/left/right: select era; E confirms at the gate anchor.
+Tab: journal; left/right changes its three pages. Esc: pause/save/load.
+Space skips the opening recollections. Dialogue advances manually.
+
+Read the photo and unsent letter, then talk with Mother. Fit the prepared
+contact from the dish and complete both watch tests. Wait for Mother at
+the gate. In the past, deliver Sela's linen to the Healer, then physically
+collect and install the single waterproof sheet at one of the two sites.
+Report back, return through the gate, read the changed record and follow
+Mother into the family room for the ending.
+
+This is a playable text-first prototype. NPCs and several props use temporary
+art. Voice, bespoke cinematic animation, VR and optional perspective/time
+pause abilities are not supplied. The game saves committed progress.
+
+VERIFICATION
+All four story routes and legacy migration passed 470 native Unreal PIE checks.
+The art import/manual-edit/reversal checks passed another 123 native checks.
+Fresh packaged startup evidence is recorded separately in the development
+project's packaged_startup_validation.json. Startup checks do not establish
+keyboard delivery, a complete packaged playthrough, or long-term stability.
+
+Remaining art work includes finished period characters, fuller clinic and
+harbor staging, audio, and more complete era variants. Pacing, a continuous
+human walking playthrough, headset behavior and performance remain unmeasured.

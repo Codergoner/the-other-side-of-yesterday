@@ -1,0 +1,43 @@
+{
+  "revision": "quest-story-v0.2-first-pass",
+  "source": "docs/Release_20261026/QUEST_AND_STORY_DESIGN_v02.md",
+  "public_chronology": "PUBLIC CHRONOLOGY — VERDANT HARBOR\n\nThe civilian departure restriction, Order V-17, followed the first attack.\n\nThis is the account displayed here today. A summary is not an independent second source.",
+  "registers": {
+    "1": "CLINIC REGISTER — STORM EVENING\n\nThe clinic courtyard was opened as temporary shelter. The working entry refers to the civilian departure restriction already in force under Order V-17. Its storm-evening entry precedes the first attack in the public chronology.\n\nThis surviving register records a restriction in use. It does not identify who issued the original order or why.",
+    "2": "HARBOR DEPARTURE RECORD — STORM EVENING\n\nThe waiting shelter remained usable. The departure clerk recorded civilian passage being restricted under Order V-17. Its storm-evening entry precedes the first attack in the public chronology.\n\nThis surviving departure record records a restriction in use. It does not identify who issued the original order or why."
+  },
+  "comparison": "COMPARISON\n\nThe displayed chronology places V-17 after the first attack. This newly preserved record applies V-17 on an earlier storm evening. Was a storm precaution extended, the public chronology mistaken, or an earlier decision later relabeled?\n\nNEXT LEAD: Find the original Order V-17: issuer, time, and stated purpose. The discrepancy is a question, not proof of a conspiracy.",
+  "intentions": [
+    {"value": 1, "key": "RETURN_FIRST", "label": "I'll come back to you first.", "reply": "Then come back. We can decide what follows when you are here."},
+    {"value": 2, "key": "SEEK_TRUTH", "label": "I need to learn what happened to him.", "reply": "Tell me what you learn. Even if it isn't what either of us hoped."},
+    {"value": 3, "key": "BRING_HIM_HOME", "label": "I'll bring him home.", "reply": "You don't know that you can."}
+  ],
+  "return_common": [
+    ["Protagonist", "I kept waiting for everything to look different."],
+    ["Mother", "Did nothing change?"],
+    ["Protagonist", "Something did. Just not everything."]
+  ],
+  "return_observed": [
+    ["Protagonist", "They said the attack made them close the harbor. The new record says the order came earlier."],
+    ["Mother", "Do you know why?"],
+    ["Protagonist", "Not yet."],
+    ["Mother", "Then start there."]
+  ],
+  "return_unobserved": [
+    ["Protagonist", "I came back with questions."],
+    ["Mother", "Tell me one."],
+    ["Protagonist", "I don't yet know what made the harbor close."]
+  ],
+  "return_intentions": {
+    "0": [],
+    "1": [["Mother", "You came back to me first."], ["Protagonist", "I said I would."]],
+    "2": [["Mother", "What did you learn about him?"], ["Protagonist", "Not enough to tell you where he is. I won't pretend I know."]],
+    "3": [["Protagonist", "I haven't found him. I still have to try."], ["Mother", "Trying is something you can promise."]]
+  },
+  "journal": {
+    "chronology": "PUBLIC ACCOUNT OBSERVED\nThe present harbor display places Order V-17 after the first attack. Its repetition is not independent corroboration.",
+    "record_clinic": "CLINIC RECORD OBSERVED\nThe clinic register applies V-17 on an earlier storm evening. The present display was quoted beside it; this does not mean I inspected that display before departing.",
+    "record_harbor": "HARBOR RECORD OBSERVED\nThe departure record applies V-17 on an earlier storm evening. The present display was quoted beside it; this does not mean I inspected that display before departing.",
+    "lead": "OPEN QUESTION\nFind the original Order V-17, its issuer, time and purpose. An inconsistent chronology does not establish a motive or identify a culprit."
+  }
+}

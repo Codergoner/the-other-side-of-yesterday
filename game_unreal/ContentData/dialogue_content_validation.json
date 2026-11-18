@@ -1,0 +1,164 @@
+{
+  "success": true,
+  "scope": "Written content import/validation only",
+  "source_sha256": "7284014479206b43ab03e56b25f78529ce5dd4d6718ff3882b5f2ac2e32cf34e",
+  "source_file": "storysource/MASTER_PROMPT.md",
+  "source_provenance": {
+    "source_kind": "master_brief_part_ii",
+    "authoritative_path": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Brief_20261025\\docs\\TOSOY_Chapters_1_2\\MASTER_PROMPT.md",
+    "full_source_sha256": "7284014479206b43ab03e56b25f78529ce5dd4d6718ff3882b5f2ac2e32cf34e",
+    "source_line_numbers": "One-based lines in the full, byte-identical source document; no heading normalization copy.",
+    "dialogue_section_start_line": 335,
+    "dialogue_section_end_line": 1065,
+    "preceding_source_file": "storysource/The_Other_Side_of_Yesterday_Chapters_1_2_Dialogue.md",
+    "preceding_source_sha256": "80727eadd27cdb9b2713fba195943fb2d0cc8c861e91d7bc435d41afb4c84ee1"
+  },
+  "source_copy_byte_identical": true,
+  "preceding_source_preserved": true,
+  "scene_count": 21,
+  "spoken_block_line_count": 190,
+  "graph_node_count": 55,
+  "source_dialogue_complete": true,
+  "missing_source_line_numbers": [],
+  "choice_gate_checks": [
+    {
+      "scene": "C1_04",
+      "expected_keys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "actual_keys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "passed": true
+    },
+    {
+      "scene": "C1_08",
+      "expected_keys": [
+        "A",
+        "B"
+      ],
+      "actual_keys": [
+        "A",
+        "B"
+      ],
+      "passed": true
+    },
+    {
+      "scene": "C2_00",
+      "expected_keys": [
+        "A",
+        "B"
+      ],
+      "actual_keys": [
+        "A",
+        "B"
+      ],
+      "passed": true
+    },
+    {
+      "scene": "C2_01",
+      "expected_keys": [
+        "A",
+        "B"
+      ],
+      "actual_keys": [
+        "A",
+        "B"
+      ],
+      "passed": true
+    },
+    {
+      "scene": "C2_04",
+      "expected_keys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "actual_keys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "passed": true
+    },
+    {
+      "scene": "C2_09",
+      "expected_keys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "actual_keys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "passed": true
+    }
+  ],
+  "locked_feature_checks": [
+    {
+      "name": "Future perspective remains disabled",
+      "passed": true
+    },
+    {
+      "name": "Future perspective requires real trust, consent and a specific authored view",
+      "passed": true
+    },
+    {
+      "name": "Future perspective remains bounded to thirty seconds",
+      "passed": true
+    },
+    {
+      "name": "Absent optional local pause cannot block departure",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "consequence_route_snapshots": [
+    {
+      "storm_cover": "CLINIC",
+      "original_memorial_read": false,
+      "first_line": "They wrote the names down. In the courtyard.",
+      "caption": "A covered clinic courtyard became a meeting point during the storm. The register assembled there later helped families find their relatives. These pages preserve some of their names.",
+      "journal": "A record of the storm-night shelter is on display in the present. Mother says it has been here for years. I remember helping make it possible. I still don't know what started the war.",
+      "observed_change_effect": "CONSEQUENCE_OBSERVED",
+      "chapter_completion_effect": "CHAPTER_2_COMPLETE"
+    },
+    {
+      "storm_cover": "CLINIC",
+      "original_memorial_read": true,
+      "first_line": "This frame was empty.",
+      "caption": "A covered clinic courtyard became a meeting point during the storm. The register assembled there later helped families find their relatives. These pages preserve some of their names.",
+      "journal": "The town remembers a different version of the storm. I remember the empty display and what I did in the past. Mother remembers the new record being here for years. I can change something. I still don't know what started the war.",
+      "observed_change_effect": "CONSEQUENCE_OBSERVED",
+      "chapter_completion_effect": "CHAPTER_2_COMPLETE"
+    },
+    {
+      "storm_cover": "HARBOR",
+      "original_memorial_read": false,
+      "first_line": "The departure list. They managed to record everyone waiting there.",
+      "caption": "The repaired waiting shelter brought departing families together during the storm. The passenger list assembled there later helped relatives trace where they had gone.",
+      "journal": "A record of the storm-night shelter is on display in the present. Mother says it has been here for years. I remember helping make it possible. I still don't know what started the war.",
+      "observed_change_effect": "CONSEQUENCE_OBSERVED",
+      "chapter_completion_effect": "CHAPTER_2_COMPLETE"
+    },
+    {
+      "storm_cover": "HARBOR",
+      "original_memorial_read": true,
+      "first_line": "There weren't any names here before.",
+      "caption": "The repaired waiting shelter brought departing families together during the storm. The passenger list assembled there later helped relatives trace where they had gone.",
+      "journal": "The town remembers a different version of the storm. I remember the empty display and what I did in the past. Mother remembers the new record being here for years. I can change something. I still don't know what started the war.",
+      "observed_change_effect": "CONSEQUENCE_OBSERVED",
+      "chapter_completion_effect": "CHAPTER_2_COMPLETE"
+    }
+  ],
+  "gameplay_tested": false,
+  "packaged_build_tested": false,
+  "voice_recorded": false,
+  "animation_authored": false
+}

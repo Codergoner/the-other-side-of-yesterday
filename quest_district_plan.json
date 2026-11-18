@@ -1,0 +1,677 @@
+{
+  "schema_version": 1,
+  "district_id": "verdant.opening.quarter",
+  "scope": "Site-specific first playable quarter, not all island cities",
+  "units": "Unreal centimeters; navigation positions are physical floor points, not Character capsule centers",
+  "coordinate_basis": "Existing authored street: floor_z = 1020 - 0.1 * world_y. Home porch and upper harbor landing use their separate authored slabs.",
+  "ownership_tag": "TOSOY.VRQuarterOwned",
+  "source_map": "/Game/BriefTest/Maps/Quarter_FirstPerson",
+  "target_maps": [
+    "/Game/Quest/Maps/Verdant_Desktop",
+    "/Game/Quest/Maps/Verdant_VR"
+  ],
+  "preserved_story": {
+    "positions_and_ids": [
+      "home.anchor",
+      "Opening.Manager",
+      "MotherActor",
+      "HealerActor",
+      "SelaActor",
+      "NeriActor",
+      "ClinicInstallActor",
+      "HarborInstallActor"
+    ],
+    "fixed_landmarks": [
+      "Lighthouse",
+      "Cathedral",
+      "Bell tower"
+    ],
+    "anchor_interaction_reservation": {
+      "center_xy_cm": [
+        -305,
+        1450
+      ],
+      "new_collision_footprint_min_distance_cm": 140,
+      "note": "Keep new colliding furniture outside this apron; a former bench placement blocked all six native time-anchor interaction rays."
+    },
+    "central_new_prop_exclusion_cm": {
+      "min_x": -100,
+      "max_x": 200,
+      "min_y": -1500,
+      "max_y": 1800
+    },
+    "note": "Existing quest props are inherited unchanged. New prop clearance is a source constraint, not proof of the complete native route."
+  },
+  "street_rooms": [
+    {
+      "id": "domestic_court",
+      "center_cm": [
+        -220,
+        1450,
+        1011
+      ],
+      "identity": "Home porch, quiet bench, one tree and framed cathedral glimpse",
+      "purpose": "Safe arrival and first rest; retain direct door-to-gate route",
+      "node_ids": [
+        "home_inside",
+        "home_workshop",
+        "home_porch",
+        "gate"
+      ]
+    },
+    {
+      "id": "care_and_trade",
+      "center_cm": [
+        -100,
+        160,
+        1004
+      ],
+      "identity": "Clinic-side resting bay, consistent signs and an optional sheltered market arcade",
+      "purpose": "Clinic before market; stalls on street edges, a clear central path",
+      "node_ids": [
+        "clinic_street",
+        "clinic_approach",
+        "market_street",
+        "sela_service",
+        "market_arcade"
+      ]
+    },
+    {
+      "id": "maritime_room",
+      "center_cm": [
+        50,
+        -1000,
+        1120
+      ],
+      "identity": "Existing harbor story canopy followed by protected overlook and lighthouse reveal",
+      "purpose": "Finish the short upper route with an optional lower harbor expedition",
+      "node_ids": [
+        "harbor_choice",
+        "sea_pause",
+        "upper_street",
+        "upper_overlook"
+      ]
+    }
+  ],
+  "props": [
+    {
+      "id": "quest.district.domestic.bench",
+      "mesh": "Bench",
+      "position_cm": [
+        -300,
+        1680,
+        1011
+      ],
+      "yaw": -90
+    },
+    {
+      "id": "quest.district.domestic.tree",
+      "mesh": "PottedTree",
+      "position_cm": [
+        -370,
+        1660,
+        1011
+      ],
+      "yaw": 0,
+      "scale": 0.65
+    },
+    {
+      "id": "quest.district.clinic.bench",
+      "mesh": "BenchStreet",
+      "position_cm": [
+        -285,
+        820,
+        938
+      ],
+      "yaw": -90
+    },
+    {
+      "id": "quest.district.clinic.sign",
+      "mesh": "SignClinic",
+      "position_cm": [
+        -295,
+        690,
+        951
+      ],
+      "yaw": -90
+    },
+    {
+      "id": "quest.district.clinic.tree",
+      "mesh": "PottedTree",
+      "position_cm": [
+        -330,
+        950,
+        913
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "quest.district.market.sign",
+      "mesh": "SignMarket",
+      "position_cm": [
+        -315,
+        50,
+        1003
+      ],
+      "yaw": -90
+    },
+    {
+      "id": "quest.district.market.threshold",
+      "mesh": "Threshold",
+      "position_cm": [
+        -350,
+        -200,
+        1040
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "quest.district.arcade.bench",
+      "mesh": "Bench",
+      "position_cm": [
+        -900,
+        -420,
+        1050
+      ],
+      "yaw": -90
+    },
+    {
+      "id": "quest.district.arcade.table",
+      "mesh": "ArcadeTable",
+      "position_cm": [
+        -810,
+        -200,
+        1050
+      ],
+      "yaw": -90,
+      "era": "Past"
+    },
+    {
+      "id": "quest.district.arcade.shelf",
+      "mesh": "ArcadeShelf",
+      "position_cm": [
+        -940,
+        100,
+        1050
+      ],
+      "yaw": -90,
+      "era": "Past"
+    },
+    {
+      "id": "quest.district.harbor.sign",
+      "mesh": "SignHarbor",
+      "position_cm": [
+        -295,
+        -875,
+        1107.5
+      ],
+      "yaw": -90
+    },
+    {
+      "id": "quest.district.harbor.bench",
+      "mesh": "Bench",
+      "position_cm": [
+        600,
+        -1490,
+        1160
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "quest.district.harbor.tree",
+      "mesh": "PottedTree",
+      "position_cm": [
+        760,
+        -1310,
+        1160
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "quest.district.shore.return.south_a",
+      "mesh": "ShoreReturn130",
+      "position_cm": [
+        310,
+        -1735,
+        1193.5
+      ],
+      "yaw": -90
+    },
+    {
+      "id": "quest.district.shore.return.south_b",
+      "mesh": "ShoreReturn130",
+      "position_cm": [
+        310,
+        -1605,
+        1180.5
+      ],
+      "yaw": -90
+    },
+    {
+      "id": "quest.district.shore.return.north_a",
+      "mesh": "ShoreReturn130",
+      "position_cm": [
+        310,
+        -1195,
+        1139.5
+      ],
+      "yaw": -90
+    },
+    {
+      "id": "quest.district.shore.return.north_b",
+      "mesh": "ShoreReturn130",
+      "position_cm": [
+        310,
+        -1065,
+        1126.5
+      ],
+      "yaw": -90
+    }
+  ],
+  "shore_protection": {
+    "guard_x_cm": 310,
+    "new_guard_segments_y_cm": [
+      [
+        -1800,
+        -1540
+      ],
+      [
+        -1260,
+        -1000
+      ]
+    ],
+    "preserved_actual_stair_access_y_cm": [
+      -1540,
+      -1260
+    ],
+    "note": "Do not close the real upper landing opening. Additive solid collision and visible guard rails require native traces and walking tests."
+  },
+  "navigation_nodes": [
+    {
+      "id": "home_inside",
+      "floor_cm": [
+        -620,
+        1240,
+        1011
+      ],
+      "radius_cm": 55,
+      "tier": "core",
+      "district": "domestic_court",
+      "era": "Present"
+    },
+    {
+      "id": "home_workshop",
+      "floor_cm": [
+        -830,
+        1200,
+        1011
+      ],
+      "radius_cm": 45,
+      "tier": "core",
+      "district": "domestic_court",
+      "era": "Present",
+      "purpose": "Seated controller-rest interaction with Mother, workbench and prepared contact without physical leaning"
+    },
+    {
+      "id": "home_porch",
+      "floor_cm": [
+        -300,
+        1240,
+        1011
+      ],
+      "radius_cm": 55,
+      "tier": "core",
+      "district": "domestic_court"
+    },
+    {
+      "id": "gate",
+      "floor_cm": [
+        50,
+        1240,
+        896
+      ],
+      "radius_cm": 55,
+      "tier": "core",
+      "district": "domestic_court"
+    },
+    {
+      "id": "clinic_street",
+      "floor_cm": [
+        50,
+        740,
+        946
+      ],
+      "radius_cm": 55,
+      "tier": "core",
+      "district": "care_and_trade"
+    },
+    {
+      "id": "clinic_approach",
+      "floor_cm": [
+        -40,
+        580,
+        962
+      ],
+      "radius_cm": 45,
+      "tier": "core",
+      "district": "care_and_trade"
+    },
+    {
+      "id": "market_approach",
+      "floor_cm": [
+        50,
+        400,
+        980
+      ],
+      "radius_cm": 55,
+      "tier": "core",
+      "district": "care_and_trade"
+    },
+    {
+      "id": "market_street",
+      "floor_cm": [
+        30,
+        0,
+        1020
+      ],
+      "radius_cm": 55,
+      "tier": "core",
+      "district": "care_and_trade"
+    },
+    {
+      "id": "sela_service",
+      "floor_cm": [
+        30,
+        -300,
+        1050
+      ],
+      "radius_cm": 55,
+      "tier": "core",
+      "district": "care_and_trade"
+    },
+    {
+      "id": "market_arcade_approach",
+      "floor_cm": [
+        -240,
+        -200,
+        1040
+      ],
+      "radius_cm": 45,
+      "tier": "optional",
+      "district": "care_and_trade"
+    },
+    {
+      "id": "market_arcade",
+      "floor_cm": [
+        -600,
+        -200,
+        1050
+      ],
+      "radius_cm": 65,
+      "tier": "optional",
+      "district": "care_and_trade"
+    },
+    {
+      "id": "harbor_choice",
+      "floor_cm": [
+        -45,
+        -535,
+        1073.5
+      ],
+      "radius_cm": 50,
+      "tier": "core",
+      "district": "maritime_room"
+    },
+    {
+      "id": "sea_pause",
+      "floor_cm": [
+        50,
+        -900,
+        1110
+      ],
+      "radius_cm": 55,
+      "tier": "core",
+      "district": "maritime_room"
+    },
+    {
+      "id": "upper_street",
+      "floor_cm": [
+        50,
+        -1400,
+        1160
+      ],
+      "radius_cm": 55,
+      "tier": "core",
+      "district": "maritime_room"
+    },
+    {
+      "id": "upper_overlook",
+      "floor_cm": [
+        450,
+        -1400,
+        1160
+      ],
+      "radius_cm": 55,
+      "tier": "core",
+      "district": "maritime_room"
+    },
+    {
+      "id": "switchback_landing",
+      "floor_cm": [
+        900,
+        -100,
+        640
+      ],
+      "radius_cm": 55,
+      "tier": "optional_lower_harbor",
+      "district": "maritime_room"
+    },
+    {
+      "id": "dock_foot",
+      "floor_cm": [
+        1100,
+        -1400,
+        120
+      ],
+      "radius_cm": 55,
+      "tier": "optional_lower_harbor",
+      "district": "maritime_room"
+    },
+    {
+      "id": "dock_connector",
+      "floor_cm": [
+        1320,
+        -1200,
+        120
+      ],
+      "radius_cm": 55,
+      "tier": "optional_lower_harbor",
+      "district": "maritime_room"
+    },
+    {
+      "id": "main_pier",
+      "floor_cm": [
+        2950,
+        -1200,
+        120
+      ],
+      "radius_cm": 55,
+      "tier": "optional_lower_harbor",
+      "district": "maritime_room"
+    }
+  ],
+  "planned_edges": [
+    [
+      "home_inside",
+      "home_workshop"
+    ],
+    [
+      "home_inside",
+      "home_porch"
+    ],
+    [
+      "home_porch",
+      "gate"
+    ],
+    [
+      "gate",
+      "clinic_street"
+    ],
+    [
+      "clinic_street",
+      "clinic_approach"
+    ],
+    [
+      "clinic_street",
+      "market_approach"
+    ],
+    [
+      "market_approach",
+      "market_street"
+    ],
+    [
+      "market_street",
+      "market_arcade_approach"
+    ],
+    [
+      "market_arcade_approach",
+      "market_arcade"
+    ],
+    [
+      "market_street",
+      "sela_service"
+    ],
+    [
+      "sela_service",
+      "harbor_choice"
+    ],
+    [
+      "harbor_choice",
+      "sea_pause"
+    ],
+    [
+      "sea_pause",
+      "upper_street"
+    ],
+    [
+      "upper_street",
+      "upper_overlook"
+    ],
+    [
+      "upper_overlook",
+      "switchback_landing"
+    ],
+    [
+      "switchback_landing",
+      "dock_foot"
+    ],
+    [
+      "dock_foot",
+      "dock_connector"
+    ],
+    [
+      "dock_connector",
+      "main_pier"
+    ]
+  ],
+  "locomotion_constraints": {
+    "default": "Teleport and snap turn; optional stationary interaction and seated reach",
+    "smooth_walk": "Explicit opt-in only, following native slope/collision review",
+    "navigation_nodes_are_time_anchors": false,
+    "forced_camera_motion": false,
+    "loop_status": "The arcade is a short optional side visit; a new physical connected loop is not claimed before native walking validation.",
+    "validation_status": "Authored expected floor coordinates, not yet approved teleport targets or accessibility compliance"
+  },
+  "review_cameras": [
+    {
+      "id": "quest.review.home",
+      "position_cm": [
+        180,
+        2100,
+        972
+      ],
+      "target_cm": [
+        -680,
+        1320,
+        1370
+      ],
+      "fov": 85
+    },
+    {
+      "id": "quest.review.civic_reveal",
+      "position_cm": [
+        0,
+        1100,
+        1072
+      ],
+      "target_cm": [
+        300,
+        -5400,
+        2400
+      ],
+      "fov": 82
+    },
+    {
+      "id": "quest.review.market",
+      "position_cm": [
+        90,
+        320,
+        1150
+      ],
+      "target_cm": [
+        -220,
+        -350,
+        1240
+      ],
+      "fov": 82
+    },
+    {
+      "id": "quest.review.overlook",
+      "position_cm": [
+        450,
+        -1400,
+        1322
+      ],
+      "target_cm": [
+        5800,
+        -3100,
+        1100
+      ],
+      "fov": 82
+    }
+  ],
+  "future_city_pattern": {
+    "geometry_authored_here": false,
+    "required_fields": [
+      "arrival",
+      "three_distinct_walkable_rooms",
+      "one_civic_landmark",
+      "one_maritime_or_landscape_landmark",
+      "primary_route",
+      "optional_calm_side_route",
+      "rest_bays",
+      "protected_edges",
+      "teleport_landings",
+      "occlusion_cells",
+      "performance_budget",
+      "quest_actor_reservations"
+    ],
+    "principles": [
+      "Preserve narrative anchors and true human scale",
+      "Reveal landmarks at decision points",
+      "Pair a short essential route with optional exploration",
+      "Keep furniture on edges and protect a clear route",
+      "Use one consistent sign family",
+      "Concentrate detail near the player and limit long simultaneous vistas",
+      "Make landing positions and fall protection explicit",
+      "Validate seated interaction and headset comfort before expanding"
+    ],
+    "construction_gate": "A later explicit island scope and a validated Quest quarter are required before new island geometry."
+  },
+  "sources": [
+    "https://dev.epicgames.com/documentation/unreal-engine/xr-best-practices-in-unreal-engine?lang=en-US",
+    "https://developers.meta.com/vr/design/locomotion-best-practices/",
+    "https://developers.meta.com/vr/design/locomotion-virtual-environments/",
+    "https://www.nycstreetdesign.info/geometry/pedestrian-plaza"
+  ]
+}

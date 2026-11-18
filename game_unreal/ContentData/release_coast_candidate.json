@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "status": "Source candidate; no native authoring or visual acceptance",
+  "owner": "TOSOY.ReleaseCoastOwned",
+  "map": "/Game/Quest/Maps/Verdant_Desktop",
+  "stable_id": "release.visual.coast_extension",
+  "original_sea_actor": "StaticMeshActor_69",
+  "original_sea_mesh": "/Game/Harbor/Meshes/SM_Sea.SM_Sea",
+  "source_sea_box_blender_m": {
+    "center": [25.0, 42.0, -0.12],
+    "dimensions": [360.0, 360.0, 0.20]
+  },
+  "extension": {
+    "outer_half_extent_m": 8000.0,
+    "mesh": "SM_ReleaseCoastExtension",
+    "triangles": 8,
+    "material_slots": 1,
+    "new_actors": 1,
+    "new_collision_shapes": 0,
+    "casts_shadow": false,
+    "offset_or_displacement": false,
+    "common_to_both_eras": true
+  },
+  "water": {
+    "normal_texture": "/Game/Quest/Scenery/V_20261025T105028_647262/Textures/T_QuestWater_Normal",
+    "normal_wavelength_a_cm": [1800.0, 1600.0],
+    "normal_wavelength_b_cm": [4200.0, 3600.0],
+    "normal_b_rotation_degrees": 39.0,
+    "normal_a_speed": [0.0031, 0.0018],
+    "normal_b_speed": [-0.0014, 0.0023],
+    "blend_weights": [0.68, 0.32],
+    "near_normal_strength": 0.38,
+    "far_normal_strength": 0.06,
+    "distance_fade_start_cm": 6000.0,
+    "distance_fade_end_cm": 50000.0,
+    "near_roughness": 0.36,
+    "far_roughness": 0.50,
+    "specular": 0.28,
+    "near_color_srgb8": [31, 89, 101],
+    "grazing_color_srgb8": [61, 104, 119],
+    "grazing_color_amount": 0.45,
+    "fresnel_exponent": 5.0,
+    "texture_samples": 2,
+    "opaque": true,
+    "emissive": false,
+    "world_position_offset": false,
+    "scene_color_or_refraction": false
+  },
+  "preserve": [
+    "All original actors except the single SM_Sea material override",
+    "Original sea mesh, transform, visibility, collision and tags",
+    "Road, house, market, clinic, lighthouse, cathedral and shoreline layout",
+    "All narrative references, era arrays, interaction targets and save identifiers",
+    "Existing sky dome, selected skylight, sun, exposure and renderer",
+    "Original and Quest projects, existing shared assets, config and saves"
+  ],
+  "acceptance": {
+    "native_bounds_tolerance_cm": 0.25,
+    "native_compilation_required": true,
+    "persisted_reload_required": true,
+    "actual_past_and_present_view_review_required": true,
+    "moving_aliasing_review_required": true,
+    "desktop_dx11_runtime_review_required": true,
+    "quest_device_performance_measured": false
+  }
+}

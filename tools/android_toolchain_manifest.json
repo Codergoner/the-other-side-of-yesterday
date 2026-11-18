@@ -1,0 +1,304 @@
+{
+  "success": true,
+  "install_root": "C:\\Users\\USER\\TOSOYQuestToolchain",
+  "sdk_root": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk",
+  "no_global_environment_or_registry_changes": true,
+  "unreal_launched": false,
+  "apk_built": false,
+  "sources": [
+    "https://developer.android.com/studio",
+    "https://developer.android.com/tools/sdkmanager",
+    "https://adoptium.net/temurin/releases/?version=21&os=windows&arch=x64",
+    "https://github.com/adoptium/api.adoptium.net/blob/main/docs/cookbook.adoc"
+  ],
+  "downloads": [
+    {
+      "url": "https://dl.google.com/android/repository/commandlinetools-win-15859902_latest.zip",
+      "archive": "C:\\Users\\USER\\TOSOYQuestToolchain\\downloads\\commandlinetools-win-15859902_latest.zip",
+      "sha256": "90ae805d20434428bffcb699c290860f19bb5f66a67e6b330067e3de801fb04a",
+      "bytes": 155655386,
+      "publisher_checksum": "90ae805d20434428bffcb699c290860f19bb5f66a67e6b330067e3de801fb04a",
+      "verified_utc": "2026-10-25T19:44:33.116876+08:00"
+    },
+    {
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip",
+      "archive": "C:\\Users\\USER\\TOSOYQuestToolchain\\downloads\\OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip",
+      "sha256": "f9d6e191ab098c0d416e7d588a24420a8621cd2f4720dab2459b8b7b2d2d8b4e",
+      "bytes": 205073461,
+      "publisher_checksum": "f9d6e191ab098c0d416e7d588a24420a8621cd2f4720dab2459b8b7b2d2d8b4e",
+      "verified_utc": "2026-10-25T19:44:33.215111+08:00"
+    }
+  ],
+  "commands": [
+    {
+      "arguments": [
+        "C:\\Users\\USER\\TOSOYQuestToolchain\\jdk\\jdk-21.0.12.1+1\\bin\\java.exe",
+        "-version"
+      ],
+      "started_utc": "2026-10-25T19:44:35.224511+08:00",
+      "finished_utc": "2026-10-25T19:44:35.428101+08:00",
+      "exit_code": 0,
+      "log": "C:\\Users\\USER\\TOSOYQuestToolchain\\java_version.log"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\USER\\TOSOYQuestToolchain\\jdk\\jdk-21.0.12.1+1\\bin\\javac.exe",
+        "-version"
+      ],
+      "started_utc": "2026-10-25T19:44:35.435096+08:00",
+      "finished_utc": "2026-10-25T19:44:35.617858+08:00",
+      "exit_code": 0,
+      "log": "C:\\Users\\USER\\TOSOYQuestToolchain\\javac_version.log"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\cmdline-tools\\latest\\bin\\sdkmanager.bat",
+        "--sdk_root=C:\\Users\\USER\\TOSOYQuestToolchain\\sdk",
+        "--licenses"
+      ],
+      "started_utc": "2026-10-25T19:44:35.62438+08:00",
+      "finished_utc": "2026-10-25T19:44:39.700281+08:00",
+      "exit_code": 0,
+      "log": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk_licenses.log"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\cmdline-tools\\latest\\bin\\sdkmanager.bat",
+        "--sdk_root=C:\\Users\\USER\\TOSOYQuestToolchain\\sdk",
+        "--channel=0",
+        "--install",
+        "platforms;android-36",
+        "build-tools;36.0.0",
+        "ndk;27.2.12479018",
+        "cmake;3.22.1",
+        "platform-tools"
+      ],
+      "started_utc": "2026-10-25T19:44:39.70873+08:00",
+      "finished_utc": "2026-10-25T19:45:12.816814+08:00",
+      "exit_code": 0,
+      "log": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk_install.log"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\cmdline-tools\\latest\\bin\\sdkmanager.bat",
+        "--sdk_root=C:\\Users\\USER\\TOSOYQuestToolchain\\sdk",
+        "--list_installed"
+      ],
+      "started_utc": "2026-10-25T19:45:12.822519+08:00",
+      "finished_utc": "2026-10-25T19:45:13.649398+08:00",
+      "exit_code": 0,
+      "log": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk_installed.log"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\platform-tools\\adb.exe",
+        "version"
+      ],
+      "started_utc": "2026-10-25T19:45:13.656472+08:00",
+      "finished_utc": "2026-10-25T19:45:13.797776+08:00",
+      "exit_code": 0,
+      "log": "C:\\Users\\USER\\TOSOYQuestToolchain\\adb_version.log"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\ndk\\27.2.12479018\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe",
+        "--version"
+      ],
+      "started_utc": "2026-10-25T19:45:13.80245+08:00",
+      "finished_utc": "2026-10-25T19:45:13.981655+08:00",
+      "exit_code": 0,
+      "log": "C:\\Users\\USER\\TOSOYQuestToolchain\\clang_version.log"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\cmake\\3.22.1\\bin\\cmake.exe",
+        "--version"
+      ],
+      "started_utc": "2026-10-25T19:45:13.988165+08:00",
+      "finished_utc": "2026-10-25T19:45:14.039739+08:00",
+      "exit_code": 0,
+      "log": "C:\\Users\\USER\\TOSOYQuestToolchain\\cmake_version.log"
+    }
+  ],
+  "started_utc": "2026-10-25T19:44:32.686105+08:00",
+  "engine_requirements": {
+    "MainVersion": "r27c",
+    "MinVersion": "r27c",
+    "MaxVersion": "r29",
+    "AutoSDKDirectory": "-28",
+    "platforms": "android-36",
+    "build-tools": "36.0.0",
+    "cmake": "3.22.1",
+    "ndk": "27.2.12479018"
+  },
+  "free_bytes_before": 1208743596032,
+  "jdk_release": {
+    "api": "https://api.adoptium.net/v3/assets/latest/21/hotspot?architecture=x64&image_type=jdk&os=windows&vendor=eclipse",
+    "release": "jdk-21.0.12.1+1",
+    "version": {
+      "build": 1,
+      "major": 21,
+      "minor": 0,
+      "openjdk_version": "21.0.12.1+1-LTS",
+      "optional": "LTS",
+      "patch": 1,
+      "security": 12,
+      "semver": "21.0.12+101.0.LTS"
+    }
+  },
+  "java_home": "C:\\Users\\USER\\TOSOYQuestToolchain\\jdk\\jdk-21.0.12.1+1",
+  "ndk_root": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\ndk\\27.2.12479018",
+  "gradle_user_home": "C:\\Users\\USER\\TOSOYQuestToolchain\\gradle",
+  "java_version": "openjdk version \"21.0.12.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS, mixed mode, sharing)\n",
+  "javac_version": "javac 21.0.12.1\n",
+  "license_acceptance": {
+    "authorization": "User approved Android dependency setup for local Quest APK build",
+    "scope": "Official sdkmanager --licenses only",
+    "utc": "2026-10-25T19:44:35.62438+08:00"
+  },
+  "installed_packages_output": "WARNING: The SDK Manager CLI tool (sdkmanager) is deprecated. Use Android CLI instead.\nThe 'android' binary can also be found in the cmdline-tools directory, and 'android sdk' is the replacement for 'sdkmanager'.\nTo learn more about the Android CLI and how to use it, see the documentation (https://d.android.com/tools/agents/android-cli)\n\nInstalled packages:\n  Path                 | Version       | Description                      | Location            \n  -------              | -------       | -------                          | -------             \n  build-tools;36.0.0   | 36.0.0        | Android SDK Build-Tools 36       | build-tools\\36.0.0  \n  cmake;3.22.1         | 3.22.1        | CMake 3.22.1                     | cmake\\3.22.1        \n  ndk;27.2.12479018    | 27.2.12479018 | NDK (Side by side) 27.2.12479018 | ndk\\27.2.12479018   \n  platform-tools       | 37.0.1        | Android SDK Platform-Tools       | platform-tools      \n  platforms;android-36 | 2             | Android SDK Platform 36          | platforms\\android-36\n\n",
+  "adb_version": "Android Debug Bridge version 1.0.41\nVersion 37.0.1-15733141\nInstalled as C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\platform-tools\\adb.exe\nRunning on Windows 10.0.26200\n",
+  "clang_version": "Android (12470979, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)\nTarget: x86_64-w64-windows-gnu\nThread model: posix\nInstalledDir: C:/Users/USER/TOSOYQuestToolchain/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/windows-x86_64/bin\n",
+  "cmake_version": "cmake version 3.22.1-g37088a8-dirty\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).\n",
+  "package_provenance": {
+    "repository": "https://dl.google.com/android/repository/repository2-3.xml",
+    "local_copy": "C:\\Users\\USER\\TOSOYQuestToolchain\\google_repository2-3.xml",
+    "sha256": "5c374566b0093c98e121ab3ce29d36b6f9166923a05c3cac1958c82de9b70261",
+    "packages": [
+      {
+        "package": "platforms;android-36",
+        "official_archives": [
+          {
+            "url": "https://dl.google.com/android/repository/platform-36_r02.zip",
+            "bytes": 65878410,
+            "checksum": "2c1a80dd4d9f7d0e6dd336ec603d9b5c55a6f576",
+            "checksum_type": "sha1"
+          }
+        ]
+      },
+      {
+        "package": "ndk;27.2.12479018",
+        "official_archives": [
+          {
+            "url": "https://dl.google.com/android/repository/android-ndk-r27c-windows.zip",
+            "bytes": 781511249,
+            "checksum": "ac5f7762764b1f15341094e148ad4f847d050c38",
+            "checksum_type": "sha1"
+          }
+        ]
+      },
+      {
+        "package": "build-tools;36.0.0",
+        "official_archives": [
+          {
+            "url": "https://dl.google.com/android/repository/build-tools_r36_windows.zip",
+            "bytes": 58699878,
+            "checksum": "f16ccffd34de8790dede813a6c7d8e2c11a27b50",
+            "checksum_type": "sha1"
+          }
+        ]
+      },
+      {
+        "package": "cmake;3.22.1",
+        "official_archives": [
+          {
+            "url": "https://dl.google.com/android/repository/cmake-3.22.1-windows.zip",
+            "bytes": 16116742,
+            "checksum": "292778f32a7d5183e1c49c7897b870653f2d2c1b",
+            "checksum_type": "sha1"
+          }
+        ]
+      },
+      {
+        "package": "platform-tools",
+        "official_archives": [
+          {
+            "url": "https://dl.google.com/android/repository/platform-tools_r37.0.1-win.zip",
+            "bytes": 8044989,
+            "checksum": "e03e78b1d80b396f1c3358e31251cb31740e1110",
+            "checksum_type": "sha1"
+          }
+        ]
+      }
+    ]
+  },
+  "installed_packages": [
+    {
+      "directory": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\build-tools\\36.0.0",
+      "package_xml_sha256": "737904dbcee0845bc18385d3627cd6238bf5f1395f07c7300f88db717b7303b7",
+      "source_properties": "Pkg.UserSrc=false\nPkg.Revision=36.0.0\n#Pkg.Revision=36.0.0 rc5",
+      "bytes": 143260023
+    },
+    {
+      "directory": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\cmake\\3.22.1",
+      "package_xml_sha256": "532377110953d3fa67188b17f73b388c349fce30c6d8df096e6b17fa947f2770",
+      "source_properties": "Pkg.Revision = 3.22.1\nPkg.Path = cmake;3.22.1\nPkg.Desc = CMake 3.22.1\n",
+      "bytes": 39367187
+    },
+    {
+      "directory": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\ndk\\27.2.12479018",
+      "package_xml_sha256": "632fc28e00424cdc380e40cba28ef93782776026559835047bfca1e8f38342b0",
+      "source_properties": "Pkg.Desc = Android NDK\nPkg.Revision = 27.2.12479018\nPkg.BaseRevision = 27.2.12479018\nPkg.ReleaseName = r27c\n",
+      "bytes": 2361075343
+    },
+    {
+      "directory": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\platform-tools",
+      "package_xml_sha256": "55d46ccebf3bba4ad4349d3747643bb0ed38aac843ce6c87782b009328f73e1e",
+      "source_properties": "Pkg.UserSrc=false\nPkg.Revision=37.0.1\n",
+      "bytes": 17548112
+    },
+    {
+      "directory": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\platforms\\android-36",
+      "package_xml_sha256": "018f4d90ac85f10a1cd2975d1982f8af6210f278d12a0539e91d546e1fc18e87",
+      "source_properties": "Pkg.Desc=Android SDK Platform 16\nPkg.UserSrc=false\nPlatform.Version=16\nPlatform.CodeName=\nPkg.Revision=2\nAndroidVersion.ApiLevel=36\nAndroidVersion.ExtensionLevel=17\nAndroidVersion.IsBaseSdk=true\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n",
+      "bytes": 106196138
+    }
+  ],
+  "licenses": [
+    {
+      "file": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\licenses\\android-googletv-license",
+      "sha256": "2f94851435fcfa2caded7e8b5918aeef8b66e469a82b7888189783e41daa5ab6"
+    },
+    {
+      "file": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\licenses\\android-googlexr-license",
+      "sha256": "3e7c804abd463d05f092d3b63294bf2d0dfa8f8ef3a9fd9a3a86b3472297984a"
+    },
+    {
+      "file": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\licenses\\android-sdk-arm-dbt-license",
+      "sha256": "2c0ffe53fb4c22628d6e012e025687d28e66a6415cb33b37b8120fffce0e4e34"
+    },
+    {
+      "file": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\licenses\\android-sdk-license",
+      "sha256": "70fd2713ca385fd6b14c1d5577ce8349996699186a3a216e9643a09098c26dca"
+    },
+    {
+      "file": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\licenses\\android-sdk-preview-license",
+      "sha256": "d4cfd599461e883f49afe061f4a9e2d4583d5dc420d7ecefa8aa886a71845522"
+    },
+    {
+      "file": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\licenses\\google-gdk-license",
+      "sha256": "538b504aed767c47fe8f43b74f6ad92337fd6478ad2ada21268f24d27b873cb8"
+    },
+    {
+      "file": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\licenses\\microxr-sysimage-license",
+      "sha256": "34ee20f9d5273e38d8ca1f62b8970b25ad22c85a4da15b7bde3ec817360904ba"
+    },
+    {
+      "file": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\licenses\\mips-android-sysimage-license",
+      "sha256": "1415147beeab3758e63af49eb5fba304bef96e1e0d44c2d5784bd67f908efabe"
+    }
+  ],
+  "disk_bytes": {
+    "total": 3556341703,
+    "sdk": 2847348822,
+    "jdk": 343823876,
+    "archives": 360728847
+  },
+  "completed_utc": "2026-10-25T19:45:20.357987+08:00",
+  "free_bytes_after": 1204866117632,
+  "command_line_tools": {
+    "directory": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk\\cmdline-tools\\latest",
+    "source_properties": "Pkg.Revision=22.0\nPkg.Path=cmdline-tools;22.0\nPkg.Desc=Android SDK Command-line Tools\n",
+    "source_properties_sha256": "166bcdfe54f73296b09e5e6aa6d96b9a752b78b418c56e9f3f3a13c15fac74e5"
+  }
+}

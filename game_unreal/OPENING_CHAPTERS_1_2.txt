@@ -1,0 +1,181 @@
+THE OTHER SIDE OF YESTERDAY — CHAPTERS 1–2 PLAY GUIDE
+
+WINDOWS GAME
+The standalone build is ../output/playable/Windows. Use its PlayFirstPerson.bat
+or PlayThirdPerson.bat; Unreal Editor is not required. Keep the entire Windows
+folder together. These launchers select the existing DirectX 11 compatibility
+renderer because repeated offscreen DirectX 12 starts reported an AMD graphics
+driver error on this PC. The project renderer and installed driver were not
+changed. Lighting/shadows can differ from the DirectX 12 editor view.
+
+Both public game launch paths started, rendered the authored intro in the
+correct view, and remained alive for eight-second isolated offscreen checks.
+Those checks used a test-only 30 FPS cap, then a supervisor stop. See
+packaged_build_report.json and packaged_startup_validation.json. This is
+startup/render evidence, not a complete packaged keyboard playthrough or a
+long-term stability guarantee. Use the launchers rather than the default EXE
+on this PC; the EXE alone retains its original DirectX 12 default.
+
+UNREAL PROJECT
+Start PlayHomeFirstPerson.bat or PlayHomeThirdPerson.bat, or open the existing
+YesterdayHarbor.uproject and play the matching /Game/Home/Maps/House map.
+The Home maps use the existing player, camera, movement and input assets.
+The Harbor launchers open the earlier environment instead of this story slice.
+
+CONTROLS
+WASD / mouse     Move and look with the existing desktop controls
+Left Shift       Jog
+Left Ctrl        Toggle crouch; a custom crouch pose is not supplied
+E                Contextual interaction; advance dialogue; close a document
+F                Inspect a selected photograph or letter
+R                Turn over the held photograph
+Left / Right     Rotate the held photograph
+1 / 2 / 3        Select a displayed dialogue response
+Space            Skip the three opening recollections
+Q                Open / close the Chronowatch
+Wheel / arrows   In the watch: up / right selects present; down / left selects past
+E                In the watch: confirm travel at the courtyard gate anchor
+M                In the watch: show discovered local locations
+1 / 2 / 3 / 4    In the watch: select an island; only Verdant is available
+P / T            In the watch: explain unavailable perspective / time-pause tests
+Tab              Open / close the journal
+Left / Right     In the journal: move through its three pages
+Escape           Pause; 1 resumes, 2 saves committed progress, 3 loads
+
+Dialogue waits for manual E after a minimum readable hold. Choosing a response
+plays only that branch. Walking away can close a conversation without choosing
+a response. The opening recollections lock movement but permit desktop look;
+skipping them grants no clues. Most reading and watch views lock movement.
+Unreal Editor may reserve Escape to stop PIE; the game launchers use the game menu.
+
+CHAPTER 1
+Explore the surviving family room. The photograph and unsent letter can be
+examined in either order. Mother holds you as a baby in the photograph; your
+father took it. R reveals the inscription, "Our first summer at home."
+Finish their associated conversations, then speak with Mother. The three honest
+responses have no trust penalty.
+
+Examine the workbench after that conversation. Take the prepared contact from
+the dish, fit it at the workbench, then complete two separate stable tests there.
+Each test must finish and its dialogue must be advanced. Closing the test view
+or pausing cancels an unfinished test while preserving committed placement.
+The successful test status is RETURN SIGNAL — STABLE.
+
+Mother walks to the courtyard gate after calibration. Reading the original
+memorial beside the gate is optional. Wait for Mother, use the gate anchor and
+finish the departure conversation. In the watch select Verdant before the war
+and press E to confirm. Turning the dial alone does not travel. Confirmation
+requires the registered gate anchor nearby and a clear view of it.
+
+CHAPTER 2
+Speak with Neri near the gate, then find the Healer at the blue-shuttered clinic.
+The linen task can be declined and offered again. After accepting, speak with
+Sela, physically collect the wrapped linen from her counter, and place it in
+the clinic tray. Speak with the Healer again for the waterproof-cover request.
+
+At Sela's shop, hear the trade-off: there is one sound waterproof sheet for two
+possible sets of fixings. Plan for the clinic courtyard, the harbor waiting
+shelter, or choose "Not yet." Planning does not grant the sheet or change history.
+Collect the actual sheet and straps from the counter when ready.
+
+Look at both sites if desired. Interacting with different fixings first changes
+the plan; interacting again at the planned site installs the sheet and commits
+that outcome. Read the prompt: "Install" is the committing action. The sheet is
+consumed once and cannot cover both sites. After installation, report to the
+Healer. The linen delivery and installation award trust once each; they do not
+unlock perspective.
+
+Return to the gate, follow the present-day return signal and confirm the era.
+Read the changed historical display, then follow Mother into the surviving
+family room. Complete the final conversation, explicitly choose a response and
+advance its shared final lines to finish Chapter 2.
+
+The city remains damaged. The installed cover changes one bounded community
+record. If the original memorial was read, the journal preserves that prior
+observation alongside the ending's latest observation. Without that earlier
+reading, it does not invent a memory of the original. Journal pages 1 and 2
+track Home and Verdant; page 3 (internal JournalPage 2) holds the observations.
+
+SAVE AND RECOVERY
+The existing SaveGame slot remains Yesterday_Opening_v1. Earned photo, letter,
+Mother and calibration progress migrates from the earlier opening. A load uses
+the courtyard's safe recovery position and restores committed quest and era
+state. It does not auto-select an unfinished dialogue response. Pause-menu 2 saves
+committed progress, not a half-complete test or travel transition. The ending
+reports whether saving succeeded.
+
+PRESENTATION AND SCOPE
+Gameplay executes native Blueprint nodes; Python is used only to author assets.
+No engine, dependency, plugin or rendering-pipeline upgrade is required by these
+authoring scripts. The existing first- and third-person locomotion is reused.
+
+Character conversations currently use readable speaker-labelled text, existing
+temporary mannequin meshes and basic authored walking. There is no supplied
+voice performance, lip sync, bespoke hand interaction or complete cinematic
+animation system. Photo, watch, clinic, shop, cover and archive visuals include
+temporary art or simple meshes. These are not final visual-production claims.
+Desktop controls are the implementation target; headset interaction is unverified.
+
+Perspective is unavailable: no supported authored viewpoint/consent system is
+present, and these tasks do not force trust to 100. The optional time-pause test
+is unavailable because no supported reactive-object system is present. Neither
+optional feature blocks departure or completion of these two chapters.
+
+SOURCE AND VERIFICATION
+The supplied dialogue is a proposed production draft. Its exact source copy is
+ContentData/storysource/The_Other_Side_of_Yesterday_Chapters_1_2_Dialogue.md.
+The runtime data is ContentData/chapters_1_2_dialogue.json. Stage directions and
+writer-only identity notes are not spoken dialogue. The Healer's private writer
+identity is excluded from player-facing data. Prior provisional contradictions
+are recorded in ContentData/dialogue_continuity_conflicts.json.
+
+To rebuild these authored assets, close this project's editor/game first, open
+PowerShell in game_unreal and run .\BuildChapters.ps1. The helper uses the existing
+Unreal installation in the background and refuses to run while this project is
+open. If other geometry is regenerated, rerun this story build afterward when
+needed to restore the story actor placement and assignments.
+
+Python/import_dialogue_content.py validates source coverage and choice gates
+without running Unreal. Its dialogue_content_validation.json is content evidence.
+chapters_story_build_report.json records asset authoring and compilation.
+
+Native PIE verification completed successfully on 25 October 2026. The report is
+chapters_1_2_runtime_validation.json, run 20261024T172452_765446 (UTC identifier).
+Python/validate_chapters_1_2.py drove real native Blueprint public action functions,
+camera collision rays, physical quest targets and Unreal SaveGame restarts.
+All 374 recorded checks passed: 364 across four complete story routes plus 10
+legacy-save migration checks. The route matrix was:
+  First person: clinic / original memorial read       99 checks
+  Third person: clinic / original memorial unread    84 checks
+  First person: harbor / original memorial read      86 checks
+  Third person: harbor / original memorial unread    95 checks
+The run observed 568 spoken subtitle lines against the supplied source. It covered
+all three opening and ending Mother responses, refusal and reoffer, a reversible
+canvas plan, physical consumption and mutually exclusive installation, +10/+20
+trust deduplication, fade save boundaries, partial past and completed present
+recovery, and the absence of an invented original-memorial observation.
+
+All gameplay tests used unique Yesterday_Chapters12_QA save slots. The default
+Yesterday_Opening_v1 slot was absent before the run and remained absent. The
+existing successful Milestone A fixture was copied into a test slot; its original
+bytes remained unchanged (SHA256:
+0f698bb9c4a003a7aa2883af39317161a1e38290ca388626231bce5f1caf94e8).
+Native migration retained the 13 earlier flags and calibrated watch without
+granting new Chapter 2 progress, a new Mother response, or relationship rewards.
+
+Twelve native viewport screenshots are in
+validation/chapters_1_2/20261024T172452_765446/. Representative checked images:
+  Clinic_OriginalRead_Present_Archive.png
+  Harbor_OriginalRead_Present_Archive.png
+  Clinic_OriginalRead_Final_Journal.png
+  Harbor_OriginalUnread_Final_Journal.png
+These show the mutually exclusive archive pages and readable observed/unobserved
+journal states. The archive artwork and NPC meshes remain the temporary assets
+described above.
+
+The production minimum subtitle hold was checked. Bulk dialogue reading then used
+a temporary per-test-instance timing override. The harness repositioned the player
+for target tests; it does not establish a continuous human walking playthrough,
+hardware keyboard delivery, headset comfort, performance, or a packaged-game pass.
+Packaged-build evidence must be assessed separately. Earlier opening reports
+describe the previous milestone and are not the current story acceptance report.

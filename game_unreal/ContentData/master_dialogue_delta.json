@@ -1,0 +1,20 @@
+{
+  "scope": "Authored content comparison; no Unreal runtime assertion",
+  "authoritative_source": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Brief_20261025\\docs\\TOSOY_Chapters_1_2\\MASTER_PROMPT.md",
+  "authoritative_sha256": "7284014479206b43ab03e56b25f78529ce5dd4d6718ff3882b5f2ac2e32cf34e",
+  "preceding_source_file": "storysource/The_Other_Side_of_Yesterday_Chapters_1_2_Dialogue.md",
+  "preceding_source_sha256": "80727eadd27cdb9b2713fba195943fb2d0cc8c861e91d7bc435d41afb4c84ee1",
+  "preceding_source_preserved": true,
+  "spoken_changes": [
+    {
+      "line_id": "C1_03.opening.001",
+      "speaker": "Mother",
+      "previous_text": "You're very quiet this morning.",
+      "text": "You're very quiet today.",
+      "previous_source_line": 140,
+      "source_line": 442
+    }
+  ],
+  "other_authored_changes": [],
+  "heading_compatibility": "Legacy scene/branch depths 2/3 and master depths 3/4 are both supported without changing source line numbers."
+}

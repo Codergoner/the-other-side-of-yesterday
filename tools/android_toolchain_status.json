@@ -1,0 +1,12 @@
+{
+  "phase": "Portable Android toolchain installed",
+  "utc": "2026-10-25T11:45:20.358993+00:00",
+  "java_home": "C:\\Users\\USER\\TOSOYQuestToolchain\\jdk\\jdk-21.0.12.1+1",
+  "sdk_root": "C:\\Users\\USER\\TOSOYQuestToolchain\\sdk",
+  "disk_bytes": {
+    "total": 3556341703,
+    "sdk": 2847348822,
+    "jdk": 343823876,
+    "archives": 360728847
+  }
+}

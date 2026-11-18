@@ -1,0 +1,69 @@
+{
+  "source_only": true,
+  "native_integration_authorized_by_this_file": false,
+  "target_map": "/Game/Quest/Maps/Verdant_Desktop",
+  "roles": {
+    "Healer": {
+      "import_report": "game_unreal/release_healer_import_report.json",
+      "native_visual_report": "WAIT_FOR_ACTUAL_HEALER_NATIVE_RENDER_BLINK_LISTENING_REVIEW",
+      "actor_ref": "HealerActor",
+      "stable_tag": "past.healer",
+      "own_listening_idle_only": true,
+      "existing_global_animation_calls_to_replace": 0,
+      "native_visual_approved": false,
+      "size_at_preserved_authored_scale_approved": false
+    },
+    "Sela": {
+      "import_report": "game_unreal/release_sela_import_report.json",
+      "native_visual_report": "WAIT_FOR_ACTUAL_SELA_NATIVE_RENDER_BLINK_LISTENING_REVIEW",
+      "actor_ref": "SelaActor",
+      "stable_tag": "past.sela",
+      "own_listening_idle_only": true,
+      "existing_global_animation_calls_to_replace": 0,
+      "native_visual_approved": false,
+      "size_at_preserved_authored_scale_approved": false
+    },
+    "Neri": {
+      "import_report": "game_unreal/release_neri_import_report.json",
+      "native_visual_report": "WAIT_FOR_ACTUAL_NERI_NATIVE_RENDER_BLINK_LISTENING_REVIEW",
+      "walk_report": "game_unreal/release_neri_retarget_report.json",
+      "calibration_report": "game_unreal/release_neri_walk_calibration.json",
+      "gait_report": "WAIT_FOR_ACTUAL_NERI_OWN_SKELETON_GAIT_WRAP_AND_FOOT_REVIEW",
+      "actor_ref": "NeriActor",
+      "stable_tag": "past.neri",
+      "existing_play_calls_expected": 3,
+      "existing_idle_calls_expected": 2,
+      "existing_walk_calls_expected": 1,
+      "existing_move_calls_expected": 3,
+      "scripted_speed_cm_s_to_preserve": 100,
+      "authored_scale_policy": "Read actual saved native actor; never reuse Mother0.96 or force a new scale",
+      "native_visual_approved": false,
+      "size_at_preserved_authored_scale_approved": false,
+      "injured_ankle_wrap_gait_visually_approved": false,
+      "runtime_heading_and_rate_verified": false,
+      "foot_lock_claimed": false
+    }
+  },
+  "required_native_preflight": [
+    "SHA-pin every selected native import/render/bake/calibration report and every reviewed owned mesh/skeleton/animation/material asset",
+    "Read each current stable actor's real collision mode/profile/channel responses/actor enabled/hidden flags before migration; reject unexpected baseline instead of resetting it",
+    "Use SkeletalMeshEditorSubsystem.create_physics_asset on that role's exact normalized mesh, validate bone/constraint compatibility and torso query bodies",
+    "Past NPCs remain in their exact era arrays with their original authored hidden/collision flags; only a controlled transient fixture may enable the tested actor before real story regression",
+    "Visibility queries must hit the same existing actor after the unsaved candidate stage; preserve baseline PawnIgnore and do not claim solid NPC collision",
+    "Healer and Sela persist their own Listening through OverrideAnimationData; no global mannequin clip or Mother clip may touch their new skeletons",
+    "Only Neri's three original PlayAnimation value pins gain NeriIdleAnimation/NeriWalkAnimation, with mannequin-compatible defaults on unmigrated maps",
+    "Neri heading/rate hooks are separate from Mother: EraIndex1, three existing100cm/s moves, actual +Y body front, stored authored basis and bounded travel/dialogue/arrival turns",
+    "Keep all original movement/animation node objects and GUIDs; retain existing execution destinations through owned hooks; do not regenerate story graphs",
+    "Compare all13guarded save nodes before/after; zero generic save owners, unchanged campaign/profile schemas, paths, story IDs, transforms, milestone and era references"
+  ],
+  "remaining_runtime_acceptance": [
+    "Actual menu NewGame and normal watch travel expose each NPC through original era flow, rather than seeded flags",
+    "Real targeting/dialogue selection hits each preserved actor; hidden past actors do not remain query-visible in Present",
+    "Neri walks all original route segments at100cm/s with correct forward/return heading; own calibrated rate and wrapped ankle/boots/garments reviewed in motion",
+    "Repeated RestoreSafeScene applies the stored basis without cumulative yaw; conversation/arrival turn rate stays bounded",
+    "Repeat470guarded story checks and damaged-save UI policy after final native changes",
+    "Separate whole-game Shipping build/link and packaged playthrough evidence; no PIE-to-package or headset inference"
+  ],
+  "mother_garment_approved": false,
+  "mother_revision5_status": "Separate source/art work; no Mother swap authorized by role inputs"
+}

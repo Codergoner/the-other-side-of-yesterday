@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 5,
+	"VersionName": "0.2.2-quest3-android",
+	"FriendlyName": "Yesterday Save Guard",
+	"Description": "Strict bounded campaign-v3 snapshots with exact 53/56-field migration to the reviewed 59-field consent state. Old records never imply publication, meeting a worker, or accepted sealed-note custody. Envelope and profile versions remain unchanged. Version 5 adds the Android (Meta Quest 3) target: a portable SHA-256 for the pinned legacy fixture, a POSIX advisory directory lock and atomic rename; the Win64 CNG and Win32 file paths are unchanged. Native build/test evidence is separate.",
+	"Category": "Gameplay",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.8.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64",
+		"Android"
+	],
+	"Modules": [
+		{
+			"Name": "YesterdaySaveGuard",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Android"
+			]
+		}
+	]
+}

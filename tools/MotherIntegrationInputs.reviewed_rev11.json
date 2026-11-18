@@ -1,0 +1,19 @@
+{
+  "gait_visually_approved": true,
+  "cloth_deformation_approved": true,
+  "basis_reviewed": true,
+  "mesh_relative_rotation_offset_degrees": [
+    0,
+    0,
+    0
+  ],
+  "approval_scope": "Actual REV11 front/profile/rear short-step native images inspected. Modest skinned skirt, cull-covered-skin faces. Early playable; no physical cloth, foot IK, final AAA, runtime game, packaged or final-trailer approval.",
+  "unit_report": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\release_mother_rev11_unit_report.json",
+  "unit_report_sha256": "887cde1e5e041aa7e35746137423ddd7dff340e3243bf6d6f23552bc5de66748",
+  "retarget_report": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\release_mother_rev11_compatible_bake.json",
+  "retarget_report_sha256": "f50795962a1d762650a494b77124e9f33a3cdf59c8d018cbbc4afccb918e7070",
+  "gait_report": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\release_mother_rev11_gait_review_report.json",
+  "gait_report_sha256": "f67b7c0b78b89535b7310bdef0dec68d12b6e2fc0d6d5661ac0d12ee41dbd2d0",
+  "calibration_report": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\release_mother_rev11_walk_calibration.json",
+  "calibration_report_sha256": "be0e61b0b2a3d1c700e0b7a13c2c4c4441fc5de3527167d37fe8aa048463357d"
+}

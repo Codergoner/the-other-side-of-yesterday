@@ -1,0 +1,45 @@
+{
+  "source": "C:\\Program Files\\Epic Games\\UE_5.8\\Templates\\TemplateResources\\Standard\\XRFramework\\Content\\Blueprints\\BP_XRPawn.uasset",
+  "source_sha256": "dce45917d16f6283ab5af75ab84477911e4a0efc20134065abe9005cc9c30dcd",
+  "native_report": "development\\Quest_20261025\\output\\staging\\xr_hands\\template_inspection\\native_attachment_inspection.json",
+  "attachments": {
+    "HandRight": {
+      "location_cm": [
+        -2.98126,
+        3.5,
+        4.561753
+      ],
+      "rotation_degrees": {
+        "pitch": 25.0,
+        "yaw": 0.0,
+        "roll": 89.999999
+      },
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent_variable": "MotionControllerRightGrip"
+    },
+    "HandLeft": {
+      "location_cm": [
+        -2.98126,
+        -3.5,
+        4.561753
+      ],
+      "rotation_degrees": {
+        "pitch": -25.0,
+        "yaw": -179.999999,
+        "roll": 89.999998
+      },
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent_variable": "MotionControllerLeftGrip"
+    }
+  },
+  "headset_calibrated": false,
+  "scope": "Installed Epic owning Pawn component overrides; controller hardware calibration remains pending"
+}

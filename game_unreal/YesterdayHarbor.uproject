@@ -1,0 +1,72 @@
+{
+    "FileVersion":  3,
+    "EngineAssociation":  "5.8",
+    "Category":  "Games",
+    "Description":  "Chapters I-II early-playable release work: Windows desktop and, as a recorded platform change (2 November 2026), Meta Quest 3 standalone built from this copy. The independent Quest project preserves the original VR path.",
+    "Plugins":  [
+                    {
+                        "Name":  "PythonScriptPlugin",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "EditorScriptingUtilities",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "EnhancedInput",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "ControlRig",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "FullBodyIK",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "XRBase",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "OpenXR",
+                        "Enabled":  true,
+                        "PlatformAllowList":  [
+                                                  "Android"
+                                              ]
+                    },
+                    {
+                        "Name":  "OpenXRHandTracking",
+                        "Enabled":  true,
+                        "PlatformAllowList":  [
+                                                  "Android"
+                                              ]
+                    },
+                    {
+                        "Name":  "OpenXRMsftHandInteraction",
+                        "Enabled":  true,
+                        "PlatformAllowList":  [
+                                                  "Android"
+                                              ]
+                    },
+                    {
+                        "Name":  "YesterdaySaveGuard",
+                        "Enabled":  true,
+                        "SupportedTargetPlatforms":  [
+                                                         "Win64",
+                                                         "Android"
+                                                     ]
+                    }
+                ],
+    "TargetPlatforms":  [
+                            "Windows",
+                            "Android"
+                        ],
+    "Modules":  [
+                    {
+                        "Name":  "YesterdayHarbor",
+                        "Type":  "Runtime",
+                        "LoadingPhase":  "Default"
+                    }
+                ]
+}

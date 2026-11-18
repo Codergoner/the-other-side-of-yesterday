@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "status": "source_only_native_authoring_and_event_pcm_qa_pending",
+  "map": "/Game/Quest/Maps/Verdant_Desktop",
+  "owner": "TOSOY.ReleaseActionSfxOwned",
+  "stable_id": "release.audio.action_sfx",
+  "ambient_actor_untouched": true,
+  "new_persistent_audio_components": 1,
+  "existing_ambient_components_preserved": 2,
+  "new_wav_imports": 0,
+  "expected_existing_native_saveguard_calls": 13,
+  "minimum_gap_seconds": 0.10,
+  "producers": [
+    {"id": "linen_take", "graph": "TakeLinen", "variable": "LinenState", "literal": "2", "cue": "cloth"},
+    {"id": "linen_deliver", "graph": "DeliverLinen", "variable": "LinenState", "literal": "3", "cue": "cloth"},
+    {"id": "canvas_take", "graph": "TakeCanvas", "variable": "CanvasOwned", "literal": "true", "cue": "cloth"},
+    {"id": "cover_install", "graph": "InstallCover", "variable": "CanvasOwned", "literal": "false", "cue": "cloth"},
+    {"id": "calibration_commit", "graph": "FinishNode", "variable": "WatchCalibrated", "literal": "true", "before_helper": "ReleaseSfxCaptureCalibration", "after_helper": "ReleaseSfxCalibrationCue"},
+    {"id": "dial_present", "graph": "RotateDial", "variable": "SelectedEra", "literal": "0", "before_helper": "ReleaseSfxCaptureDial", "after_helper": "ReleaseSfxDialCue"},
+    {"id": "dial_past", "graph": "RotateDial", "variable": "SelectedEra", "literal": "1", "before_helper": "ReleaseSfxCaptureDial", "after_helper": "ReleaseSfxDialCue"},
+    {"id": "travel_destination_commit", "graph": "TravelTick", "variable": "TransitionCommitted", "literal": "true", "cue": "transition"}
+  ],
+  "never_hook": ["LoadProgress", "RestoreSafeScene", "ApplyState", "ApplyWorldState", "ReleaseContinue", "ReleaseNewGame", "SaveProgress", "_SaveCopy", "ReleaseRenderMenu"],
+  "qa_required": ["Original node/GUID/data-pin/body preservation", "All 13 native guard owners and pins unchanged", "Actual successful producer events versus rejected/repeated actions", "Two calibration tests and false-to-true success cue exactly once", "Actual dial change versus same-direction repeat", "Destination failure produces no transition cue", "Cover plan change versus actual installation", "Load/Continue/NewGame/ApplyWorldState produce no one-shot", "Actual stereo mixer PCM differs for accepted cues and remains silent with master0 or paused mute", "One channel, no repeated rewards or cue replay after unmute", "Original two ambient beds still fade/mute/restore without restart", "Four story routes and isolated-save guards"]
+}

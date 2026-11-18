@@ -1,0 +1,65 @@
+{
+  "status": "Existing conflicting copy was provisional, not an approved script. Record before replacing it.",
+  "preserve": [
+    "Yesterday_Opening_v1",
+    "BP_OpeningActions",
+    "BP_OpeningHUD",
+    "BP_OpeningSave",
+    "home.photo",
+    "home.letter",
+    "home.calibration_component",
+    "home.anchor",
+    "House_FirstPerson",
+    "House_ThirdPerson"
+  ],
+  "conflicts": [
+    {
+      "id": "PHOTO_COMPOSITION",
+      "existing": "Three-person sepia silhouette placeholder",
+      "source": "Mother holding the protagonist as a baby; photographer is absent",
+      "resolution": "Replace only provisional portrait art. Preserve home.photo actor ID and PhotoSeen save alias."
+    },
+    {
+      "id": "PHOTO_REVERSE",
+      "existing": "Home. Keep this close.",
+      "source": "Our first summer at home.",
+      "resolution": "Replace provisional inscription and readable inspection text; preserve PhotoBackSeen state."
+    },
+    {
+      "id": "LETTER",
+      "existing": "Calibration tutorial letter signed Mother",
+      "source": "Mother's unsent letter, beginning The upstairs room still leaks",
+      "resolution": "Replace provisional reading content; keep home.letter actor and LetterRead alias."
+    },
+    {
+      "id": "MOTHER_CHOICES",
+      "existing": "Repeated topic/help/goodbye tutorial",
+      "source": "Three honest opening responses and shared return-signal conversation",
+      "resolution": "Replace provisional copy; retain MotherSpoken as MOTHER_DEPARTURE_TALK_DONE alias and add persisted response."
+    },
+    {
+      "id": "CONTACT_REPAIR",
+      "existing": "Alignment collar in a lidded parts box; one final test",
+      "source": "Prepared contact in a dish; placement, close housing, two stable tests",
+      "resolution": "Reuse repair interaction and existing component actor ID; migrate old completed calibration without removing earned progress."
+    },
+    {
+      "id": "ANCHOR",
+      "existing": "Porch anchor registration only",
+      "source": "Courtyard gate return signal and explicit past/present confirmation",
+      "resolution": "Reuse anchor identifier and safe-location recovery; do not alter old save slot."
+    },
+    {
+      "id": "CHAPTER_2_QUEST",
+      "existing": "No implemented Chapter 2; older task mentioned provisional medicine supplies",
+      "source": "Linen delivery, one waterproof canvas, physical clinic or harbor installation, bounded archive consequence",
+      "resolution": "Use this supplied content; plan is reversible, installation commits history exactly once."
+    },
+    {
+      "id": "PERSPECTIVE_AND_PAUSE",
+      "existing": "No working perspective or reactive time-pause system",
+      "source": "Perspective remains locked; pause test optional only with a working system",
+      "resolution": "Do not force 100 trust or enable an unimplemented optional feature. Omission must not block departure."
+    }
+  ]
+}

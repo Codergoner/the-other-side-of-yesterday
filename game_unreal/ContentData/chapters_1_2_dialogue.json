@@ -1,0 +1,5325 @@
+{
+  "schema_version": 1,
+  "title": "The Other Side of Yesterday",
+  "content_status": "Development specification supplied by user",
+  "source_file": "storysource/MASTER_PROMPT.md",
+  "source_sha256": "7284014479206b43ab03e56b25f78529ce5dd4d6718ff3882b5f2ac2e32cf34e",
+  "source_provenance": {
+    "source_kind": "master_brief_part_ii",
+    "authoritative_path": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Brief_20261025\\docs\\TOSOY_Chapters_1_2\\MASTER_PROMPT.md",
+    "full_source_sha256": "7284014479206b43ab03e56b25f78529ce5dd4d6718ff3882b5f2ac2e32cf34e",
+    "source_line_numbers": "One-based lines in the full, byte-identical source document; no heading normalization copy.",
+    "dialogue_section_start_line": 335,
+    "dialogue_section_end_line": 1065,
+    "preceding_source_file": "storysource/The_Other_Side_of_Yesterday_Chapters_1_2_Dialogue.md",
+    "preceding_source_sha256": "80727eadd27cdb9b2713fba195943fb2d0cc8c861e91d7bc435d41afb4c84ee1"
+  },
+  "verification_scope": "Structured written content only; not an Unreal import, gameplay, voice, animation or packaged-build test.",
+  "presentation": {
+    "manual_advance": true,
+    "minimum_line_seconds": 0.75,
+    "stage_directions_are_subtitles": false,
+    "voice_required": false,
+    "live_generated_dialogue": false
+  },
+  "save_aliases": {
+    "PHOTO_READ": "PhotoSeen",
+    "LETTER_READ": "LetterRead",
+    "MOTHER_DEPARTURE_TALK_DONE": "MotherSpoken",
+    "WATCH_CALIBRATED": "WatchCalibrated"
+  },
+  "scenes": {
+    "C1_00": {
+      "id": "C1_00",
+      "title": "Fragments across five years",
+      "source_heading_line": 345,
+      "blocks": {
+        "opening": [],
+        "five_years_earlier": [
+          {
+            "id": "C1_00.five_years_earlier.001",
+            "speaker": "Protagonist",
+            "text": "What did the town sound like?",
+            "source_line": 352
+          },
+          {
+            "id": "C1_00.five_years_earlier.002",
+            "speaker": "Mother",
+            "text": "Before the war?",
+            "source_line": 354
+          },
+          {
+            "id": "C1_00.five_years_earlier.003",
+            "speaker": "Protagonist",
+            "text": "Before everyone stopped talking about it.",
+            "source_line": 356
+          },
+          {
+            "id": "C1_00.five_years_earlier.004",
+            "speaker": "Mother",
+            "text": "Bells. Boats. People arguing over the price of fish.",
+            "source_line": 358
+          },
+          {
+            "id": "C1_00.five_years_earlier.005",
+            "speaker": "Mother",
+            "text": "I used to wish it was quieter.",
+            "source_line": 362
+          }
+        ],
+        "three_years_earlier": [
+          {
+            "id": "C1_00.three_years_earlier.001",
+            "speaker": "Protagonist",
+            "text": "Was there a moment when someone could have stopped it?",
+            "source_line": 366
+          },
+          {
+            "id": "C1_00.three_years_earlier.002",
+            "speaker": "Mother",
+            "text": "There were a lot of moments. We just didn't know which ones mattered.",
+            "source_line": 368
+          },
+          {
+            "id": "C1_00.three_years_earlier.003",
+            "speaker": "Protagonist",
+            "text": "Someone must have known.",
+            "source_line": 370
+          },
+          {
+            "id": "C1_00.three_years_earlier.004",
+            "speaker": "Mother",
+            "text": "Perhaps. The people who survived didn't all tell the same story.",
+            "source_line": 372
+          }
+        ],
+        "one_year_earlier": [
+          {
+            "id": "C1_00.one_year_earlier.001",
+            "speaker": "Protagonist",
+            "text": "That was supposed to stay there.",
+            "source_line": 378
+          },
+          {
+            "id": "C1_00.one_year_earlier.002",
+            "speaker": "Mother",
+            "text": "You said that about the last one.",
+            "source_line": 380
+          },
+          {
+            "id": "C1_00.one_year_earlier.003",
+            "speaker": "Protagonist",
+            "text": "The last one hit the ceiling. This is progress.",
+            "source_line": 382
+          },
+          {
+            "id": "C1_00.one_year_earlier.004",
+            "speaker": "Mother",
+            "text": "Then celebrate with something warm.",
+            "source_line": 386
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {
+        "objective": "Before the final test: examine the photograph and letter, then speak with Mother."
+      },
+      "document_source_lines": {
+        "objective": [
+          390
+        ]
+      },
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [],
+      "continuation": [],
+      "choices": {},
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "final_manual_advance",
+      "recollections": {
+        "five_years_earlier": [
+          {
+            "id": "C1_00.five_years_earlier.001",
+            "speaker": "Protagonist",
+            "text": "What did the town sound like?",
+            "source_line": 352
+          },
+          {
+            "id": "C1_00.five_years_earlier.002",
+            "speaker": "Mother",
+            "text": "Before the war?",
+            "source_line": 354
+          },
+          {
+            "id": "C1_00.five_years_earlier.003",
+            "speaker": "Protagonist",
+            "text": "Before everyone stopped talking about it.",
+            "source_line": 356
+          },
+          {
+            "id": "C1_00.five_years_earlier.004",
+            "speaker": "Mother",
+            "text": "Bells. Boats. People arguing over the price of fish.",
+            "source_line": 358
+          },
+          {
+            "id": "C1_00.five_years_earlier.005",
+            "speaker": "Mother",
+            "text": "I used to wish it was quieter.",
+            "source_line": 362
+          }
+        ],
+        "three_years_earlier": [
+          {
+            "id": "C1_00.three_years_earlier.001",
+            "speaker": "Protagonist",
+            "text": "Was there a moment when someone could have stopped it?",
+            "source_line": 366
+          },
+          {
+            "id": "C1_00.three_years_earlier.002",
+            "speaker": "Mother",
+            "text": "There were a lot of moments. We just didn't know which ones mattered.",
+            "source_line": 368
+          },
+          {
+            "id": "C1_00.three_years_earlier.003",
+            "speaker": "Protagonist",
+            "text": "Someone must have known.",
+            "source_line": 370
+          },
+          {
+            "id": "C1_00.three_years_earlier.004",
+            "speaker": "Mother",
+            "text": "Perhaps. The people who survived didn't all tell the same story.",
+            "source_line": 372
+          }
+        ],
+        "one_year_earlier": [
+          {
+            "id": "C1_00.one_year_earlier.001",
+            "speaker": "Protagonist",
+            "text": "That was supposed to stay there.",
+            "source_line": 378
+          },
+          {
+            "id": "C1_00.one_year_earlier.002",
+            "speaker": "Mother",
+            "text": "You said that about the last one.",
+            "source_line": 380
+          },
+          {
+            "id": "C1_00.one_year_earlier.003",
+            "speaker": "Protagonist",
+            "text": "The last one hit the ceiling. This is progress.",
+            "source_line": 382
+          },
+          {
+            "id": "C1_00.one_year_earlier.004",
+            "speaker": "Mother",
+            "text": "Then celebrate with something warm.",
+            "source_line": 386
+          }
+        ]
+      },
+      "skippable": true,
+      "once": true,
+      "skip_effect": {
+        "INTRO_SEEN": true
+      },
+      "skip_grants_unseen_clues": false,
+      "graph_entry": "C1_00.five_years_earlier"
+    },
+    "C1_01": {
+      "id": "C1_01",
+      "title": "The photograph",
+      "source_heading_line": 392,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C1_01.opening.001",
+            "speaker": "Protagonist",
+            "text": "You look tired.",
+            "source_line": 396
+          },
+          {
+            "id": "C1_01.opening.002",
+            "speaker": "Mother",
+            "text": "You were six weeks old. I was tired.",
+            "source_line": 398
+          },
+          {
+            "id": "C1_01.opening.003",
+            "speaker": "Protagonist",
+            "text": "Who took it?",
+            "source_line": 400
+          },
+          {
+            "id": "C1_01.opening.004",
+            "speaker": "Mother",
+            "text": "Your father. He tried three times. You cried through all of them.",
+            "source_line": 402
+          },
+          {
+            "id": "C1_01.opening.005",
+            "speaker": "Protagonist",
+            "text": "He kept this one?",
+            "source_line": 404
+          },
+          {
+            "id": "C1_01.opening.006",
+            "speaker": "Mother",
+            "text": "He said we looked like ourselves.",
+            "source_line": 406
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {
+        "reverse": "Our first summer at home."
+      },
+      "document_source_lines": {
+        "reverse": [
+          410
+        ]
+      },
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [
+        {
+          "id": "C1_01.opening.001",
+          "speaker": "Protagonist",
+          "text": "You look tired.",
+          "source_line": 396
+        },
+        {
+          "id": "C1_01.opening.002",
+          "speaker": "Mother",
+          "text": "You were six weeks old. I was tired.",
+          "source_line": 398
+        },
+        {
+          "id": "C1_01.opening.003",
+          "speaker": "Protagonist",
+          "text": "Who took it?",
+          "source_line": 400
+        },
+        {
+          "id": "C1_01.opening.004",
+          "speaker": "Mother",
+          "text": "Your father. He tried three times. You cried through all of them.",
+          "source_line": 402
+        },
+        {
+          "id": "C1_01.opening.005",
+          "speaker": "Protagonist",
+          "text": "He kept this one?",
+          "source_line": 404
+        },
+        {
+          "id": "C1_01.opening.006",
+          "speaker": "Mother",
+          "text": "He said we looked like ourselves.",
+          "source_line": 406
+        }
+      ],
+      "continuation": [],
+      "choices": {},
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "final_manual_advance",
+      "once": true,
+      "repeat_behavior": "object_and_reverse_only",
+      "completion_effects": {
+        "PHOTO_READ": true
+      },
+      "graph_entry": "C1_01.start"
+    },
+    "C1_02": {
+      "id": "C1_02",
+      "title": "The unsent letter",
+      "source_heading_line": 414,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C1_02.opening.001",
+            "speaker": "Protagonist",
+            "text": "You never sent it.",
+            "source_line": 428
+          },
+          {
+            "id": "C1_02.opening.002",
+            "speaker": "Mother",
+            "text": "I never found an address.",
+            "source_line": 430
+          },
+          {
+            "id": "C1_02.opening.003",
+            "speaker": "Protagonist",
+            "text": "Do you want me to put it away?",
+            "source_line": 432
+          },
+          {
+            "id": "C1_02.opening.004",
+            "speaker": "Mother",
+            "text": "Leave it there for now.",
+            "source_line": 434
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {
+        "letter": "The upstairs room still leaks when the wind comes from the sea.\n\nHe says he can mend it. He says that about everything now.\n\nI kept your chair. Not because I think a chair can bring someone home. I just wasn't ready to give it away.\n\nI don't know where to send this."
+      },
+      "document_source_lines": {
+        "letter": [
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426
+        ]
+      },
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [
+        {
+          "id": "C1_02.opening.001",
+          "speaker": "Protagonist",
+          "text": "You never sent it.",
+          "source_line": 428
+        },
+        {
+          "id": "C1_02.opening.002",
+          "speaker": "Mother",
+          "text": "I never found an address.",
+          "source_line": 430
+        },
+        {
+          "id": "C1_02.opening.003",
+          "speaker": "Protagonist",
+          "text": "Do you want me to put it away?",
+          "source_line": 432
+        },
+        {
+          "id": "C1_02.opening.004",
+          "speaker": "Mother",
+          "text": "Leave it there for now.",
+          "source_line": 434
+        }
+      ],
+      "continuation": [],
+      "choices": {},
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "final_manual_advance",
+      "once": true,
+      "repeat_behavior": "read_letter_without_exchange",
+      "completion_effects": {
+        "LETTER_READ": true
+      },
+      "consumes_object": false,
+      "graph_entry": "C1_02.start"
+    },
+    "C1_03": {
+      "id": "C1_03",
+      "title": "Optional early conversation",
+      "source_heading_line": 438,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C1_03.opening.001",
+            "speaker": "Mother",
+            "text": "You're very quiet today.",
+            "source_line": 442
+          },
+          {
+            "id": "C1_03.opening.002",
+            "speaker": "Protagonist",
+            "text": "I'm trying not to think too far ahead.",
+            "source_line": 444
+          },
+          {
+            "id": "C1_03.opening.003",
+            "speaker": "Mother",
+            "text": "Then stay here for a minute. I'll make some tea.",
+            "source_line": 446
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {},
+      "document_source_lines": {},
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [
+        {
+          "id": "C1_03.opening.001",
+          "speaker": "Mother",
+          "text": "You're very quiet today.",
+          "source_line": 442
+        },
+        {
+          "id": "C1_03.opening.002",
+          "speaker": "Protagonist",
+          "text": "I'm trying not to think too far ahead.",
+          "source_line": 444
+        },
+        {
+          "id": "C1_03.opening.003",
+          "speaker": "Mother",
+          "text": "Then stay here for a minute. I'll make some tea.",
+          "source_line": 446
+        }
+      ],
+      "continuation": [],
+      "choices": {},
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "final_manual_advance",
+      "requires": "NOT (PHOTO_READ AND LETTER_READ)",
+      "completion_effects": {},
+      "departure_allowed": true,
+      "relationship_penalty": 0,
+      "graph_entry": "C1_03.start"
+    },
+    "C1_04": {
+      "id": "C1_04",
+      "title": "Mother: the final test",
+      "source_heading_line": 450,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C1_04.opening.001",
+            "speaker": "Mother",
+            "text": "You cleaned the workbench.",
+            "source_line": 455
+          },
+          {
+            "id": "C1_04.opening.002",
+            "speaker": "Protagonist",
+            "text": "I needed to find things.",
+            "source_line": 457
+          },
+          {
+            "id": "C1_04.opening.003",
+            "speaker": "Mother",
+            "text": "You need to find things every day.",
+            "source_line": 459
+          },
+          {
+            "id": "C1_04.opening.004",
+            "speaker": "Mother",
+            "text": "You're going to try it.",
+            "source_line": 463
+          }
+        ],
+        "choice_A": [
+          {
+            "id": "C1_04.choice_A.001",
+            "speaker": "Protagonist",
+            "text": "I think I can stop what happened.",
+            "source_line": 467
+          },
+          {
+            "id": "C1_04.choice_A.002",
+            "speaker": "Mother",
+            "text": "You know what the war left behind. You don't yet know what started it.",
+            "source_line": 469
+          },
+          {
+            "id": "C1_04.choice_A.003",
+            "speaker": "Protagonist",
+            "text": "That's why I have to go.",
+            "source_line": 471
+          },
+          {
+            "id": "C1_04.choice_A.004",
+            "speaker": "Mother",
+            "text": "Then listen when you get there. Don't go looking only for what you expect.",
+            "source_line": 473
+          }
+        ],
+        "choice_B": [
+          {
+            "id": "C1_04.choice_B.001",
+            "speaker": "Protagonist",
+            "text": "I need to know what happened to him.",
+            "source_line": 477
+          },
+          {
+            "id": "C1_04.choice_B.002",
+            "speaker": "Mother",
+            "text": "So do I.",
+            "source_line": 479
+          },
+          {
+            "id": "C1_04.choice_B.003",
+            "speaker": "Mother",
+            "text": "But don't promise to bring him home. Not before you know what you're promising.",
+            "source_line": 483
+          }
+        ],
+        "choice_C": [
+          {
+            "id": "C1_04.choice_C.001",
+            "speaker": "Protagonist",
+            "text": "I'm scared it won't work.",
+            "source_line": 487
+          },
+          {
+            "id": "C1_04.choice_C.002",
+            "speaker": "Mother",
+            "text": "I'm scared it will.",
+            "source_line": 489
+          },
+          {
+            "id": "C1_04.choice_C.003",
+            "speaker": "Protagonist",
+            "text": "That doesn't help.",
+            "source_line": 491
+          },
+          {
+            "id": "C1_04.choice_C.004",
+            "speaker": "Mother",
+            "text": "No. But I didn't want you to think you were the only one.",
+            "source_line": 493
+          }
+        ],
+        "continuation": [
+          {
+            "id": "C1_04.continuation.001",
+            "speaker": "Mother",
+            "text": "How do you get back?",
+            "source_line": 497
+          },
+          {
+            "id": "C1_04.continuation.002",
+            "speaker": "Protagonist",
+            "text": "I've set a return signal at the gate. It keeps running while I'm away.",
+            "source_line": 499
+          },
+          {
+            "id": "C1_04.continuation.003",
+            "speaker": "Mother",
+            "text": "And if the watch breaks?",
+            "source_line": 501
+          },
+          {
+            "id": "C1_04.continuation.004",
+            "speaker": "Protagonist",
+            "text": "I don't have an answer for that yet.",
+            "source_line": 503
+          },
+          {
+            "id": "C1_04.continuation.005",
+            "speaker": "Mother",
+            "text": "Then be careful with it. And with yourself.",
+            "source_line": 505
+          },
+          {
+            "id": "C1_04.continuation.006",
+            "speaker": "Protagonist",
+            "text": "I'll come back as soon as I've checked the other side.",
+            "source_line": 507
+          },
+          {
+            "id": "C1_04.continuation.007",
+            "speaker": "Mother",
+            "text": "Good. Start with that.",
+            "source_line": 509
+          }
+        ]
+      },
+      "choice_definitions": {
+        "A": {
+          "label": "I think I can stop what happened.",
+          "source_line": 465
+        },
+        "B": {
+          "label": "I need to know what happened to him.",
+          "source_line": 475
+        },
+        "C": {
+          "label": "I'm scared it won't work.",
+          "source_line": 485
+        }
+      },
+      "documents": {},
+      "document_source_lines": {},
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [
+        {
+          "id": "C1_04.opening.001",
+          "speaker": "Mother",
+          "text": "You cleaned the workbench.",
+          "source_line": 455
+        },
+        {
+          "id": "C1_04.opening.002",
+          "speaker": "Protagonist",
+          "text": "I needed to find things.",
+          "source_line": 457
+        },
+        {
+          "id": "C1_04.opening.003",
+          "speaker": "Mother",
+          "text": "You need to find things every day.",
+          "source_line": 459
+        },
+        {
+          "id": "C1_04.opening.004",
+          "speaker": "Mother",
+          "text": "You're going to try it.",
+          "source_line": 463
+        }
+      ],
+      "continuation": [
+        {
+          "id": "C1_04.continuation.001",
+          "speaker": "Mother",
+          "text": "How do you get back?",
+          "source_line": 497
+        },
+        {
+          "id": "C1_04.continuation.002",
+          "speaker": "Protagonist",
+          "text": "I've set a return signal at the gate. It keeps running while I'm away.",
+          "source_line": 499
+        },
+        {
+          "id": "C1_04.continuation.003",
+          "speaker": "Mother",
+          "text": "And if the watch breaks?",
+          "source_line": 501
+        },
+        {
+          "id": "C1_04.continuation.004",
+          "speaker": "Protagonist",
+          "text": "I don't have an answer for that yet.",
+          "source_line": 503
+        },
+        {
+          "id": "C1_04.continuation.005",
+          "speaker": "Mother",
+          "text": "Then be careful with it. And with yourself.",
+          "source_line": 505
+        },
+        {
+          "id": "C1_04.continuation.006",
+          "speaker": "Protagonist",
+          "text": "I'll come back as soon as I've checked the other side.",
+          "source_line": 507
+        },
+        {
+          "id": "C1_04.continuation.007",
+          "speaker": "Mother",
+          "text": "Good. Start with that.",
+          "source_line": 509
+        }
+      ],
+      "choices": {
+        "A": {
+          "id": "C1_04.choice_A",
+          "label": "I think I can stop what happened.",
+          "lines": [
+            {
+              "id": "C1_04.choice_A.001",
+              "speaker": "Protagonist",
+              "text": "I think I can stop what happened.",
+              "source_line": 467
+            },
+            {
+              "id": "C1_04.choice_A.002",
+              "speaker": "Mother",
+              "text": "You know what the war left behind. You don't yet know what started it.",
+              "source_line": 469
+            },
+            {
+              "id": "C1_04.choice_A.003",
+              "speaker": "Protagonist",
+              "text": "That's why I have to go.",
+              "source_line": 471
+            },
+            {
+              "id": "C1_04.choice_A.004",
+              "speaker": "Mother",
+              "text": "Then listen when you get there. Don't go looking only for what you expect.",
+              "source_line": 473
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "continuation",
+          "choice_effects": {
+            "MOTHER_OPENING_RESPONSE": "STOP_WAR"
+          },
+          "relationship_delta": 0
+        },
+        "B": {
+          "id": "C1_04.choice_B",
+          "label": "I need to know what happened to him.",
+          "lines": [
+            {
+              "id": "C1_04.choice_B.001",
+              "speaker": "Protagonist",
+              "text": "I need to know what happened to him.",
+              "source_line": 477
+            },
+            {
+              "id": "C1_04.choice_B.002",
+              "speaker": "Mother",
+              "text": "So do I.",
+              "source_line": 479
+            },
+            {
+              "id": "C1_04.choice_B.003",
+              "speaker": "Mother",
+              "text": "But don't promise to bring him home. Not before you know what you're promising.",
+              "source_line": 483
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "continuation",
+          "choice_effects": {
+            "MOTHER_OPENING_RESPONSE": "FIND_FATHER"
+          },
+          "relationship_delta": 0
+        },
+        "C": {
+          "id": "C1_04.choice_C",
+          "label": "I'm scared it won't work.",
+          "lines": [
+            {
+              "id": "C1_04.choice_C.001",
+              "speaker": "Protagonist",
+              "text": "I'm scared it won't work.",
+              "source_line": 487
+            },
+            {
+              "id": "C1_04.choice_C.002",
+              "speaker": "Mother",
+              "text": "I'm scared it will.",
+              "source_line": 489
+            },
+            {
+              "id": "C1_04.choice_C.003",
+              "speaker": "Protagonist",
+              "text": "That doesn't help.",
+              "source_line": 491
+            },
+            {
+              "id": "C1_04.choice_C.004",
+              "speaker": "Mother",
+              "text": "No. But I didn't want you to think you were the only one.",
+              "source_line": 493
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "continuation",
+          "choice_effects": {
+            "MOTHER_OPENING_RESPONSE": "AFRAID"
+          },
+          "relationship_delta": 0
+        }
+      },
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "final_manual_advance",
+      "requires": "PHOTO_READ AND LETTER_READ AND NOT MOTHER_DEPARTURE_TALK_DONE",
+      "completion_effects": {
+        "MOTHER_DEPARTURE_TALK_DONE": true
+      },
+      "graph_entry": "C1_04.start"
+    },
+    "C1_05": {
+      "id": "C1_05",
+      "title": "Workbench calibration",
+      "source_heading_line": 513,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C1_05.opening.001",
+            "speaker": "Protagonist",
+            "text": "The contact slipped again.",
+            "source_line": 518
+          },
+          {
+            "id": "C1_05.opening.002",
+            "speaker": "Mother",
+            "text": "The small piece is in the dish. I moved it before it rolled onto the floor.",
+            "source_line": 520
+          },
+          {
+            "id": "C1_05.opening.003",
+            "speaker": "Protagonist",
+            "text": "There. Stay this time.",
+            "source_line": 524
+          },
+          {
+            "id": "C1_05.opening.004",
+            "speaker": "Protagonist",
+            "text": "It's holding.",
+            "source_line": 528
+          },
+          {
+            "id": "C1_05.opening.005",
+            "speaker": "Mother",
+            "text": "For how long?",
+            "source_line": 530
+          },
+          {
+            "id": "C1_05.opening.006",
+            "speaker": "Protagonist",
+            "text": "Longer than yesterday.",
+            "source_line": 532
+          },
+          {
+            "id": "C1_05.opening.007",
+            "speaker": "Mother",
+            "text": "Test it again.",
+            "source_line": 534
+          },
+          {
+            "id": "C1_05.opening.008",
+            "speaker": "Protagonist",
+            "text": "Still holding.",
+            "source_line": 538
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {},
+      "document_source_lines": {},
+      "statuses": [
+        "RETURN SIGNAL — STABLE"
+      ],
+      "status_source_lines": [
+        526
+      ],
+      "opening": [
+        {
+          "id": "C1_05.opening.001",
+          "speaker": "Protagonist",
+          "text": "The contact slipped again.",
+          "source_line": 518
+        },
+        {
+          "id": "C1_05.opening.002",
+          "speaker": "Mother",
+          "text": "The small piece is in the dish. I moved it before it rolled onto the floor.",
+          "source_line": 520
+        }
+      ],
+      "continuation": [],
+      "choices": {},
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "second_stable_test_and_final_manual_advance",
+      "stages": {
+        "identify": [
+          {
+            "id": "C1_05.opening.001",
+            "speaker": "Protagonist",
+            "text": "The contact slipped again.",
+            "source_line": 518
+          },
+          {
+            "id": "C1_05.opening.002",
+            "speaker": "Mother",
+            "text": "The small piece is in the dish. I moved it before it rolled onto the floor.",
+            "source_line": 520
+          }
+        ],
+        "placed": [
+          {
+            "id": "C1_05.opening.003",
+            "speaker": "Protagonist",
+            "text": "There. Stay this time.",
+            "source_line": 524
+          }
+        ],
+        "first_test": [
+          {
+            "id": "C1_05.opening.004",
+            "speaker": "Protagonist",
+            "text": "It's holding.",
+            "source_line": 528
+          },
+          {
+            "id": "C1_05.opening.005",
+            "speaker": "Mother",
+            "text": "For how long?",
+            "source_line": 530
+          },
+          {
+            "id": "C1_05.opening.006",
+            "speaker": "Protagonist",
+            "text": "Longer than yesterday.",
+            "source_line": 532
+          },
+          {
+            "id": "C1_05.opening.007",
+            "speaker": "Mother",
+            "text": "Test it again.",
+            "source_line": 534
+          }
+        ],
+        "second_test": [
+          {
+            "id": "C1_05.opening.008",
+            "speaker": "Protagonist",
+            "text": "Still holding.",
+            "source_line": 538
+          }
+        ]
+      },
+      "requires": "MOTHER_DEPARTURE_TALK_DONE",
+      "completion_effects": {
+        "WATCH_CALIBRATED": true
+      },
+      "required_successful_tests": 2,
+      "item_id": "WATCH_CONTACT",
+      "item_consumed_once_at": "physical_contact_placement",
+      "graph_entry": "C1_05.identify"
+    },
+    "C1_06": {
+      "id": "C1_06",
+      "title": "Optional time-pause test",
+      "source_heading_line": 542,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C1_06.opening.001",
+            "speaker": "Protagonist",
+            "text": "One more thing.",
+            "source_line": 547
+          },
+          {
+            "id": "C1_06.opening.002",
+            "speaker": "Mother",
+            "text": "It stopped.",
+            "source_line": 551
+          },
+          {
+            "id": "C1_06.opening.003",
+            "speaker": "Protagonist",
+            "text": "Only that part. Only for a few seconds.",
+            "source_line": 553
+          },
+          {
+            "id": "C1_06.opening.004",
+            "speaker": "Mother",
+            "text": "I preferred it when you repaired clocks.",
+            "source_line": 557
+          },
+          {
+            "id": "C1_06.opening.005",
+            "speaker": "Protagonist",
+            "text": "Technically—",
+            "source_line": 559
+          },
+          {
+            "id": "C1_06.opening.006",
+            "speaker": "Mother",
+            "text": "Don't.",
+            "source_line": 561
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {},
+      "document_source_lines": {},
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [
+        {
+          "id": "C1_06.opening.001",
+          "speaker": "Protagonist",
+          "text": "One more thing.",
+          "source_line": 547
+        },
+        {
+          "id": "C1_06.opening.002",
+          "speaker": "Mother",
+          "text": "It stopped.",
+          "source_line": 551
+        },
+        {
+          "id": "C1_06.opening.003",
+          "speaker": "Protagonist",
+          "text": "Only that part. Only for a few seconds.",
+          "source_line": 553
+        },
+        {
+          "id": "C1_06.opening.004",
+          "speaker": "Mother",
+          "text": "I preferred it when you repaired clocks.",
+          "source_line": 557
+        },
+        {
+          "id": "C1_06.opening.005",
+          "speaker": "Protagonist",
+          "text": "Technically—",
+          "source_line": 559
+        },
+        {
+          "id": "C1_06.opening.006",
+          "speaker": "Mother",
+          "text": "Don't.",
+          "source_line": 561
+        }
+      ],
+      "continuation": [],
+      "choices": {},
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "final_manual_advance",
+      "optional": true,
+      "enabled": false,
+      "requires": "WATCH_CALIBRATED AND WORKING_AUTHORED_TIME_REACTIVE_SYSTEM",
+      "omission_blocks_departure": false,
+      "graph_entry": "C1_06.start"
+    },
+    "C1_07": {
+      "id": "C1_07",
+      "title": "The memorial beside the gate",
+      "source_heading_line": 565,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C1_07.opening.001",
+            "speaker": "Protagonist",
+            "text": "Not even their names.",
+            "source_line": 572
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {
+        "plaque": "The storm before the war. The clinic courtyard and harbor waiting shelter were unusable that night. Families scattered through the town. No complete list was made."
+      },
+      "document_source_lines": {
+        "plaque": [
+          570
+        ]
+      },
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [
+        {
+          "id": "C1_07.opening.001",
+          "speaker": "Protagonist",
+          "text": "Not even their names.",
+          "source_line": 572
+        }
+      ],
+      "continuation": [],
+      "choices": {},
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "final_manual_advance",
+      "optional": true,
+      "completion_effects": {
+        "ORIGINAL_MEMORIAL_READ": true
+      },
+      "preserve_original_observation": true,
+      "graph_entry": "C1_07.start"
+    },
+    "C1_08": {
+      "id": "C1_08",
+      "title": "Departure",
+      "source_heading_line": 576,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C1_08.opening.001",
+            "speaker": "Mother",
+            "text": "Wait.",
+            "source_line": 580
+          },
+          {
+            "id": "C1_08.opening.002",
+            "speaker": "Mother",
+            "text": "That strap was coming loose.",
+            "source_line": 584
+          },
+          {
+            "id": "C1_08.opening.003",
+            "speaker": "Protagonist",
+            "text": "I was going to fix it.",
+            "source_line": 586
+          },
+          {
+            "id": "C1_08.opening.004",
+            "speaker": "Mother",
+            "text": "I know.",
+            "source_line": 588
+          }
+        ],
+        "choice_A": [
+          {
+            "id": "C1_08.choice_A.001",
+            "speaker": "Mother",
+            "text": "Then I'll leave the lamp on.",
+            "source_line": 598
+          }
+        ],
+        "choice_B": [
+          {
+            "id": "C1_08.choice_B.001",
+            "speaker": "Mother",
+            "text": "Come back and tell me properly.",
+            "source_line": 602
+          }
+        ]
+      },
+      "choice_definitions": {
+        "A": {
+          "label": "I'll come back.",
+          "source_line": 596
+        },
+        "B": {
+          "label": "Thank you. For staying with me.",
+          "source_line": 600
+        }
+      },
+      "documents": {},
+      "document_source_lines": {},
+      "statuses": [
+        "VERDANT — BEFORE THE WAR",
+        "RETURN SIGNAL — CONNECTED",
+        "CONFIRM TRANSITION"
+      ],
+      "status_source_lines": [
+        592,
+        593,
+        594
+      ],
+      "opening": [
+        {
+          "id": "C1_08.opening.001",
+          "speaker": "Mother",
+          "text": "Wait.",
+          "source_line": 580
+        },
+        {
+          "id": "C1_08.opening.002",
+          "speaker": "Mother",
+          "text": "That strap was coming loose.",
+          "source_line": 584
+        },
+        {
+          "id": "C1_08.opening.003",
+          "speaker": "Protagonist",
+          "text": "I was going to fix it.",
+          "source_line": 586
+        },
+        {
+          "id": "C1_08.opening.004",
+          "speaker": "Mother",
+          "text": "I know.",
+          "source_line": 588
+        }
+      ],
+      "continuation": [],
+      "choices": {
+        "A": {
+          "id": "C1_08.choice_A",
+          "label": "I'll come back.",
+          "lines": [
+            {
+              "id": "C1_08.choice_A.selected",
+              "speaker": "Protagonist",
+              "text": "I'll come back.",
+              "source_line": 596,
+              "source_origin": "selected_choice_heading"
+            },
+            {
+              "id": "C1_08.choice_A.001",
+              "speaker": "Mother",
+              "text": "Then I'll leave the lamp on.",
+              "source_line": 598
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "complete"
+        },
+        "B": {
+          "id": "C1_08.choice_B",
+          "label": "Thank you. For staying with me.",
+          "lines": [
+            {
+              "id": "C1_08.choice_B.selected",
+              "speaker": "Protagonist",
+              "text": "Thank you. For staying with me.",
+              "source_line": 600,
+              "source_origin": "selected_choice_heading"
+            },
+            {
+              "id": "C1_08.choice_B.001",
+              "speaker": "Mother",
+              "text": "Come back and tell me properly.",
+              "source_line": 602
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "complete"
+        }
+      },
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "explicit_transition_confirmation_and_safe_destination_restored",
+      "requires": "WATCH_CALIBRATED AND VALID_GATE_ANCHOR",
+      "confirmation_required": true,
+      "graph_entry": "C1_08.start"
+    },
+    "C2_00": {
+      "id": "C2_00",
+      "title": "Verdant before the war",
+      "source_heading_line": 610,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C2_00.opening.001",
+            "speaker": "Protagonist",
+            "text": "The roofs…",
+            "source_line": 615
+          },
+          {
+            "id": "C2_00.opening.002",
+            "speaker": "Neri",
+            "text": "Are you lost?",
+            "source_line": 619
+          }
+        ],
+        "choice_A": [
+          {
+            "id": "C2_00.choice_A.001",
+            "speaker": "Neri",
+            "text": "Harbor's down there. Market's behind you. Try not to fall off either.",
+            "source_line": 623
+          }
+        ],
+        "choice_B": [
+          {
+            "id": "C2_00.choice_B.001",
+            "speaker": "Neri",
+            "text": "Gone where?",
+            "source_line": 627
+          },
+          {
+            "id": "C2_00.choice_B.002",
+            "speaker": "Protagonist",
+            "text": "Never mind.",
+            "source_line": 629
+          },
+          {
+            "id": "C2_00.choice_B.003",
+            "speaker": "Neri",
+            "text": "You should sit down.",
+            "source_line": 631
+          }
+        ],
+        "continuation": [
+          {
+            "id": "C2_00.continuation.001",
+            "speaker": "Protagonist",
+            "text": "Is there somewhere I can get some water?",
+            "source_line": 635
+          },
+          {
+            "id": "C2_00.continuation.002",
+            "speaker": "Neri",
+            "text": "The clinic. Blue shutters. Door's already open.",
+            "source_line": 637
+          },
+          {
+            "id": "C2_00.continuation.003",
+            "speaker": "Protagonist",
+            "text": "Thank you.",
+            "source_line": 639
+          },
+          {
+            "id": "C2_00.continuation.004",
+            "speaker": "Neri",
+            "text": "Tell him I'm not running on it.",
+            "source_line": 641
+          },
+          {
+            "id": "C2_00.continuation.005",
+            "speaker": "Protagonist",
+            "text": "Running on what?",
+            "source_line": 643
+          }
+        ]
+      },
+      "choice_definitions": {
+        "A": {
+          "label": "I think so.",
+          "source_line": 621
+        },
+        "B": {
+          "label": "I thought this street was gone.",
+          "source_line": 625
+        }
+      },
+      "documents": {},
+      "document_source_lines": {},
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [
+        {
+          "id": "C2_00.opening.001",
+          "speaker": "Protagonist",
+          "text": "The roofs…",
+          "source_line": 615
+        },
+        {
+          "id": "C2_00.opening.002",
+          "speaker": "Neri",
+          "text": "Are you lost?",
+          "source_line": 619
+        }
+      ],
+      "continuation": [
+        {
+          "id": "C2_00.continuation.001",
+          "speaker": "Protagonist",
+          "text": "Is there somewhere I can get some water?",
+          "source_line": 635
+        },
+        {
+          "id": "C2_00.continuation.002",
+          "speaker": "Neri",
+          "text": "The clinic. Blue shutters. Door's already open.",
+          "source_line": 637
+        },
+        {
+          "id": "C2_00.continuation.003",
+          "speaker": "Protagonist",
+          "text": "Thank you.",
+          "source_line": 639
+        },
+        {
+          "id": "C2_00.continuation.004",
+          "speaker": "Neri",
+          "text": "Tell him I'm not running on it.",
+          "source_line": 641
+        },
+        {
+          "id": "C2_00.continuation.005",
+          "speaker": "Protagonist",
+          "text": "Running on what?",
+          "source_line": 643
+        }
+      ],
+      "choices": {
+        "A": {
+          "id": "C2_00.choice_A",
+          "label": "I think so.",
+          "lines": [
+            {
+              "id": "C2_00.choice_A.selected",
+              "speaker": "Protagonist",
+              "text": "I think so.",
+              "source_line": 621,
+              "source_origin": "selected_choice_heading"
+            },
+            {
+              "id": "C2_00.choice_A.001",
+              "speaker": "Neri",
+              "text": "Harbor's down there. Market's behind you. Try not to fall off either.",
+              "source_line": 623
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "continuation"
+        },
+        "B": {
+          "id": "C2_00.choice_B",
+          "label": "I thought this street was gone.",
+          "lines": [
+            {
+              "id": "C2_00.choice_B.selected",
+              "speaker": "Protagonist",
+              "text": "I thought this street was gone.",
+              "source_line": 625,
+              "source_origin": "selected_choice_heading"
+            },
+            {
+              "id": "C2_00.choice_B.001",
+              "speaker": "Neri",
+              "text": "Gone where?",
+              "source_line": 627
+            },
+            {
+              "id": "C2_00.choice_B.002",
+              "speaker": "Protagonist",
+              "text": "Never mind.",
+              "source_line": 629
+            },
+            {
+              "id": "C2_00.choice_B.003",
+              "speaker": "Neri",
+              "text": "You should sit down.",
+              "source_line": 631
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "continuation"
+        }
+      },
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "final_manual_advance",
+      "requires": "FIRST_PAST_ARRIVAL",
+      "completion_effects": {
+        "PAST_ARRIVAL_MET_NERI": true
+      },
+      "graph_entry": "C2_00.start"
+    },
+    "C2_01": {
+      "id": "C2_01",
+      "title": "First meeting with the healer",
+      "source_heading_line": 649,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C2_01.opening.001",
+            "speaker": "Healer",
+            "text": "Sit down before you fall down.",
+            "source_line": 654
+          },
+          {
+            "id": "C2_01.opening.002",
+            "speaker": "Protagonist",
+            "text": "I'm not hurt.",
+            "source_line": 656
+          },
+          {
+            "id": "C2_01.opening.003",
+            "speaker": "Healer",
+            "text": "Then it's only a chair. You can still use it.",
+            "source_line": 658
+          },
+          {
+            "id": "C2_01.opening.004",
+            "speaker": "Healer",
+            "text": "Cups are beside the jug.",
+            "source_line": 662
+          },
+          {
+            "id": "C2_01.opening.005",
+            "speaker": "Protagonist",
+            "text": "You let anyone walk in?",
+            "source_line": 664
+          },
+          {
+            "id": "C2_01.opening.006",
+            "speaker": "Healer",
+            "text": "That's why the door's open.",
+            "source_line": 666
+          },
+          {
+            "id": "C2_01.opening.007",
+            "speaker": "Healer",
+            "text": "Feeling better?",
+            "source_line": 670
+          },
+          {
+            "id": "C2_01.opening.008",
+            "speaker": "Protagonist",
+            "text": "I think so.",
+            "source_line": 672
+          },
+          {
+            "id": "C2_01.opening.009",
+            "speaker": "Healer",
+            "text": "Good. Could you spare me a few minutes?",
+            "source_line": 674
+          },
+          {
+            "id": "C2_01.opening.010",
+            "speaker": "Protagonist",
+            "text": "What do you need?",
+            "source_line": 676
+          },
+          {
+            "id": "C2_01.opening.011",
+            "speaker": "Healer",
+            "text": "Sela has a parcel of clean linen for us. Her shop is just across the square.",
+            "source_line": 678
+          }
+        ],
+        "choice_A": [
+          {
+            "id": "C2_01.choice_A.001",
+            "speaker": "Healer",
+            "text": "Thank you. Tell her it's for the clinic.",
+            "source_line": 682
+          }
+        ],
+        "choice_B": [
+          {
+            "id": "C2_01.choice_B.001",
+            "speaker": "Healer",
+            "text": "Take one. The water isn't going anywhere.",
+            "source_line": 686
+          }
+        ]
+      },
+      "choice_definitions": {
+        "A": {
+          "label": "I'll bring it.",
+          "source_line": 680
+        },
+        "B": {
+          "label": "I need a moment first.",
+          "source_line": 684
+        }
+      },
+      "documents": {},
+      "document_source_lines": {},
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [
+        {
+          "id": "C2_01.opening.001",
+          "speaker": "Healer",
+          "text": "Sit down before you fall down.",
+          "source_line": 654
+        },
+        {
+          "id": "C2_01.opening.002",
+          "speaker": "Protagonist",
+          "text": "I'm not hurt.",
+          "source_line": 656
+        },
+        {
+          "id": "C2_01.opening.003",
+          "speaker": "Healer",
+          "text": "Then it's only a chair. You can still use it.",
+          "source_line": 658
+        },
+        {
+          "id": "C2_01.opening.004",
+          "speaker": "Healer",
+          "text": "Cups are beside the jug.",
+          "source_line": 662
+        },
+        {
+          "id": "C2_01.opening.005",
+          "speaker": "Protagonist",
+          "text": "You let anyone walk in?",
+          "source_line": 664
+        },
+        {
+          "id": "C2_01.opening.006",
+          "speaker": "Healer",
+          "text": "That's why the door's open.",
+          "source_line": 666
+        },
+        {
+          "id": "C2_01.opening.007",
+          "speaker": "Healer",
+          "text": "Feeling better?",
+          "source_line": 670
+        },
+        {
+          "id": "C2_01.opening.008",
+          "speaker": "Protagonist",
+          "text": "I think so.",
+          "source_line": 672
+        },
+        {
+          "id": "C2_01.opening.009",
+          "speaker": "Healer",
+          "text": "Good. Could you spare me a few minutes?",
+          "source_line": 674
+        },
+        {
+          "id": "C2_01.opening.010",
+          "speaker": "Protagonist",
+          "text": "What do you need?",
+          "source_line": 676
+        },
+        {
+          "id": "C2_01.opening.011",
+          "speaker": "Healer",
+          "text": "Sela has a parcel of clean linen for us. Her shop is just across the square.",
+          "source_line": 678
+        }
+      ],
+      "continuation": [],
+      "choices": {
+        "A": {
+          "id": "C2_01.choice_A",
+          "label": "I'll bring it.",
+          "lines": [
+            {
+              "id": "C2_01.choice_A.selected",
+              "speaker": "Protagonist",
+              "text": "I'll bring it.",
+              "source_line": 680,
+              "source_origin": "selected_choice_heading"
+            },
+            {
+              "id": "C2_01.choice_A.001",
+              "speaker": "Healer",
+              "text": "Thank you. Tell her it's for the clinic.",
+              "source_line": 682
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "complete",
+          "choice_effects": {
+            "LINEN_DELIVERY": "ACCEPTED"
+          }
+        },
+        "B": {
+          "id": "C2_01.choice_B",
+          "label": "I need a moment first.",
+          "lines": [
+            {
+              "id": "C2_01.choice_B.selected",
+              "speaker": "Protagonist",
+              "text": "I need a moment first.",
+              "source_line": 684,
+              "source_origin": "selected_choice_heading"
+            },
+            {
+              "id": "C2_01.choice_B.001",
+              "speaker": "Healer",
+              "text": "Take one. The water isn't going anywhere.",
+              "source_line": 686
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "complete",
+          "choice_effects": {},
+          "temporary_refusal": true,
+          "relationship_delta": 0
+        }
+      },
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "final_manual_advance",
+      "display_name": "Healer",
+      "completion_effects": {},
+      "reoffer": [
+        {
+          "id": "C2_01.opening.011",
+          "speaker": "Healer",
+          "text": "Sela has a parcel of clean linen for us. Her shop is just across the square.",
+          "source_line": 678
+        }
+      ],
+      "graph_entry": "C2_01.start"
+    },
+    "C2_02": {
+      "id": "C2_02",
+      "title": "Sela's shop",
+      "source_heading_line": 691,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C2_02.opening.001",
+            "speaker": "Sela",
+            "text": "Looking, buying, or bringing bad news?",
+            "source_line": 695
+          },
+          {
+            "id": "C2_02.opening.002",
+            "speaker": "Protagonist",
+            "text": "Collecting linen for the clinic.",
+            "source_line": 697
+          },
+          {
+            "id": "C2_02.opening.003",
+            "speaker": "Sela",
+            "text": "That's almost a purchase.",
+            "source_line": 699
+          },
+          {
+            "id": "C2_02.opening.004",
+            "speaker": "Sela",
+            "text": "Take the wrapped one. The loose cloth is for the boats.",
+            "source_line": 703
+          },
+          {
+            "id": "C2_02.opening.005",
+            "speaker": "Protagonist",
+            "text": "Do I owe you anything?",
+            "source_line": 705
+          },
+          {
+            "id": "C2_02.opening.006",
+            "speaker": "Sela",
+            "text": "He'll settle it. He always does, eventually.",
+            "source_line": 707
+          },
+          {
+            "id": "C2_02.opening.007",
+            "speaker": "Protagonist",
+            "text": "You expecting a storm?",
+            "source_line": 711
+          },
+          {
+            "id": "C2_02.opening.008",
+            "speaker": "Sela",
+            "text": "Tonight. Bad enough that everyone suddenly remembers their roof leaks.",
+            "source_line": 713
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {},
+      "document_source_lines": {},
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [
+        {
+          "id": "C2_02.opening.001",
+          "speaker": "Sela",
+          "text": "Looking, buying, or bringing bad news?",
+          "source_line": 695
+        },
+        {
+          "id": "C2_02.opening.002",
+          "speaker": "Protagonist",
+          "text": "Collecting linen for the clinic.",
+          "source_line": 697
+        },
+        {
+          "id": "C2_02.opening.003",
+          "speaker": "Sela",
+          "text": "That's almost a purchase.",
+          "source_line": 699
+        },
+        {
+          "id": "C2_02.opening.004",
+          "speaker": "Sela",
+          "text": "Take the wrapped one. The loose cloth is for the boats.",
+          "source_line": 703
+        },
+        {
+          "id": "C2_02.opening.005",
+          "speaker": "Protagonist",
+          "text": "Do I owe you anything?",
+          "source_line": 705
+        },
+        {
+          "id": "C2_02.opening.006",
+          "speaker": "Sela",
+          "text": "He'll settle it. He always does, eventually.",
+          "source_line": 707
+        },
+        {
+          "id": "C2_02.opening.007",
+          "speaker": "Protagonist",
+          "text": "You expecting a storm?",
+          "source_line": 711
+        },
+        {
+          "id": "C2_02.opening.008",
+          "speaker": "Sela",
+          "text": "Tonight. Bad enough that everyone suddenly remembers their roof leaks.",
+          "source_line": 713
+        }
+      ],
+      "continuation": [],
+      "choices": {},
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "final_manual_advance",
+      "requires": "LINEN_DELIVERY == ACCEPTED",
+      "gives_item_once": "CLINIC_LINEN",
+      "completion_effects": {
+        "LINEN_DELIVERY": "COLLECTED"
+      },
+      "graph_entry": "C2_02.start"
+    },
+    "C2_03": {
+      "id": "C2_03",
+      "title": "A small promise kept",
+      "source_heading_line": 717,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C2_03.opening.001",
+            "speaker": "Healer",
+            "text": "You came back.",
+            "source_line": 721
+          },
+          {
+            "id": "C2_03.opening.002",
+            "speaker": "Protagonist",
+            "text": "I said I would.",
+            "source_line": 723
+          },
+          {
+            "id": "C2_03.opening.003",
+            "speaker": "Healer",
+            "text": "You'd be surprised how often that isn't enough. Thank you.",
+            "source_line": 725
+          },
+          {
+            "id": "C2_03.opening.004",
+            "speaker": "Protagonist",
+            "text": "Does Neri come here often?",
+            "source_line": 729
+          },
+          {
+            "id": "C2_03.opening.005",
+            "speaker": "Healer",
+            "text": "Only when the ground wins an argument.",
+            "source_line": 731
+          },
+          {
+            "id": "C2_03.opening.006",
+            "speaker": "Protagonist",
+            "text": "He says he's not running.",
+            "source_line": 733
+          },
+          {
+            "id": "C2_03.opening.007",
+            "speaker": "Healer",
+            "text": "Then I admire his restraint.",
+            "source_line": 735
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {},
+      "document_source_lines": {},
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [
+        {
+          "id": "C2_03.opening.001",
+          "speaker": "Healer",
+          "text": "You came back.",
+          "source_line": 721
+        },
+        {
+          "id": "C2_03.opening.002",
+          "speaker": "Protagonist",
+          "text": "I said I would.",
+          "source_line": 723
+        },
+        {
+          "id": "C2_03.opening.003",
+          "speaker": "Healer",
+          "text": "You'd be surprised how often that isn't enough. Thank you.",
+          "source_line": 725
+        },
+        {
+          "id": "C2_03.opening.004",
+          "speaker": "Protagonist",
+          "text": "Does Neri come here often?",
+          "source_line": 729
+        },
+        {
+          "id": "C2_03.opening.005",
+          "speaker": "Healer",
+          "text": "Only when the ground wins an argument.",
+          "source_line": 731
+        },
+        {
+          "id": "C2_03.opening.006",
+          "speaker": "Protagonist",
+          "text": "He says he's not running.",
+          "source_line": 733
+        },
+        {
+          "id": "C2_03.opening.007",
+          "speaker": "Healer",
+          "text": "Then I admire his restraint.",
+          "source_line": 735
+        }
+      ],
+      "continuation": [],
+      "choices": {},
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "physical_delivery_transaction",
+      "requires": "PHYSICAL_LINEN_DELIVERY",
+      "completion_effects": {
+        "LINEN_DELIVERY": "DELIVERED"
+      },
+      "consumes_item_once": "CLINIC_LINEN",
+      "relationship_event": {
+        "id": "HEALER_LINEN_DELIVERED",
+        "character": "Healer",
+        "delta": 10,
+        "apply_once": true
+      },
+      "graph_entry": "C2_03.start"
+    },
+    "C2_04": {
+      "id": "C2_04",
+      "title": "One usable sheet of canvas",
+      "source_heading_line": 739,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C2_04.opening.001",
+            "speaker": "Healer",
+            "text": "There's one more thing. The courtyard awning came down. I need somewhere for people to wait when the rain starts. Sela was looking for a cover.",
+            "source_line": 743
+          },
+          {
+            "id": "C2_04.opening.002",
+            "speaker": "Protagonist",
+            "text": "I'll ask her.",
+            "source_line": 745
+          },
+          {
+            "id": "C2_04.opening.003",
+            "speaker": "Sela",
+            "text": "One good sheet. The others are split.",
+            "source_line": 749
+          },
+          {
+            "id": "C2_04.opening.004",
+            "speaker": "Protagonist",
+            "text": "The clinic needs it.",
+            "source_line": 751
+          },
+          {
+            "id": "C2_04.opening.005",
+            "speaker": "Sela",
+            "text": "So does the harbor waiting shelter. Its cover tore this morning.",
+            "source_line": 753
+          },
+          {
+            "id": "C2_04.opening.006",
+            "speaker": "Protagonist",
+            "text": "Who's waiting there?",
+            "source_line": 755
+          },
+          {
+            "id": "C2_04.opening.007",
+            "speaker": "Sela",
+            "text": "Families leaving on the morning boat. Without a shelter they'll have to find rooms all over town. The clerk was hoping to register them together before they left.",
+            "source_line": 757
+          },
+          {
+            "id": "C2_04.opening.008",
+            "speaker": "Protagonist",
+            "text": "Can we cover both?",
+            "source_line": 759
+          },
+          {
+            "id": "C2_04.opening.009",
+            "speaker": "Sela",
+            "text": "Not with this. Cut it in half and it won't reach either set of fixings. The next supply boat is tomorrow.",
+            "source_line": 761
+          },
+          {
+            "id": "C2_04.opening.010",
+            "speaker": "Protagonist",
+            "text": "What about the clinic?",
+            "source_line": 763
+          },
+          {
+            "id": "C2_04.opening.011",
+            "speaker": "Sela",
+            "text": "He can keep his patients inside. There isn't room for all the people coming to ask after relatives. A covered courtyard would give him somewhere to speak with them and take their names.",
+            "source_line": 765
+          },
+          {
+            "id": "C2_04.opening.012",
+            "speaker": "Protagonist",
+            "text": "I'll tell him which place I take it to.",
+            "source_line": 767
+          },
+          {
+            "id": "C2_04.opening.013",
+            "speaker": "Sela",
+            "text": "Good. Don't leave anyone waiting for help that isn't coming.",
+            "source_line": 769
+          },
+          {
+            "id": "C2_04.opening.014",
+            "speaker": "Protagonist",
+            "text": "The courtyard. The waiting shelter.",
+            "source_line": 773
+          }
+        ],
+        "destination_choice": [],
+        "choice_response": [
+          {
+            "id": "C2_04.choice_response.001",
+            "speaker": "Sela",
+            "text": "All right. Take the repair straps too. Bring back whatever you don't use.",
+            "source_line": 781
+          }
+        ]
+      },
+      "choice_definitions": {
+        "A": {
+          "label": "The clinic courtyard. I'll get the awning back up.",
+          "source_line": 777
+        },
+        "B": {
+          "label": "The waiting shelter. They need somewhere dry tonight.",
+          "source_line": 778
+        },
+        "C": {
+          "label": "Let me look at both places first.",
+          "source_line": 779
+        }
+      },
+      "documents": {},
+      "document_source_lines": {},
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [
+        {
+          "id": "C2_04.opening.001",
+          "speaker": "Healer",
+          "text": "There's one more thing. The courtyard awning came down. I need somewhere for people to wait when the rain starts. Sela was looking for a cover.",
+          "source_line": 743
+        },
+        {
+          "id": "C2_04.opening.002",
+          "speaker": "Protagonist",
+          "text": "I'll ask her.",
+          "source_line": 745
+        }
+      ],
+      "continuation": [],
+      "choices": {
+        "A": {
+          "id": "C2_04.choice_A",
+          "label": "The clinic courtyard. I'll get the awning back up.",
+          "lines": [
+            {
+              "id": "C2_04.choice_A.selected",
+              "speaker": "Protagonist",
+              "text": "The clinic courtyard. I'll get the awning back up.",
+              "source_line": 777,
+              "source_origin": "selected_choice_heading"
+            },
+            {
+              "id": "C2_04.choice_response.001",
+              "speaker": "Sela",
+              "text": "All right. Take the repair straps too. Bring back whatever you don't use.",
+              "source_line": 781
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "complete",
+          "choice_effects": {
+            "CANVAS_PLAN": "CLINIC"
+          },
+          "commits_history": false,
+          "grants_item": false
+        },
+        "B": {
+          "id": "C2_04.choice_B",
+          "label": "The waiting shelter. They need somewhere dry tonight.",
+          "lines": [
+            {
+              "id": "C2_04.choice_B.selected",
+              "speaker": "Protagonist",
+              "text": "The waiting shelter. They need somewhere dry tonight.",
+              "source_line": 778,
+              "source_origin": "selected_choice_heading"
+            },
+            {
+              "id": "C2_04.choice_response.001",
+              "speaker": "Sela",
+              "text": "All right. Take the repair straps too. Bring back whatever you don't use.",
+              "source_line": 781
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "complete",
+          "choice_effects": {
+            "CANVAS_PLAN": "HARBOR"
+          },
+          "commits_history": false,
+          "grants_item": false
+        },
+        "C": {
+          "id": "C2_04.choice_C",
+          "label": "Let me look at both places first.",
+          "lines": [
+            {
+              "id": "C2_04.choice_C.selected",
+              "speaker": "Protagonist",
+              "text": "Let me look at both places first.",
+              "source_line": 779,
+              "source_origin": "selected_choice_heading"
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "complete",
+          "choice_effects": {
+            "CANVAS_PLAN": "NONE"
+          },
+          "commits_history": false,
+          "grants_item": false
+        }
+      },
+      "variants": {
+        "original_memorial_read": [
+          {
+            "id": "C2_04.opening.014",
+            "speaker": "Protagonist",
+            "text": "The courtyard. The waiting shelter.",
+            "source_line": 773
+          }
+        ]
+      },
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "final_manual_advance",
+      "stages": {
+        "healer_request": [
+          {
+            "id": "C2_04.opening.001",
+            "speaker": "Healer",
+            "text": "There's one more thing. The courtyard awning came down. I need somewhere for people to wait when the rain starts. Sela was looking for a cover.",
+            "source_line": 743
+          },
+          {
+            "id": "C2_04.opening.002",
+            "speaker": "Protagonist",
+            "text": "I'll ask her.",
+            "source_line": 745
+          }
+        ],
+        "shop": [
+          {
+            "id": "C2_04.opening.003",
+            "speaker": "Sela",
+            "text": "One good sheet. The others are split.",
+            "source_line": 749
+          },
+          {
+            "id": "C2_04.opening.004",
+            "speaker": "Protagonist",
+            "text": "The clinic needs it.",
+            "source_line": 751
+          },
+          {
+            "id": "C2_04.opening.005",
+            "speaker": "Sela",
+            "text": "So does the harbor waiting shelter. Its cover tore this morning.",
+            "source_line": 753
+          },
+          {
+            "id": "C2_04.opening.006",
+            "speaker": "Protagonist",
+            "text": "Who's waiting there?",
+            "source_line": 755
+          },
+          {
+            "id": "C2_04.opening.007",
+            "speaker": "Sela",
+            "text": "Families leaving on the morning boat. Without a shelter they'll have to find rooms all over town. The clerk was hoping to register them together before they left.",
+            "source_line": 757
+          },
+          {
+            "id": "C2_04.opening.008",
+            "speaker": "Protagonist",
+            "text": "Can we cover both?",
+            "source_line": 759
+          },
+          {
+            "id": "C2_04.opening.009",
+            "speaker": "Sela",
+            "text": "Not with this. Cut it in half and it won't reach either set of fixings. The next supply boat is tomorrow.",
+            "source_line": 761
+          },
+          {
+            "id": "C2_04.opening.010",
+            "speaker": "Protagonist",
+            "text": "What about the clinic?",
+            "source_line": 763
+          },
+          {
+            "id": "C2_04.opening.011",
+            "speaker": "Sela",
+            "text": "He can keep his patients inside. There isn't room for all the people coming to ask after relatives. A covered courtyard would give him somewhere to speak with them and take their names.",
+            "source_line": 765
+          },
+          {
+            "id": "C2_04.opening.012",
+            "speaker": "Protagonist",
+            "text": "I'll tell him which place I take it to.",
+            "source_line": 767
+          },
+          {
+            "id": "C2_04.opening.013",
+            "speaker": "Sela",
+            "text": "Good. Don't leave anyone waiting for help that isn't coming.",
+            "source_line": 769
+          }
+        ]
+      },
+      "optional_variant_requires": {
+        "original_memorial_read": "ORIGINAL_MEMORIAL_READ"
+      },
+      "requires": "LINEN_DELIVERY == DELIVERED",
+      "collectible_item_id": "WATERPROOF_CANVAS",
+      "collection_requires": "EXPLICIT_QUEST_ITEM_PICKUP",
+      "collection_effects": {
+        "CANVAS_OWNED": true
+      },
+      "represented_fasteners": true,
+      "plan_reversible_until": "STORM_COVER != NONE",
+      "completion_effects": {},
+      "physical_installation_required": true,
+      "graph_entry": "C2_04.healer_request",
+      "shop_graph_entry": "C2_04.shop"
+    },
+    "C2_05A": {
+      "id": "C2_05A",
+      "title": "Clinic installation",
+      "source_heading_line": 787,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C2_05A.opening.001",
+            "speaker": "Healer",
+            "text": "Hold that corner. Yes—there.",
+            "source_line": 791
+          },
+          {
+            "id": "C2_05A.opening.002",
+            "speaker": "Protagonist",
+            "text": "Will it keep the rain out?",
+            "source_line": 795
+          },
+          {
+            "id": "C2_05A.opening.003",
+            "speaker": "Healer",
+            "text": "It should. We'll put a table beneath it and bring the families through here.",
+            "source_line": 797
+          },
+          {
+            "id": "C2_05A.opening.004",
+            "speaker": "Protagonist",
+            "text": "What will you write down?",
+            "source_line": 801
+          },
+          {
+            "id": "C2_05A.opening.005",
+            "speaker": "Healer",
+            "text": "Names. Who people are looking for. Where to send word when we find someone.",
+            "source_line": 803
+          },
+          {
+            "id": "C2_05A.opening.006",
+            "speaker": "Protagonist",
+            "text": "I thought I was just fixing a roof.",
+            "source_line": 805
+          },
+          {
+            "id": "C2_05A.opening.007",
+            "speaker": "Healer",
+            "text": "Now they have somewhere to come. It makes a difference.",
+            "source_line": 807
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {},
+      "document_source_lines": {},
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [
+        {
+          "id": "C2_05A.opening.001",
+          "speaker": "Healer",
+          "text": "Hold that corner. Yes—there.",
+          "source_line": 791
+        },
+        {
+          "id": "C2_05A.opening.002",
+          "speaker": "Protagonist",
+          "text": "Will it keep the rain out?",
+          "source_line": 795
+        },
+        {
+          "id": "C2_05A.opening.003",
+          "speaker": "Healer",
+          "text": "It should. We'll put a table beneath it and bring the families through here.",
+          "source_line": 797
+        },
+        {
+          "id": "C2_05A.opening.004",
+          "speaker": "Protagonist",
+          "text": "What will you write down?",
+          "source_line": 801
+        },
+        {
+          "id": "C2_05A.opening.005",
+          "speaker": "Healer",
+          "text": "Names. Who people are looking for. Where to send word when we find someone.",
+          "source_line": 803
+        },
+        {
+          "id": "C2_05A.opening.006",
+          "speaker": "Protagonist",
+          "text": "I thought I was just fixing a roof.",
+          "source_line": 805
+        },
+        {
+          "id": "C2_05A.opening.007",
+          "speaker": "Healer",
+          "text": "Now they have somewhere to come. It makes a difference.",
+          "source_line": 807
+        }
+      ],
+      "continuation": [],
+      "choices": {},
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "physical_installation_transaction",
+      "requires": "CANVAS_OWNED AND STORM_COVER == NONE AND PHYSICAL_INSTALLATION_COMPLETED",
+      "completion_effects": {
+        "CANVAS_OWNED": false,
+        "STORM_COVER": "CLINIC"
+      },
+      "consumes_item_once": "WATERPROOF_CANVAS",
+      "relationship_event": {
+        "id": "STORM_COVER_INSTALLED_CLINIC",
+        "character": "Healer",
+        "delta": 10,
+        "apply_once": true
+      },
+      "locks_competing_installation": true,
+      "graph_entry": "C2_05A.start"
+    },
+    "C2_05B": {
+      "id": "C2_05B",
+      "title": "Harbor installation",
+      "source_heading_line": 811,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C2_05B.opening.001",
+            "speaker": "Sela",
+            "text": "Pull it toward you. That's it. Tie off that side.",
+            "source_line": 816
+          },
+          {
+            "id": "C2_05B.opening.002",
+            "speaker": "Neri",
+            "text": "Can we sleep here now?",
+            "source_line": 820
+          },
+          {
+            "id": "C2_05B.opening.003",
+            "speaker": "Sela",
+            "text": "You can wait here. Ask your mother about sleeping.",
+            "source_line": 822
+          },
+          {
+            "id": "C2_05B.opening.004",
+            "speaker": "Protagonist",
+            "text": "Whose book is that?",
+            "source_line": 824
+          },
+          {
+            "id": "C2_05B.opening.005",
+            "speaker": "Sela",
+            "text": "The departure clerk left it. Now everyone can gather here, he can take their names before the boats leave.",
+            "source_line": 826
+          },
+          {
+            "id": "C2_05B.opening.006",
+            "speaker": "Protagonist",
+            "text": "For the fares?",
+            "source_line": 828
+          },
+          {
+            "id": "C2_05B.opening.007",
+            "speaker": "Sela",
+            "text": "For anyone who comes looking after the boat has gone.",
+            "source_line": 830
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {},
+      "document_source_lines": {},
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [
+        {
+          "id": "C2_05B.opening.001",
+          "speaker": "Sela",
+          "text": "Pull it toward you. That's it. Tie off that side.",
+          "source_line": 816
+        },
+        {
+          "id": "C2_05B.opening.002",
+          "speaker": "Neri",
+          "text": "Can we sleep here now?",
+          "source_line": 820
+        },
+        {
+          "id": "C2_05B.opening.003",
+          "speaker": "Sela",
+          "text": "You can wait here. Ask your mother about sleeping.",
+          "source_line": 822
+        },
+        {
+          "id": "C2_05B.opening.004",
+          "speaker": "Protagonist",
+          "text": "Whose book is that?",
+          "source_line": 824
+        },
+        {
+          "id": "C2_05B.opening.005",
+          "speaker": "Sela",
+          "text": "The departure clerk left it. Now everyone can gather here, he can take their names before the boats leave.",
+          "source_line": 826
+        },
+        {
+          "id": "C2_05B.opening.006",
+          "speaker": "Protagonist",
+          "text": "For the fares?",
+          "source_line": 828
+        },
+        {
+          "id": "C2_05B.opening.007",
+          "speaker": "Sela",
+          "text": "For anyone who comes looking after the boat has gone.",
+          "source_line": 830
+        }
+      ],
+      "continuation": [],
+      "choices": {},
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "physical_installation_transaction",
+      "requires": "CANVAS_OWNED AND STORM_COVER == NONE AND PHYSICAL_INSTALLATION_COMPLETED",
+      "completion_effects": {
+        "CANVAS_OWNED": false,
+        "STORM_COVER": "HARBOR"
+      },
+      "consumes_item_once": "WATERPROOF_CANVAS",
+      "relationship_event": {
+        "id": "STORM_COVER_INSTALLED_HARBOR",
+        "character": "Sela",
+        "delta": 10,
+        "apply_once": true
+      },
+      "locks_competing_installation": true,
+      "graph_entry": "C2_05B.start"
+    },
+    "C2_06": {
+      "id": "C2_06",
+      "title": "Report back",
+      "source_heading_line": 834,
+      "blocks": {
+        "opening": [],
+        "when_clinic_was_covered": [
+          {
+            "id": "C2_06.when_clinic_was_covered.001",
+            "speaker": "Protagonist",
+            "text": "The harbor still needs a cover.",
+            "source_line": 840
+          },
+          {
+            "id": "C2_06.when_clinic_was_covered.002",
+            "speaker": "Healer",
+            "text": "Then we'll see what we can move inside before the rain. Thank you for telling me.",
+            "source_line": 842
+          }
+        ],
+        "when_harbor_was_covered": [
+          {
+            "id": "C2_06.when_harbor_was_covered.001",
+            "speaker": "Protagonist",
+            "text": "I used the sheet at the harbor. I'm sorry.",
+            "source_line": 846
+          },
+          {
+            "id": "C2_06.when_harbor_was_covered.002",
+            "speaker": "Healer",
+            "text": "Was there only one?",
+            "source_line": 848
+          },
+          {
+            "id": "C2_06.when_harbor_was_covered.003",
+            "speaker": "Protagonist",
+            "text": "One that would hold.",
+            "source_line": 850
+          },
+          {
+            "id": "C2_06.when_harbor_was_covered.004",
+            "speaker": "Healer",
+            "text": "Then I'll ask people to wait with their neighbors. You helped where you could.",
+            "source_line": 852
+          }
+        ],
+        "optional_question": [
+          {
+            "id": "C2_06.optional_question.001",
+            "speaker": "Protagonist",
+            "text": "What if something worse is coming?",
+            "source_line": 856
+          },
+          {
+            "id": "C2_06.optional_question.002",
+            "speaker": "Healer",
+            "text": "Worse than the storm?",
+            "source_line": 858
+          },
+          {
+            "id": "C2_06.optional_question.003",
+            "speaker": "Protagonist",
+            "text": "A war.",
+            "source_line": 860
+          },
+          {
+            "id": "C2_06.optional_question.004",
+            "speaker": "Healer",
+            "text": "Have you heard something?",
+            "source_line": 864
+          },
+          {
+            "id": "C2_06.optional_question.005",
+            "speaker": "Protagonist",
+            "text": "I know what happens afterward. I don't know where it starts.",
+            "source_line": 866
+          },
+          {
+            "id": "C2_06.optional_question.006",
+            "speaker": "Healer",
+            "text": "Then find something we can act on. A place. A date. Someone we can speak to.",
+            "source_line": 868
+          },
+          {
+            "id": "C2_06.optional_question.007",
+            "speaker": "Protagonist",
+            "text": "And you'll listen?",
+            "source_line": 870
+          },
+          {
+            "id": "C2_06.optional_question.008",
+            "speaker": "Healer",
+            "text": "I'm listening now.",
+            "source_line": 872
+          }
+        ],
+        "shared_departure": [
+          {
+            "id": "C2_06.shared_departure.001",
+            "speaker": "Protagonist",
+            "text": "I need to go home.",
+            "source_line": 876
+          },
+          {
+            "id": "C2_06.shared_departure.002",
+            "speaker": "Healer",
+            "text": "Then go. Someone will be waiting.",
+            "source_line": 878
+          },
+          {
+            "id": "C2_06.shared_departure.003",
+            "speaker": "Protagonist",
+            "text": "Will you be here when I come back?",
+            "source_line": 880
+          },
+          {
+            "id": "C2_06.shared_departure.004",
+            "speaker": "Healer",
+            "text": "Most days. You know where the door is.",
+            "source_line": 882
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {},
+      "document_source_lines": {},
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [],
+      "continuation": [
+        {
+          "id": "C2_06.shared_departure.001",
+          "speaker": "Protagonist",
+          "text": "I need to go home.",
+          "source_line": 876
+        },
+        {
+          "id": "C2_06.shared_departure.002",
+          "speaker": "Healer",
+          "text": "Then go. Someone will be waiting.",
+          "source_line": 878
+        },
+        {
+          "id": "C2_06.shared_departure.003",
+          "speaker": "Protagonist",
+          "text": "Will you be here when I come back?",
+          "source_line": 880
+        },
+        {
+          "id": "C2_06.shared_departure.004",
+          "speaker": "Healer",
+          "text": "Most days. You know where the door is.",
+          "source_line": 882
+        }
+      ],
+      "choices": {},
+      "variants": {
+        "clinic": [
+          {
+            "id": "C2_06.when_clinic_was_covered.001",
+            "speaker": "Protagonist",
+            "text": "The harbor still needs a cover.",
+            "source_line": 840
+          },
+          {
+            "id": "C2_06.when_clinic_was_covered.002",
+            "speaker": "Healer",
+            "text": "Then we'll see what we can move inside before the rain. Thank you for telling me.",
+            "source_line": 842
+          }
+        ],
+        "harbor": [
+          {
+            "id": "C2_06.when_harbor_was_covered.001",
+            "speaker": "Protagonist",
+            "text": "I used the sheet at the harbor. I'm sorry.",
+            "source_line": 846
+          },
+          {
+            "id": "C2_06.when_harbor_was_covered.002",
+            "speaker": "Healer",
+            "text": "Was there only one?",
+            "source_line": 848
+          },
+          {
+            "id": "C2_06.when_harbor_was_covered.003",
+            "speaker": "Protagonist",
+            "text": "One that would hold.",
+            "source_line": 850
+          },
+          {
+            "id": "C2_06.when_harbor_was_covered.004",
+            "speaker": "Healer",
+            "text": "Then I'll ask people to wait with their neighbors. You helped where you could.",
+            "source_line": 852
+          }
+        ]
+      },
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "final_manual_advance",
+      "optional_question": [
+        {
+          "id": "C2_06.optional_question.001",
+          "speaker": "Protagonist",
+          "text": "What if something worse is coming?",
+          "source_line": 856
+        },
+        {
+          "id": "C2_06.optional_question.002",
+          "speaker": "Healer",
+          "text": "Worse than the storm?",
+          "source_line": 858
+        },
+        {
+          "id": "C2_06.optional_question.003",
+          "speaker": "Protagonist",
+          "text": "A war.",
+          "source_line": 860
+        },
+        {
+          "id": "C2_06.optional_question.004",
+          "speaker": "Healer",
+          "text": "Have you heard something?",
+          "source_line": 864
+        },
+        {
+          "id": "C2_06.optional_question.005",
+          "speaker": "Protagonist",
+          "text": "I know what happens afterward. I don't know where it starts.",
+          "source_line": 866
+        },
+        {
+          "id": "C2_06.optional_question.006",
+          "speaker": "Healer",
+          "text": "Then find something we can act on. A place. A date. Someone we can speak to.",
+          "source_line": 868
+        },
+        {
+          "id": "C2_06.optional_question.007",
+          "speaker": "Protagonist",
+          "text": "And you'll listen?",
+          "source_line": 870
+        },
+        {
+          "id": "C2_06.optional_question.008",
+          "speaker": "Healer",
+          "text": "I'm listening now.",
+          "source_line": 872
+        }
+      ],
+      "requires": "STORM_COVER != NONE AND NOT HEALER_REPORT_DONE",
+      "completion_effects": {
+        "HEALER_REPORT_DONE": true
+      },
+      "graph_entry": null,
+      "graph_entry_by_state": [
+        {
+          "when": "STORM_COVER == CLINIC",
+          "node": "C2_06.clinic"
+        },
+        {
+          "when": "STORM_COVER == HARBOR",
+          "node": "C2_06.harbor"
+        }
+      ]
+    },
+    "C2_07": {
+      "id": "C2_07",
+      "title": "Return signal",
+      "source_heading_line": 886,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C2_07.opening.001",
+            "speaker": "Protagonist",
+            "text": "Let's see what stayed.",
+            "source_line": 896
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {},
+      "document_source_lines": {},
+      "statuses": [
+        "RETURN SIGNAL — AVAILABLE",
+        "HOME — PRESENT",
+        "CONFIRM TRANSITION"
+      ],
+      "status_source_lines": [
+        892,
+        893,
+        894
+      ],
+      "opening": [
+        {
+          "id": "C2_07.opening.001",
+          "speaker": "Protagonist",
+          "text": "Let's see what stayed.",
+          "source_line": 896
+        }
+      ],
+      "continuation": [],
+      "choices": {},
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "destination_restoration_succeeded",
+      "requires": "HEALER_REPORT_DONE AND SAFE_QUEST_STATE AND VALID_GATE_ANCHOR",
+      "confirmation_required": true,
+      "graph_entry": "C2_07.start"
+    },
+    "C2_08A": {
+      "id": "C2_08A",
+      "title": "Present consequence: the clinic register",
+      "source_heading_line": 900,
+      "blocks": {
+        "opening": [],
+        "when_the_original_memorial_was_inspected": [
+          {
+            "id": "C2_08A.when_the_original_memorial_was_inspected.001",
+            "speaker": "Protagonist",
+            "text": "This frame was empty.",
+            "source_line": 909
+          }
+        ],
+        "otherwise": [
+          {
+            "id": "C2_08A.otherwise.001",
+            "speaker": "Protagonist",
+            "text": "They wrote the names down. In the courtyard.",
+            "source_line": 913
+          },
+          {
+            "id": "C2_08A.otherwise.002",
+            "speaker": "Mother",
+            "text": "What are you looking at?",
+            "source_line": 915
+          },
+          {
+            "id": "C2_08A.otherwise.003",
+            "speaker": "Protagonist",
+            "text": "I put up the awning. Before the rain.",
+            "source_line": 917
+          },
+          {
+            "id": "C2_08A.otherwise.004",
+            "speaker": "Mother",
+            "text": "The register's been here for years.",
+            "source_line": 919
+          },
+          {
+            "id": "C2_08A.otherwise.005",
+            "speaker": "Protagonist",
+            "text": "Not for me.",
+            "source_line": 921
+          },
+          {
+            "id": "C2_08A.otherwise.006",
+            "speaker": "Mother",
+            "text": "All right. Tell me.",
+            "source_line": 925
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {
+        "caption": "A covered clinic courtyard became a meeting point during the storm. The register assembled there later helped families find their relatives. These pages preserve some of their names."
+      },
+      "document_source_lines": {
+        "caption": [
+          905
+        ]
+      },
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [],
+      "continuation": [
+        {
+          "id": "C2_08A.otherwise.002",
+          "speaker": "Mother",
+          "text": "What are you looking at?",
+          "source_line": 915
+        },
+        {
+          "id": "C2_08A.otherwise.003",
+          "speaker": "Protagonist",
+          "text": "I put up the awning. Before the rain.",
+          "source_line": 917
+        },
+        {
+          "id": "C2_08A.otherwise.004",
+          "speaker": "Mother",
+          "text": "The register's been here for years.",
+          "source_line": 919
+        },
+        {
+          "id": "C2_08A.otherwise.005",
+          "speaker": "Protagonist",
+          "text": "Not for me.",
+          "source_line": 921
+        },
+        {
+          "id": "C2_08A.otherwise.006",
+          "speaker": "Mother",
+          "text": "All right. Tell me.",
+          "source_line": 925
+        }
+      ],
+      "choices": {},
+      "variants": {
+        "original_memorial_read": [
+          {
+            "id": "C2_08A.when_the_original_memorial_was_inspected.001",
+            "speaker": "Protagonist",
+            "text": "This frame was empty.",
+            "source_line": 909
+          }
+        ],
+        "otherwise": [
+          {
+            "id": "C2_08A.otherwise.001",
+            "speaker": "Protagonist",
+            "text": "They wrote the names down. In the courtyard.",
+            "source_line": 913
+          }
+        ]
+      },
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "final_manual_advance",
+      "requires": "ERA == PRESENT AND STORM_COVER == CLINIC",
+      "completion_effects": {
+        "CONSEQUENCE_OBSERVED": true
+      },
+      "preserve_original_observation": true,
+      "world_remains_damaged": true,
+      "graph_entry": null,
+      "graph_entry_by_state": [
+        {
+          "when": "ORIGINAL_MEMORIAL_READ",
+          "node": "C2_08A.original_memorial_read"
+        },
+        {
+          "when": "NOT ORIGINAL_MEMORIAL_READ",
+          "node": "C2_08A.otherwise"
+        }
+      ]
+    },
+    "C2_08B": {
+      "id": "C2_08B",
+      "title": "Present consequence: the harbor book",
+      "source_heading_line": 929,
+      "blocks": {
+        "opening": [],
+        "when_the_original_memorial_was_inspected": [
+          {
+            "id": "C2_08B.when_the_original_memorial_was_inspected.001",
+            "speaker": "Protagonist",
+            "text": "There weren't any names here before.",
+            "source_line": 938
+          }
+        ],
+        "otherwise": [
+          {
+            "id": "C2_08B.otherwise.001",
+            "speaker": "Protagonist",
+            "text": "The departure list. They managed to record everyone waiting there.",
+            "source_line": 942
+          },
+          {
+            "id": "C2_08B.otherwise.002",
+            "speaker": "Mother",
+            "text": "Whose name are you looking for?",
+            "source_line": 944
+          },
+          {
+            "id": "C2_08B.otherwise.003",
+            "speaker": "Protagonist",
+            "text": "No one's. I just needed to know they made the list.",
+            "source_line": 946
+          },
+          {
+            "id": "C2_08B.otherwise.004",
+            "speaker": "Mother",
+            "text": "It's been here for years.",
+            "source_line": 948
+          },
+          {
+            "id": "C2_08B.otherwise.005",
+            "speaker": "Protagonist",
+            "text": "I know. That's the strange part.",
+            "source_line": 950
+          },
+          {
+            "id": "C2_08B.otherwise.006",
+            "speaker": "Mother",
+            "text": "Come inside. Start at the beginning.",
+            "source_line": 952
+          }
+        ]
+      },
+      "choice_definitions": {},
+      "documents": {
+        "caption": "The repaired waiting shelter brought departing families together during the storm. The passenger list assembled there later helped relatives trace where they had gone."
+      },
+      "document_source_lines": {
+        "caption": [
+          934
+        ]
+      },
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [],
+      "continuation": [
+        {
+          "id": "C2_08B.otherwise.002",
+          "speaker": "Mother",
+          "text": "Whose name are you looking for?",
+          "source_line": 944
+        },
+        {
+          "id": "C2_08B.otherwise.003",
+          "speaker": "Protagonist",
+          "text": "No one's. I just needed to know they made the list.",
+          "source_line": 946
+        },
+        {
+          "id": "C2_08B.otherwise.004",
+          "speaker": "Mother",
+          "text": "It's been here for years.",
+          "source_line": 948
+        },
+        {
+          "id": "C2_08B.otherwise.005",
+          "speaker": "Protagonist",
+          "text": "I know. That's the strange part.",
+          "source_line": 950
+        },
+        {
+          "id": "C2_08B.otherwise.006",
+          "speaker": "Mother",
+          "text": "Come inside. Start at the beginning.",
+          "source_line": 952
+        }
+      ],
+      "choices": {},
+      "variants": {
+        "original_memorial_read": [
+          {
+            "id": "C2_08B.when_the_original_memorial_was_inspected.001",
+            "speaker": "Protagonist",
+            "text": "There weren't any names here before.",
+            "source_line": 938
+          }
+        ],
+        "otherwise": [
+          {
+            "id": "C2_08B.otherwise.001",
+            "speaker": "Protagonist",
+            "text": "The departure list. They managed to record everyone waiting there.",
+            "source_line": 942
+          }
+        ]
+      },
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "final_manual_advance",
+      "requires": "ERA == PRESENT AND STORM_COVER == HARBOR",
+      "completion_effects": {
+        "CONSEQUENCE_OBSERVED": true
+      },
+      "preserve_original_observation": true,
+      "world_remains_damaged": true,
+      "graph_entry": null,
+      "graph_entry_by_state": [
+        {
+          "when": "ORIGINAL_MEMORIAL_READ",
+          "node": "C2_08B.original_memorial_read"
+        },
+        {
+          "when": "NOT ORIGINAL_MEMORIAL_READ",
+          "node": "C2_08B.otherwise"
+        }
+      ]
+    },
+    "C2_09": {
+      "id": "C2_09",
+      "title": "The lamp is still on",
+      "source_heading_line": 956,
+      "blocks": {
+        "opening": [
+          {
+            "id": "C2_09.opening.001",
+            "speaker": "Mother",
+            "text": "You're shaking.",
+            "source_line": 961
+          },
+          {
+            "id": "C2_09.opening.002",
+            "speaker": "Protagonist",
+            "text": "I don't think I noticed until now.",
+            "source_line": 963
+          },
+          {
+            "id": "C2_09.opening.003",
+            "speaker": "Mother",
+            "text": "Did it work?",
+            "source_line": 967
+          },
+          {
+            "id": "C2_09.opening.004",
+            "speaker": "Protagonist",
+            "text": "I was there. Before the roofs fell. Before any of this.",
+            "source_line": 969
+          },
+          {
+            "id": "C2_09.opening.005",
+            "speaker": "Mother",
+            "text": "What was it like?",
+            "source_line": 971
+          },
+          {
+            "id": "C2_09.opening.006",
+            "speaker": "Protagonist",
+            "text": "Loud.",
+            "source_line": 973
+          },
+          {
+            "id": "C2_09.opening.007",
+            "speaker": "Mother",
+            "text": "Yes.",
+            "source_line": 977
+          },
+          {
+            "id": "C2_09.opening.008",
+            "speaker": "Protagonist",
+            "text": "Someone was complaining about the rain. I wanted to tell them how lucky they were.",
+            "source_line": 979
+          },
+          {
+            "id": "C2_09.opening.009",
+            "speaker": "Mother",
+            "text": "Did you?",
+            "source_line": 981
+          },
+          {
+            "id": "C2_09.opening.010",
+            "speaker": "Protagonist",
+            "text": "No. I helped with a roof.",
+            "source_line": 983
+          }
+        ],
+        "choice_A": [
+          {
+            "id": "C2_09.choice_A.001",
+            "speaker": "Mother",
+            "text": "For what?",
+            "source_line": 987
+          },
+          {
+            "id": "C2_09.choice_A.002",
+            "speaker": "Protagonist",
+            "text": "To stop any of this.",
+            "source_line": 989
+          },
+          {
+            "id": "C2_09.choice_A.003",
+            "speaker": "Mother",
+            "text": "You went once. Sit down before you decide what that means.",
+            "source_line": 991
+          }
+        ],
+        "choice_B": [
+          {
+            "id": "C2_09.choice_B.001",
+            "speaker": "Mother",
+            "text": "I believe you.",
+            "source_line": 995
+          },
+          {
+            "id": "C2_09.choice_B.002",
+            "speaker": "Protagonist",
+            "text": "Even though you remember it differently?",
+            "source_line": 997
+          },
+          {
+            "id": "C2_09.choice_B.003",
+            "speaker": "Mother",
+            "text": "I can see you're trying to tell me the truth.",
+            "source_line": 999
+          }
+        ],
+        "choice_C": [
+          {
+            "id": "C2_09.choice_C.001",
+            "speaker": "Mother",
+            "text": "Eat. Sleep. Then tell me everything you remember.",
+            "source_line": 1003
+          }
+        ],
+        "ending": [
+          {
+            "id": "C2_09.ending.001",
+            "speaker": "Protagonist",
+            "text": "I'm going back.",
+            "source_line": 1007
+          },
+          {
+            "id": "C2_09.ending.002",
+            "speaker": "Mother",
+            "text": "Tomorrow.",
+            "source_line": 1009
+          },
+          {
+            "id": "C2_09.ending.003",
+            "speaker": "Protagonist",
+            "text": "Tomorrow.",
+            "source_line": 1011
+          }
+        ]
+      },
+      "choice_definitions": {
+        "A": {
+          "label": "It wasn't enough.",
+          "source_line": 985
+        },
+        "B": {
+          "label": "I changed something.",
+          "source_line": 993
+        },
+        "C": {
+          "label": "I don't know what to do next.",
+          "source_line": 1001
+        }
+      },
+      "documents": {
+        "journal_prior": "The town remembers a different version of the storm. I remember the empty display and what I did in the past. Mother remembers the new record being here for years. I can change something. I still don't know what started the war.",
+        "journal_otherwise": "A record of the storm-night shelter is on display in the present. Mother says it has been here for years. I remember helping make it possible. I still don't know what started the war."
+      },
+      "document_source_lines": {
+        "journal_prior": [
+          1015
+        ],
+        "journal_otherwise": [
+          1017
+        ]
+      },
+      "statuses": [],
+      "status_source_lines": [],
+      "opening": [
+        {
+          "id": "C2_09.opening.001",
+          "speaker": "Mother",
+          "text": "You're shaking.",
+          "source_line": 961
+        },
+        {
+          "id": "C2_09.opening.002",
+          "speaker": "Protagonist",
+          "text": "I don't think I noticed until now.",
+          "source_line": 963
+        },
+        {
+          "id": "C2_09.opening.003",
+          "speaker": "Mother",
+          "text": "Did it work?",
+          "source_line": 967
+        },
+        {
+          "id": "C2_09.opening.004",
+          "speaker": "Protagonist",
+          "text": "I was there. Before the roofs fell. Before any of this.",
+          "source_line": 969
+        },
+        {
+          "id": "C2_09.opening.005",
+          "speaker": "Mother",
+          "text": "What was it like?",
+          "source_line": 971
+        },
+        {
+          "id": "C2_09.opening.006",
+          "speaker": "Protagonist",
+          "text": "Loud.",
+          "source_line": 973
+        },
+        {
+          "id": "C2_09.opening.007",
+          "speaker": "Mother",
+          "text": "Yes.",
+          "source_line": 977
+        },
+        {
+          "id": "C2_09.opening.008",
+          "speaker": "Protagonist",
+          "text": "Someone was complaining about the rain. I wanted to tell them how lucky they were.",
+          "source_line": 979
+        },
+        {
+          "id": "C2_09.opening.009",
+          "speaker": "Mother",
+          "text": "Did you?",
+          "source_line": 981
+        },
+        {
+          "id": "C2_09.opening.010",
+          "speaker": "Protagonist",
+          "text": "No. I helped with a roof.",
+          "source_line": 983
+        }
+      ],
+      "continuation": [
+        {
+          "id": "C2_09.ending.001",
+          "speaker": "Protagonist",
+          "text": "I'm going back.",
+          "source_line": 1007
+        },
+        {
+          "id": "C2_09.ending.002",
+          "speaker": "Mother",
+          "text": "Tomorrow.",
+          "source_line": 1009
+        },
+        {
+          "id": "C2_09.ending.003",
+          "speaker": "Protagonist",
+          "text": "Tomorrow.",
+          "source_line": 1011
+        }
+      ],
+      "choices": {
+        "A": {
+          "id": "C2_09.choice_A",
+          "label": "It wasn't enough.",
+          "lines": [
+            {
+              "id": "C2_09.choice_A.selected",
+              "speaker": "Protagonist",
+              "text": "It wasn't enough.",
+              "source_line": 985,
+              "source_origin": "selected_choice_heading"
+            },
+            {
+              "id": "C2_09.choice_A.001",
+              "speaker": "Mother",
+              "text": "For what?",
+              "source_line": 987
+            },
+            {
+              "id": "C2_09.choice_A.002",
+              "speaker": "Protagonist",
+              "text": "To stop any of this.",
+              "source_line": 989
+            },
+            {
+              "id": "C2_09.choice_A.003",
+              "speaker": "Mother",
+              "text": "You went once. Sit down before you decide what that means.",
+              "source_line": 991
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "continuation"
+        },
+        "B": {
+          "id": "C2_09.choice_B",
+          "label": "I changed something.",
+          "lines": [
+            {
+              "id": "C2_09.choice_B.selected",
+              "speaker": "Protagonist",
+              "text": "I changed something.",
+              "source_line": 993,
+              "source_origin": "selected_choice_heading"
+            },
+            {
+              "id": "C2_09.choice_B.001",
+              "speaker": "Mother",
+              "text": "I believe you.",
+              "source_line": 995
+            },
+            {
+              "id": "C2_09.choice_B.002",
+              "speaker": "Protagonist",
+              "text": "Even though you remember it differently?",
+              "source_line": 997
+            },
+            {
+              "id": "C2_09.choice_B.003",
+              "speaker": "Mother",
+              "text": "I can see you're trying to tell me the truth.",
+              "source_line": 999
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "continuation"
+        },
+        "C": {
+          "id": "C2_09.choice_C",
+          "label": "I don't know what to do next.",
+          "lines": [
+            {
+              "id": "C2_09.choice_C.selected",
+              "speaker": "Protagonist",
+              "text": "I don't know what to do next.",
+              "source_line": 1001,
+              "source_origin": "selected_choice_heading"
+            },
+            {
+              "id": "C2_09.choice_C.001",
+              "speaker": "Mother",
+              "text": "Eat. Sleep. Then tell me everything you remember.",
+              "source_line": 1003
+            }
+          ],
+          "only_on_explicit_selection": true,
+          "next": "continuation"
+        }
+      },
+      "variants": {},
+      "minimum_line_seconds": 0.75,
+      "manual_advance": true,
+      "completion_boundary": "explicit_final_line_advance",
+      "requires": "CONSEQUENCE_OBSERVED",
+      "completion_effects": {
+        "CHAPTER_2_COMPLETE": true
+      },
+      "preserve_original_observation": true,
+      "graph_entry": "C2_09.start"
+    }
+  },
+  "nodes": {
+    "C1_01.start": {
+      "id": "C1_01.start",
+      "lines": [
+        {
+          "id": "C1_01.opening.001",
+          "speaker": "Protagonist",
+          "text": "You look tired.",
+          "source_line": 396
+        },
+        {
+          "id": "C1_01.opening.002",
+          "speaker": "Mother",
+          "text": "You were six weeks old. I was tired.",
+          "source_line": 398
+        },
+        {
+          "id": "C1_01.opening.003",
+          "speaker": "Protagonist",
+          "text": "Who took it?",
+          "source_line": 400
+        },
+        {
+          "id": "C1_01.opening.004",
+          "speaker": "Mother",
+          "text": "Your father. He tried three times. You cried through all of them.",
+          "source_line": 402
+        },
+        {
+          "id": "C1_01.opening.005",
+          "speaker": "Protagonist",
+          "text": "He kept this one?",
+          "source_line": 404
+        },
+        {
+          "id": "C1_01.opening.006",
+          "speaker": "Mother",
+          "text": "He said we looked like ourselves.",
+          "source_line": 406
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "completion_effects": {
+        "PHOTO_READ": true
+      }
+    },
+    "C1_02.start": {
+      "id": "C1_02.start",
+      "lines": [
+        {
+          "id": "C1_02.opening.001",
+          "speaker": "Protagonist",
+          "text": "You never sent it.",
+          "source_line": 428
+        },
+        {
+          "id": "C1_02.opening.002",
+          "speaker": "Mother",
+          "text": "I never found an address.",
+          "source_line": 430
+        },
+        {
+          "id": "C1_02.opening.003",
+          "speaker": "Protagonist",
+          "text": "Do you want me to put it away?",
+          "source_line": 432
+        },
+        {
+          "id": "C1_02.opening.004",
+          "speaker": "Mother",
+          "text": "Leave it there for now.",
+          "source_line": 434
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "completion_effects": {
+        "LETTER_READ": true
+      }
+    },
+    "C1_03.start": {
+      "id": "C1_03.start",
+      "lines": [
+        {
+          "id": "C1_03.opening.001",
+          "speaker": "Mother",
+          "text": "You're very quiet today.",
+          "source_line": 442
+        },
+        {
+          "id": "C1_03.opening.002",
+          "speaker": "Protagonist",
+          "text": "I'm trying not to think too far ahead.",
+          "source_line": 444
+        },
+        {
+          "id": "C1_03.opening.003",
+          "speaker": "Mother",
+          "text": "Then stay here for a minute. I'll make some tea.",
+          "source_line": 446
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75
+    },
+    "C1_04.choice_A": {
+      "id": "C1_04.choice_A",
+      "lines": [
+        {
+          "id": "C1_04.choice_A.001",
+          "speaker": "Protagonist",
+          "text": "I think I can stop what happened.",
+          "source_line": 467
+        },
+        {
+          "id": "C1_04.choice_A.002",
+          "speaker": "Mother",
+          "text": "You know what the war left behind. You don't yet know what started it.",
+          "source_line": 469
+        },
+        {
+          "id": "C1_04.choice_A.003",
+          "speaker": "Protagonist",
+          "text": "That's why I have to go.",
+          "source_line": 471
+        },
+        {
+          "id": "C1_04.choice_A.004",
+          "speaker": "Mother",
+          "text": "Then listen when you get there. Don't go looking only for what you expect.",
+          "source_line": 473
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C1_04.continuation"
+    },
+    "C1_04.choice_B": {
+      "id": "C1_04.choice_B",
+      "lines": [
+        {
+          "id": "C1_04.choice_B.001",
+          "speaker": "Protagonist",
+          "text": "I need to know what happened to him.",
+          "source_line": 477
+        },
+        {
+          "id": "C1_04.choice_B.002",
+          "speaker": "Mother",
+          "text": "So do I.",
+          "source_line": 479
+        },
+        {
+          "id": "C1_04.choice_B.003",
+          "speaker": "Mother",
+          "text": "But don't promise to bring him home. Not before you know what you're promising.",
+          "source_line": 483
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C1_04.continuation"
+    },
+    "C1_04.choice_C": {
+      "id": "C1_04.choice_C",
+      "lines": [
+        {
+          "id": "C1_04.choice_C.001",
+          "speaker": "Protagonist",
+          "text": "I'm scared it won't work.",
+          "source_line": 487
+        },
+        {
+          "id": "C1_04.choice_C.002",
+          "speaker": "Mother",
+          "text": "I'm scared it will.",
+          "source_line": 489
+        },
+        {
+          "id": "C1_04.choice_C.003",
+          "speaker": "Protagonist",
+          "text": "That doesn't help.",
+          "source_line": 491
+        },
+        {
+          "id": "C1_04.choice_C.004",
+          "speaker": "Mother",
+          "text": "No. But I didn't want you to think you were the only one.",
+          "source_line": 493
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C1_04.continuation"
+    },
+    "C1_04.start": {
+      "id": "C1_04.start",
+      "lines": [
+        {
+          "id": "C1_04.opening.001",
+          "speaker": "Mother",
+          "text": "You cleaned the workbench.",
+          "source_line": 455
+        },
+        {
+          "id": "C1_04.opening.002",
+          "speaker": "Protagonist",
+          "text": "I needed to find things.",
+          "source_line": 457
+        },
+        {
+          "id": "C1_04.opening.003",
+          "speaker": "Mother",
+          "text": "You need to find things every day.",
+          "source_line": 459
+        },
+        {
+          "id": "C1_04.opening.004",
+          "speaker": "Mother",
+          "text": "You're going to try it.",
+          "source_line": 463
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "choices": [
+        {
+          "key": "A",
+          "label": "I think I can stop what happened.",
+          "next": "C1_04.choice_A",
+          "choice_effects": {
+            "MOTHER_OPENING_RESPONSE": "STOP_WAR"
+          }
+        },
+        {
+          "key": "B",
+          "label": "I need to know what happened to him.",
+          "next": "C1_04.choice_B",
+          "choice_effects": {
+            "MOTHER_OPENING_RESPONSE": "FIND_FATHER"
+          }
+        },
+        {
+          "key": "C",
+          "label": "I'm scared it won't work.",
+          "next": "C1_04.choice_C",
+          "choice_effects": {
+            "MOTHER_OPENING_RESPONSE": "AFRAID"
+          }
+        }
+      ]
+    },
+    "C1_04.continuation": {
+      "id": "C1_04.continuation",
+      "lines": [
+        {
+          "id": "C1_04.continuation.001",
+          "speaker": "Mother",
+          "text": "How do you get back?",
+          "source_line": 497
+        },
+        {
+          "id": "C1_04.continuation.002",
+          "speaker": "Protagonist",
+          "text": "I've set a return signal at the gate. It keeps running while I'm away.",
+          "source_line": 499
+        },
+        {
+          "id": "C1_04.continuation.003",
+          "speaker": "Mother",
+          "text": "And if the watch breaks?",
+          "source_line": 501
+        },
+        {
+          "id": "C1_04.continuation.004",
+          "speaker": "Protagonist",
+          "text": "I don't have an answer for that yet.",
+          "source_line": 503
+        },
+        {
+          "id": "C1_04.continuation.005",
+          "speaker": "Mother",
+          "text": "Then be careful with it. And with yourself.",
+          "source_line": 505
+        },
+        {
+          "id": "C1_04.continuation.006",
+          "speaker": "Protagonist",
+          "text": "I'll come back as soon as I've checked the other side.",
+          "source_line": 507
+        },
+        {
+          "id": "C1_04.continuation.007",
+          "speaker": "Mother",
+          "text": "Good. Start with that.",
+          "source_line": 509
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "completion_effects": {
+        "MOTHER_DEPARTURE_TALK_DONE": true
+      }
+    },
+    "C1_06.start": {
+      "id": "C1_06.start",
+      "lines": [
+        {
+          "id": "C1_06.opening.001",
+          "speaker": "Protagonist",
+          "text": "One more thing.",
+          "source_line": 547
+        },
+        {
+          "id": "C1_06.opening.002",
+          "speaker": "Mother",
+          "text": "It stopped.",
+          "source_line": 551
+        },
+        {
+          "id": "C1_06.opening.003",
+          "speaker": "Protagonist",
+          "text": "Only that part. Only for a few seconds.",
+          "source_line": 553
+        },
+        {
+          "id": "C1_06.opening.004",
+          "speaker": "Mother",
+          "text": "I preferred it when you repaired clocks.",
+          "source_line": 557
+        },
+        {
+          "id": "C1_06.opening.005",
+          "speaker": "Protagonist",
+          "text": "Technically—",
+          "source_line": 559
+        },
+        {
+          "id": "C1_06.opening.006",
+          "speaker": "Mother",
+          "text": "Don't.",
+          "source_line": 561
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75
+    },
+    "C1_07.start": {
+      "id": "C1_07.start",
+      "lines": [
+        {
+          "id": "C1_07.opening.001",
+          "speaker": "Protagonist",
+          "text": "Not even their names.",
+          "source_line": 572
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "completion_effects": {
+        "ORIGINAL_MEMORIAL_READ": true
+      }
+    },
+    "C1_08.choice_A": {
+      "id": "C1_08.choice_A",
+      "lines": [
+        {
+          "id": "C1_08.choice_A.selected",
+          "speaker": "Protagonist",
+          "text": "I'll come back.",
+          "source_line": 596,
+          "source_origin": "selected_choice_heading"
+        },
+        {
+          "id": "C1_08.choice_A.001",
+          "speaker": "Mother",
+          "text": "Then I'll leave the lamp on.",
+          "source_line": 598
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75
+    },
+    "C1_08.choice_B": {
+      "id": "C1_08.choice_B",
+      "lines": [
+        {
+          "id": "C1_08.choice_B.selected",
+          "speaker": "Protagonist",
+          "text": "Thank you. For staying with me.",
+          "source_line": 600,
+          "source_origin": "selected_choice_heading"
+        },
+        {
+          "id": "C1_08.choice_B.001",
+          "speaker": "Mother",
+          "text": "Come back and tell me properly.",
+          "source_line": 602
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75
+    },
+    "C1_08.start": {
+      "id": "C1_08.start",
+      "lines": [
+        {
+          "id": "C1_08.opening.001",
+          "speaker": "Mother",
+          "text": "Wait.",
+          "source_line": 580
+        },
+        {
+          "id": "C1_08.opening.002",
+          "speaker": "Mother",
+          "text": "That strap was coming loose.",
+          "source_line": 584
+        },
+        {
+          "id": "C1_08.opening.003",
+          "speaker": "Protagonist",
+          "text": "I was going to fix it.",
+          "source_line": 586
+        },
+        {
+          "id": "C1_08.opening.004",
+          "speaker": "Mother",
+          "text": "I know.",
+          "source_line": 588
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "choices": [
+        {
+          "key": "A",
+          "label": "I'll come back.",
+          "next": "C1_08.choice_A",
+          "choice_effects": {}
+        },
+        {
+          "key": "B",
+          "label": "Thank you. For staying with me.",
+          "next": "C1_08.choice_B",
+          "choice_effects": {}
+        }
+      ]
+    },
+    "C2_00.choice_A": {
+      "id": "C2_00.choice_A",
+      "lines": [
+        {
+          "id": "C2_00.choice_A.selected",
+          "speaker": "Protagonist",
+          "text": "I think so.",
+          "source_line": 621,
+          "source_origin": "selected_choice_heading"
+        },
+        {
+          "id": "C2_00.choice_A.001",
+          "speaker": "Neri",
+          "text": "Harbor's down there. Market's behind you. Try not to fall off either.",
+          "source_line": 623
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C2_00.continuation"
+    },
+    "C2_00.choice_B": {
+      "id": "C2_00.choice_B",
+      "lines": [
+        {
+          "id": "C2_00.choice_B.selected",
+          "speaker": "Protagonist",
+          "text": "I thought this street was gone.",
+          "source_line": 625,
+          "source_origin": "selected_choice_heading"
+        },
+        {
+          "id": "C2_00.choice_B.001",
+          "speaker": "Neri",
+          "text": "Gone where?",
+          "source_line": 627
+        },
+        {
+          "id": "C2_00.choice_B.002",
+          "speaker": "Protagonist",
+          "text": "Never mind.",
+          "source_line": 629
+        },
+        {
+          "id": "C2_00.choice_B.003",
+          "speaker": "Neri",
+          "text": "You should sit down.",
+          "source_line": 631
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C2_00.continuation"
+    },
+    "C2_00.start": {
+      "id": "C2_00.start",
+      "lines": [
+        {
+          "id": "C2_00.opening.001",
+          "speaker": "Protagonist",
+          "text": "The roofs…",
+          "source_line": 615
+        },
+        {
+          "id": "C2_00.opening.002",
+          "speaker": "Neri",
+          "text": "Are you lost?",
+          "source_line": 619
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "choices": [
+        {
+          "key": "A",
+          "label": "I think so.",
+          "next": "C2_00.choice_A",
+          "choice_effects": {}
+        },
+        {
+          "key": "B",
+          "label": "I thought this street was gone.",
+          "next": "C2_00.choice_B",
+          "choice_effects": {}
+        }
+      ]
+    },
+    "C2_00.continuation": {
+      "id": "C2_00.continuation",
+      "lines": [
+        {
+          "id": "C2_00.continuation.001",
+          "speaker": "Protagonist",
+          "text": "Is there somewhere I can get some water?",
+          "source_line": 635
+        },
+        {
+          "id": "C2_00.continuation.002",
+          "speaker": "Neri",
+          "text": "The clinic. Blue shutters. Door's already open.",
+          "source_line": 637
+        },
+        {
+          "id": "C2_00.continuation.003",
+          "speaker": "Protagonist",
+          "text": "Thank you.",
+          "source_line": 639
+        },
+        {
+          "id": "C2_00.continuation.004",
+          "speaker": "Neri",
+          "text": "Tell him I'm not running on it.",
+          "source_line": 641
+        },
+        {
+          "id": "C2_00.continuation.005",
+          "speaker": "Protagonist",
+          "text": "Running on what?",
+          "source_line": 643
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "completion_effects": {
+        "PAST_ARRIVAL_MET_NERI": true
+      }
+    },
+    "C2_01.choice_A": {
+      "id": "C2_01.choice_A",
+      "lines": [
+        {
+          "id": "C2_01.choice_A.selected",
+          "speaker": "Protagonist",
+          "text": "I'll bring it.",
+          "source_line": 680,
+          "source_origin": "selected_choice_heading"
+        },
+        {
+          "id": "C2_01.choice_A.001",
+          "speaker": "Healer",
+          "text": "Thank you. Tell her it's for the clinic.",
+          "source_line": 682
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75
+    },
+    "C2_01.choice_B": {
+      "id": "C2_01.choice_B",
+      "lines": [
+        {
+          "id": "C2_01.choice_B.selected",
+          "speaker": "Protagonist",
+          "text": "I need a moment first.",
+          "source_line": 684,
+          "source_origin": "selected_choice_heading"
+        },
+        {
+          "id": "C2_01.choice_B.001",
+          "speaker": "Healer",
+          "text": "Take one. The water isn't going anywhere.",
+          "source_line": 686
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75
+    },
+    "C2_01.start": {
+      "id": "C2_01.start",
+      "lines": [
+        {
+          "id": "C2_01.opening.001",
+          "speaker": "Healer",
+          "text": "Sit down before you fall down.",
+          "source_line": 654
+        },
+        {
+          "id": "C2_01.opening.002",
+          "speaker": "Protagonist",
+          "text": "I'm not hurt.",
+          "source_line": 656
+        },
+        {
+          "id": "C2_01.opening.003",
+          "speaker": "Healer",
+          "text": "Then it's only a chair. You can still use it.",
+          "source_line": 658
+        },
+        {
+          "id": "C2_01.opening.004",
+          "speaker": "Healer",
+          "text": "Cups are beside the jug.",
+          "source_line": 662
+        },
+        {
+          "id": "C2_01.opening.005",
+          "speaker": "Protagonist",
+          "text": "You let anyone walk in?",
+          "source_line": 664
+        },
+        {
+          "id": "C2_01.opening.006",
+          "speaker": "Healer",
+          "text": "That's why the door's open.",
+          "source_line": 666
+        },
+        {
+          "id": "C2_01.opening.007",
+          "speaker": "Healer",
+          "text": "Feeling better?",
+          "source_line": 670
+        },
+        {
+          "id": "C2_01.opening.008",
+          "speaker": "Protagonist",
+          "text": "I think so.",
+          "source_line": 672
+        },
+        {
+          "id": "C2_01.opening.009",
+          "speaker": "Healer",
+          "text": "Good. Could you spare me a few minutes?",
+          "source_line": 674
+        },
+        {
+          "id": "C2_01.opening.010",
+          "speaker": "Protagonist",
+          "text": "What do you need?",
+          "source_line": 676
+        },
+        {
+          "id": "C2_01.opening.011",
+          "speaker": "Healer",
+          "text": "Sela has a parcel of clean linen for us. Her shop is just across the square.",
+          "source_line": 678
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "choices": [
+        {
+          "key": "A",
+          "label": "I'll bring it.",
+          "next": "C2_01.choice_A",
+          "choice_effects": {
+            "LINEN_DELIVERY": "ACCEPTED"
+          }
+        },
+        {
+          "key": "B",
+          "label": "I need a moment first.",
+          "next": "C2_01.choice_B",
+          "choice_effects": {}
+        }
+      ]
+    },
+    "C2_02.start": {
+      "id": "C2_02.start",
+      "lines": [
+        {
+          "id": "C2_02.opening.001",
+          "speaker": "Sela",
+          "text": "Looking, buying, or bringing bad news?",
+          "source_line": 695
+        },
+        {
+          "id": "C2_02.opening.002",
+          "speaker": "Protagonist",
+          "text": "Collecting linen for the clinic.",
+          "source_line": 697
+        },
+        {
+          "id": "C2_02.opening.003",
+          "speaker": "Sela",
+          "text": "That's almost a purchase.",
+          "source_line": 699
+        },
+        {
+          "id": "C2_02.opening.004",
+          "speaker": "Sela",
+          "text": "Take the wrapped one. The loose cloth is for the boats.",
+          "source_line": 703
+        },
+        {
+          "id": "C2_02.opening.005",
+          "speaker": "Protagonist",
+          "text": "Do I owe you anything?",
+          "source_line": 705
+        },
+        {
+          "id": "C2_02.opening.006",
+          "speaker": "Sela",
+          "text": "He'll settle it. He always does, eventually.",
+          "source_line": 707
+        },
+        {
+          "id": "C2_02.opening.007",
+          "speaker": "Protagonist",
+          "text": "You expecting a storm?",
+          "source_line": 711
+        },
+        {
+          "id": "C2_02.opening.008",
+          "speaker": "Sela",
+          "text": "Tonight. Bad enough that everyone suddenly remembers their roof leaks.",
+          "source_line": 713
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "completion_effects": {
+        "LINEN_DELIVERY": "COLLECTED"
+      }
+    },
+    "C2_03.start": {
+      "id": "C2_03.start",
+      "lines": [
+        {
+          "id": "C2_03.opening.001",
+          "speaker": "Healer",
+          "text": "You came back.",
+          "source_line": 721
+        },
+        {
+          "id": "C2_03.opening.002",
+          "speaker": "Protagonist",
+          "text": "I said I would.",
+          "source_line": 723
+        },
+        {
+          "id": "C2_03.opening.003",
+          "speaker": "Healer",
+          "text": "You'd be surprised how often that isn't enough. Thank you.",
+          "source_line": 725
+        },
+        {
+          "id": "C2_03.opening.004",
+          "speaker": "Protagonist",
+          "text": "Does Neri come here often?",
+          "source_line": 729
+        },
+        {
+          "id": "C2_03.opening.005",
+          "speaker": "Healer",
+          "text": "Only when the ground wins an argument.",
+          "source_line": 731
+        },
+        {
+          "id": "C2_03.opening.006",
+          "speaker": "Protagonist",
+          "text": "He says he's not running.",
+          "source_line": 733
+        },
+        {
+          "id": "C2_03.opening.007",
+          "speaker": "Healer",
+          "text": "Then I admire his restraint.",
+          "source_line": 735
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "completion_effects": {
+        "LINEN_DELIVERY": "DELIVERED"
+      }
+    },
+    "C2_05A.start": {
+      "id": "C2_05A.start",
+      "lines": [
+        {
+          "id": "C2_05A.opening.001",
+          "speaker": "Healer",
+          "text": "Hold that corner. Yes—there.",
+          "source_line": 791
+        },
+        {
+          "id": "C2_05A.opening.002",
+          "speaker": "Protagonist",
+          "text": "Will it keep the rain out?",
+          "source_line": 795
+        },
+        {
+          "id": "C2_05A.opening.003",
+          "speaker": "Healer",
+          "text": "It should. We'll put a table beneath it and bring the families through here.",
+          "source_line": 797
+        },
+        {
+          "id": "C2_05A.opening.004",
+          "speaker": "Protagonist",
+          "text": "What will you write down?",
+          "source_line": 801
+        },
+        {
+          "id": "C2_05A.opening.005",
+          "speaker": "Healer",
+          "text": "Names. Who people are looking for. Where to send word when we find someone.",
+          "source_line": 803
+        },
+        {
+          "id": "C2_05A.opening.006",
+          "speaker": "Protagonist",
+          "text": "I thought I was just fixing a roof.",
+          "source_line": 805
+        },
+        {
+          "id": "C2_05A.opening.007",
+          "speaker": "Healer",
+          "text": "Now they have somewhere to come. It makes a difference.",
+          "source_line": 807
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "completion_effects": {
+        "CANVAS_OWNED": false,
+        "STORM_COVER": "CLINIC"
+      }
+    },
+    "C2_05B.start": {
+      "id": "C2_05B.start",
+      "lines": [
+        {
+          "id": "C2_05B.opening.001",
+          "speaker": "Sela",
+          "text": "Pull it toward you. That's it. Tie off that side.",
+          "source_line": 816
+        },
+        {
+          "id": "C2_05B.opening.002",
+          "speaker": "Neri",
+          "text": "Can we sleep here now?",
+          "source_line": 820
+        },
+        {
+          "id": "C2_05B.opening.003",
+          "speaker": "Sela",
+          "text": "You can wait here. Ask your mother about sleeping.",
+          "source_line": 822
+        },
+        {
+          "id": "C2_05B.opening.004",
+          "speaker": "Protagonist",
+          "text": "Whose book is that?",
+          "source_line": 824
+        },
+        {
+          "id": "C2_05B.opening.005",
+          "speaker": "Sela",
+          "text": "The departure clerk left it. Now everyone can gather here, he can take their names before the boats leave.",
+          "source_line": 826
+        },
+        {
+          "id": "C2_05B.opening.006",
+          "speaker": "Protagonist",
+          "text": "For the fares?",
+          "source_line": 828
+        },
+        {
+          "id": "C2_05B.opening.007",
+          "speaker": "Sela",
+          "text": "For anyone who comes looking after the boat has gone.",
+          "source_line": 830
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "completion_effects": {
+        "CANVAS_OWNED": false,
+        "STORM_COVER": "HARBOR"
+      }
+    },
+    "C2_07.start": {
+      "id": "C2_07.start",
+      "lines": [
+        {
+          "id": "C2_07.opening.001",
+          "speaker": "Protagonist",
+          "text": "Let's see what stayed.",
+          "source_line": 896
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75
+    },
+    "C2_09.choice_A": {
+      "id": "C2_09.choice_A",
+      "lines": [
+        {
+          "id": "C2_09.choice_A.selected",
+          "speaker": "Protagonist",
+          "text": "It wasn't enough.",
+          "source_line": 985,
+          "source_origin": "selected_choice_heading"
+        },
+        {
+          "id": "C2_09.choice_A.001",
+          "speaker": "Mother",
+          "text": "For what?",
+          "source_line": 987
+        },
+        {
+          "id": "C2_09.choice_A.002",
+          "speaker": "Protagonist",
+          "text": "To stop any of this.",
+          "source_line": 989
+        },
+        {
+          "id": "C2_09.choice_A.003",
+          "speaker": "Mother",
+          "text": "You went once. Sit down before you decide what that means.",
+          "source_line": 991
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C2_09.continuation"
+    },
+    "C2_09.choice_B": {
+      "id": "C2_09.choice_B",
+      "lines": [
+        {
+          "id": "C2_09.choice_B.selected",
+          "speaker": "Protagonist",
+          "text": "I changed something.",
+          "source_line": 993,
+          "source_origin": "selected_choice_heading"
+        },
+        {
+          "id": "C2_09.choice_B.001",
+          "speaker": "Mother",
+          "text": "I believe you.",
+          "source_line": 995
+        },
+        {
+          "id": "C2_09.choice_B.002",
+          "speaker": "Protagonist",
+          "text": "Even though you remember it differently?",
+          "source_line": 997
+        },
+        {
+          "id": "C2_09.choice_B.003",
+          "speaker": "Mother",
+          "text": "I can see you're trying to tell me the truth.",
+          "source_line": 999
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C2_09.continuation"
+    },
+    "C2_09.choice_C": {
+      "id": "C2_09.choice_C",
+      "lines": [
+        {
+          "id": "C2_09.choice_C.selected",
+          "speaker": "Protagonist",
+          "text": "I don't know what to do next.",
+          "source_line": 1001,
+          "source_origin": "selected_choice_heading"
+        },
+        {
+          "id": "C2_09.choice_C.001",
+          "speaker": "Mother",
+          "text": "Eat. Sleep. Then tell me everything you remember.",
+          "source_line": 1003
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C2_09.continuation"
+    },
+    "C2_09.start": {
+      "id": "C2_09.start",
+      "lines": [
+        {
+          "id": "C2_09.opening.001",
+          "speaker": "Mother",
+          "text": "You're shaking.",
+          "source_line": 961
+        },
+        {
+          "id": "C2_09.opening.002",
+          "speaker": "Protagonist",
+          "text": "I don't think I noticed until now.",
+          "source_line": 963
+        },
+        {
+          "id": "C2_09.opening.003",
+          "speaker": "Mother",
+          "text": "Did it work?",
+          "source_line": 967
+        },
+        {
+          "id": "C2_09.opening.004",
+          "speaker": "Protagonist",
+          "text": "I was there. Before the roofs fell. Before any of this.",
+          "source_line": 969
+        },
+        {
+          "id": "C2_09.opening.005",
+          "speaker": "Mother",
+          "text": "What was it like?",
+          "source_line": 971
+        },
+        {
+          "id": "C2_09.opening.006",
+          "speaker": "Protagonist",
+          "text": "Loud.",
+          "source_line": 973
+        },
+        {
+          "id": "C2_09.opening.007",
+          "speaker": "Mother",
+          "text": "Yes.",
+          "source_line": 977
+        },
+        {
+          "id": "C2_09.opening.008",
+          "speaker": "Protagonist",
+          "text": "Someone was complaining about the rain. I wanted to tell them how lucky they were.",
+          "source_line": 979
+        },
+        {
+          "id": "C2_09.opening.009",
+          "speaker": "Mother",
+          "text": "Did you?",
+          "source_line": 981
+        },
+        {
+          "id": "C2_09.opening.010",
+          "speaker": "Protagonist",
+          "text": "No. I helped with a roof.",
+          "source_line": 983
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "choices": [
+        {
+          "key": "A",
+          "label": "It wasn't enough.",
+          "next": "C2_09.choice_A",
+          "choice_effects": {}
+        },
+        {
+          "key": "B",
+          "label": "I changed something.",
+          "next": "C2_09.choice_B",
+          "choice_effects": {}
+        },
+        {
+          "key": "C",
+          "label": "I don't know what to do next.",
+          "next": "C2_09.choice_C",
+          "choice_effects": {}
+        }
+      ]
+    },
+    "C2_09.continuation": {
+      "id": "C2_09.continuation",
+      "lines": [
+        {
+          "id": "C2_09.ending.001",
+          "speaker": "Protagonist",
+          "text": "I'm going back.",
+          "source_line": 1007
+        },
+        {
+          "id": "C2_09.ending.002",
+          "speaker": "Mother",
+          "text": "Tomorrow.",
+          "source_line": 1009
+        },
+        {
+          "id": "C2_09.ending.003",
+          "speaker": "Protagonist",
+          "text": "Tomorrow.",
+          "source_line": 1011
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "completion_effects": {
+        "CHAPTER_2_COMPLETE": true
+      }
+    },
+    "C1_00.five_years_earlier": {
+      "id": "C1_00.five_years_earlier",
+      "lines": [
+        {
+          "id": "C1_00.five_years_earlier.001",
+          "speaker": "Protagonist",
+          "text": "What did the town sound like?",
+          "source_line": 352
+        },
+        {
+          "id": "C1_00.five_years_earlier.002",
+          "speaker": "Mother",
+          "text": "Before the war?",
+          "source_line": 354
+        },
+        {
+          "id": "C1_00.five_years_earlier.003",
+          "speaker": "Protagonist",
+          "text": "Before everyone stopped talking about it.",
+          "source_line": 356
+        },
+        {
+          "id": "C1_00.five_years_earlier.004",
+          "speaker": "Mother",
+          "text": "Bells. Boats. People arguing over the price of fish.",
+          "source_line": 358
+        },
+        {
+          "id": "C1_00.five_years_earlier.005",
+          "speaker": "Mother",
+          "text": "I used to wish it was quieter.",
+          "source_line": 362
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C1_00.three_years_earlier",
+      "time_label": "Five years earlier",
+      "skippable": true
+    },
+    "C1_00.three_years_earlier": {
+      "id": "C1_00.three_years_earlier",
+      "lines": [
+        {
+          "id": "C1_00.three_years_earlier.001",
+          "speaker": "Protagonist",
+          "text": "Was there a moment when someone could have stopped it?",
+          "source_line": 366
+        },
+        {
+          "id": "C1_00.three_years_earlier.002",
+          "speaker": "Mother",
+          "text": "There were a lot of moments. We just didn't know which ones mattered.",
+          "source_line": 368
+        },
+        {
+          "id": "C1_00.three_years_earlier.003",
+          "speaker": "Protagonist",
+          "text": "Someone must have known.",
+          "source_line": 370
+        },
+        {
+          "id": "C1_00.three_years_earlier.004",
+          "speaker": "Mother",
+          "text": "Perhaps. The people who survived didn't all tell the same story.",
+          "source_line": 372
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C1_00.one_year_earlier",
+      "time_label": "Three years earlier",
+      "skippable": true
+    },
+    "C1_00.one_year_earlier": {
+      "id": "C1_00.one_year_earlier",
+      "lines": [
+        {
+          "id": "C1_00.one_year_earlier.001",
+          "speaker": "Protagonist",
+          "text": "That was supposed to stay there.",
+          "source_line": 378
+        },
+        {
+          "id": "C1_00.one_year_earlier.002",
+          "speaker": "Mother",
+          "text": "You said that about the last one.",
+          "source_line": 380
+        },
+        {
+          "id": "C1_00.one_year_earlier.003",
+          "speaker": "Protagonist",
+          "text": "The last one hit the ceiling. This is progress.",
+          "source_line": 382
+        },
+        {
+          "id": "C1_00.one_year_earlier.004",
+          "speaker": "Mother",
+          "text": "Then celebrate with something warm.",
+          "source_line": 386
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "time_label": "One year earlier",
+      "skippable": true
+    },
+    "C1_05.identify": {
+      "id": "C1_05.identify",
+      "lines": [
+        {
+          "id": "C1_05.opening.001",
+          "speaker": "Protagonist",
+          "text": "The contact slipped again.",
+          "source_line": 518
+        },
+        {
+          "id": "C1_05.opening.002",
+          "speaker": "Mother",
+          "text": "The small piece is in the dish. I moved it before it rolled onto the floor.",
+          "source_line": 520
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75
+    },
+    "C1_05.placed": {
+      "id": "C1_05.placed",
+      "lines": [
+        {
+          "id": "C1_05.opening.003",
+          "speaker": "Protagonist",
+          "text": "There. Stay this time.",
+          "source_line": 524
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75
+    },
+    "C1_05.first_test": {
+      "id": "C1_05.first_test",
+      "lines": [
+        {
+          "id": "C1_05.opening.004",
+          "speaker": "Protagonist",
+          "text": "It's holding.",
+          "source_line": 528
+        },
+        {
+          "id": "C1_05.opening.005",
+          "speaker": "Mother",
+          "text": "For how long?",
+          "source_line": 530
+        },
+        {
+          "id": "C1_05.opening.006",
+          "speaker": "Protagonist",
+          "text": "Longer than yesterday.",
+          "source_line": 532
+        },
+        {
+          "id": "C1_05.opening.007",
+          "speaker": "Mother",
+          "text": "Test it again.",
+          "source_line": 534
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75
+    },
+    "C1_05.second_test": {
+      "id": "C1_05.second_test",
+      "lines": [
+        {
+          "id": "C1_05.opening.008",
+          "speaker": "Protagonist",
+          "text": "Still holding.",
+          "source_line": 538
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "completion_effects": {
+        "WATCH_CALIBRATED": true
+      }
+    },
+    "C2_04.healer_request": {
+      "id": "C2_04.healer_request",
+      "lines": [
+        {
+          "id": "C2_04.opening.001",
+          "speaker": "Healer",
+          "text": "There's one more thing. The courtyard awning came down. I need somewhere for people to wait when the rain starts. Sela was looking for a cover.",
+          "source_line": 743
+        },
+        {
+          "id": "C2_04.opening.002",
+          "speaker": "Protagonist",
+          "text": "I'll ask her.",
+          "source_line": 745
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75
+    },
+    "C2_04.shop": {
+      "id": "C2_04.shop",
+      "lines": [
+        {
+          "id": "C2_04.opening.003",
+          "speaker": "Sela",
+          "text": "One good sheet. The others are split.",
+          "source_line": 749
+        },
+        {
+          "id": "C2_04.opening.004",
+          "speaker": "Protagonist",
+          "text": "The clinic needs it.",
+          "source_line": 751
+        },
+        {
+          "id": "C2_04.opening.005",
+          "speaker": "Sela",
+          "text": "So does the harbor waiting shelter. Its cover tore this morning.",
+          "source_line": 753
+        },
+        {
+          "id": "C2_04.opening.006",
+          "speaker": "Protagonist",
+          "text": "Who's waiting there?",
+          "source_line": 755
+        },
+        {
+          "id": "C2_04.opening.007",
+          "speaker": "Sela",
+          "text": "Families leaving on the morning boat. Without a shelter they'll have to find rooms all over town. The clerk was hoping to register them together before they left.",
+          "source_line": 757
+        },
+        {
+          "id": "C2_04.opening.008",
+          "speaker": "Protagonist",
+          "text": "Can we cover both?",
+          "source_line": 759
+        },
+        {
+          "id": "C2_04.opening.009",
+          "speaker": "Sela",
+          "text": "Not with this. Cut it in half and it won't reach either set of fixings. The next supply boat is tomorrow.",
+          "source_line": 761
+        },
+        {
+          "id": "C2_04.opening.010",
+          "speaker": "Protagonist",
+          "text": "What about the clinic?",
+          "source_line": 763
+        },
+        {
+          "id": "C2_04.opening.011",
+          "speaker": "Sela",
+          "text": "He can keep his patients inside. There isn't room for all the people coming to ask after relatives. A covered courtyard would give him somewhere to speak with them and take their names.",
+          "source_line": 765
+        },
+        {
+          "id": "C2_04.opening.012",
+          "speaker": "Protagonist",
+          "text": "I'll tell him which place I take it to.",
+          "source_line": 767
+        },
+        {
+          "id": "C2_04.opening.013",
+          "speaker": "Sela",
+          "text": "Good. Don't leave anyone waiting for help that isn't coming.",
+          "source_line": 769
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C2_04.choice",
+      "next_if": [
+        {
+          "when": "ORIGINAL_MEMORIAL_READ",
+          "next": "C2_04.memorial_callback"
+        }
+      ]
+    },
+    "C2_04.memorial_callback": {
+      "id": "C2_04.memorial_callback",
+      "lines": [
+        {
+          "id": "C2_04.opening.014",
+          "speaker": "Protagonist",
+          "text": "The courtyard. The waiting shelter.",
+          "source_line": 773
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C2_04.choice",
+      "requires": "ORIGINAL_MEMORIAL_READ"
+    },
+    "C2_04.choice_A": {
+      "id": "C2_04.choice_A",
+      "lines": [
+        {
+          "id": "C2_04.choice_A.selected",
+          "speaker": "Protagonist",
+          "text": "The clinic courtyard. I'll get the awning back up.",
+          "source_line": 777,
+          "source_origin": "selected_choice_heading"
+        },
+        {
+          "id": "C2_04.choice_response.001",
+          "speaker": "Sela",
+          "text": "All right. Take the repair straps too. Bring back whatever you don't use.",
+          "source_line": 781
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75
+    },
+    "C2_04.choice_B": {
+      "id": "C2_04.choice_B",
+      "lines": [
+        {
+          "id": "C2_04.choice_B.selected",
+          "speaker": "Protagonist",
+          "text": "The waiting shelter. They need somewhere dry tonight.",
+          "source_line": 778,
+          "source_origin": "selected_choice_heading"
+        },
+        {
+          "id": "C2_04.choice_response.001",
+          "speaker": "Sela",
+          "text": "All right. Take the repair straps too. Bring back whatever you don't use.",
+          "source_line": 781
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75
+    },
+    "C2_04.choice_C": {
+      "id": "C2_04.choice_C",
+      "lines": [
+        {
+          "id": "C2_04.choice_C.selected",
+          "speaker": "Protagonist",
+          "text": "Let me look at both places first.",
+          "source_line": 779,
+          "source_origin": "selected_choice_heading"
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75
+    },
+    "C2_04.choice": {
+      "id": "C2_04.choice",
+      "lines": [],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "choices": [
+        {
+          "key": "A",
+          "label": "The clinic courtyard. I'll get the awning back up.",
+          "next": "C2_04.choice_A",
+          "choice_effects": {
+            "CANVAS_PLAN": "CLINIC"
+          }
+        },
+        {
+          "key": "B",
+          "label": "The waiting shelter. They need somewhere dry tonight.",
+          "next": "C2_04.choice_B",
+          "choice_effects": {
+            "CANVAS_PLAN": "HARBOR"
+          }
+        },
+        {
+          "key": "C",
+          "label": "Let me look at both places first.",
+          "next": "C2_04.choice_C",
+          "choice_effects": {
+            "CANVAS_PLAN": "NONE"
+          }
+        }
+      ]
+    },
+    "C2_06.clinic": {
+      "id": "C2_06.clinic",
+      "lines": [
+        {
+          "id": "C2_06.when_clinic_was_covered.001",
+          "speaker": "Protagonist",
+          "text": "The harbor still needs a cover.",
+          "source_line": 840
+        },
+        {
+          "id": "C2_06.when_clinic_was_covered.002",
+          "speaker": "Healer",
+          "text": "Then we'll see what we can move inside before the rain. Thank you for telling me.",
+          "source_line": 842
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C2_06.optional_choice"
+    },
+    "C2_06.harbor": {
+      "id": "C2_06.harbor",
+      "lines": [
+        {
+          "id": "C2_06.when_harbor_was_covered.001",
+          "speaker": "Protagonist",
+          "text": "I used the sheet at the harbor. I'm sorry.",
+          "source_line": 846
+        },
+        {
+          "id": "C2_06.when_harbor_was_covered.002",
+          "speaker": "Healer",
+          "text": "Was there only one?",
+          "source_line": 848
+        },
+        {
+          "id": "C2_06.when_harbor_was_covered.003",
+          "speaker": "Protagonist",
+          "text": "One that would hold.",
+          "source_line": 850
+        },
+        {
+          "id": "C2_06.when_harbor_was_covered.004",
+          "speaker": "Healer",
+          "text": "Then I'll ask people to wait with their neighbors. You helped where you could.",
+          "source_line": 852
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C2_06.optional_choice"
+    },
+    "C2_06.optional_choice": {
+      "id": "C2_06.optional_choice",
+      "lines": [],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "choices": [
+        {
+          "key": "A",
+          "label": "What if something worse is coming?",
+          "next": "C2_06.question"
+        },
+        {
+          "key": "B",
+          "label": "I need to go home.",
+          "next": "C2_06.continuation"
+        }
+      ]
+    },
+    "C2_06.question": {
+      "id": "C2_06.question",
+      "lines": [
+        {
+          "id": "C2_06.optional_question.001",
+          "speaker": "Protagonist",
+          "text": "What if something worse is coming?",
+          "source_line": 856
+        },
+        {
+          "id": "C2_06.optional_question.002",
+          "speaker": "Healer",
+          "text": "Worse than the storm?",
+          "source_line": 858
+        },
+        {
+          "id": "C2_06.optional_question.003",
+          "speaker": "Protagonist",
+          "text": "A war.",
+          "source_line": 860
+        },
+        {
+          "id": "C2_06.optional_question.004",
+          "speaker": "Healer",
+          "text": "Have you heard something?",
+          "source_line": 864
+        },
+        {
+          "id": "C2_06.optional_question.005",
+          "speaker": "Protagonist",
+          "text": "I know what happens afterward. I don't know where it starts.",
+          "source_line": 866
+        },
+        {
+          "id": "C2_06.optional_question.006",
+          "speaker": "Healer",
+          "text": "Then find something we can act on. A place. A date. Someone we can speak to.",
+          "source_line": 868
+        },
+        {
+          "id": "C2_06.optional_question.007",
+          "speaker": "Protagonist",
+          "text": "And you'll listen?",
+          "source_line": 870
+        },
+        {
+          "id": "C2_06.optional_question.008",
+          "speaker": "Healer",
+          "text": "I'm listening now.",
+          "source_line": 872
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C2_06.continuation"
+    },
+    "C2_06.continuation": {
+      "id": "C2_06.continuation",
+      "lines": [
+        {
+          "id": "C2_06.shared_departure.001",
+          "speaker": "Protagonist",
+          "text": "I need to go home.",
+          "source_line": 876
+        },
+        {
+          "id": "C2_06.shared_departure.002",
+          "speaker": "Healer",
+          "text": "Then go. Someone will be waiting.",
+          "source_line": 878
+        },
+        {
+          "id": "C2_06.shared_departure.003",
+          "speaker": "Protagonist",
+          "text": "Will you be here when I come back?",
+          "source_line": 880
+        },
+        {
+          "id": "C2_06.shared_departure.004",
+          "speaker": "Healer",
+          "text": "Most days. You know where the door is.",
+          "source_line": 882
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "completion_effects": {
+        "HEALER_REPORT_DONE": true
+      }
+    },
+    "C2_08A.original_memorial_read": {
+      "id": "C2_08A.original_memorial_read",
+      "lines": [
+        {
+          "id": "C2_08A.when_the_original_memorial_was_inspected.001",
+          "speaker": "Protagonist",
+          "text": "This frame was empty.",
+          "source_line": 909
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C2_08A.continuation"
+    },
+    "C2_08A.otherwise": {
+      "id": "C2_08A.otherwise",
+      "lines": [
+        {
+          "id": "C2_08A.otherwise.001",
+          "speaker": "Protagonist",
+          "text": "They wrote the names down. In the courtyard.",
+          "source_line": 913
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C2_08A.continuation"
+    },
+    "C2_08A.continuation": {
+      "id": "C2_08A.continuation",
+      "lines": [
+        {
+          "id": "C2_08A.otherwise.002",
+          "speaker": "Mother",
+          "text": "What are you looking at?",
+          "source_line": 915
+        },
+        {
+          "id": "C2_08A.otherwise.003",
+          "speaker": "Protagonist",
+          "text": "I put up the awning. Before the rain.",
+          "source_line": 917
+        },
+        {
+          "id": "C2_08A.otherwise.004",
+          "speaker": "Mother",
+          "text": "The register's been here for years.",
+          "source_line": 919
+        },
+        {
+          "id": "C2_08A.otherwise.005",
+          "speaker": "Protagonist",
+          "text": "Not for me.",
+          "source_line": 921
+        },
+        {
+          "id": "C2_08A.otherwise.006",
+          "speaker": "Mother",
+          "text": "All right. Tell me.",
+          "source_line": 925
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "completion_effects": {
+        "CONSEQUENCE_OBSERVED": true
+      }
+    },
+    "C2_08B.original_memorial_read": {
+      "id": "C2_08B.original_memorial_read",
+      "lines": [
+        {
+          "id": "C2_08B.when_the_original_memorial_was_inspected.001",
+          "speaker": "Protagonist",
+          "text": "There weren't any names here before.",
+          "source_line": 938
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C2_08B.continuation"
+    },
+    "C2_08B.otherwise": {
+      "id": "C2_08B.otherwise",
+      "lines": [
+        {
+          "id": "C2_08B.otherwise.001",
+          "speaker": "Protagonist",
+          "text": "The departure list. They managed to record everyone waiting there.",
+          "source_line": 942
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "next": "C2_08B.continuation"
+    },
+    "C2_08B.continuation": {
+      "id": "C2_08B.continuation",
+      "lines": [
+        {
+          "id": "C2_08B.otherwise.002",
+          "speaker": "Mother",
+          "text": "Whose name are you looking for?",
+          "source_line": 944
+        },
+        {
+          "id": "C2_08B.otherwise.003",
+          "speaker": "Protagonist",
+          "text": "No one's. I just needed to know they made the list.",
+          "source_line": 946
+        },
+        {
+          "id": "C2_08B.otherwise.004",
+          "speaker": "Mother",
+          "text": "It's been here for years.",
+          "source_line": 948
+        },
+        {
+          "id": "C2_08B.otherwise.005",
+          "speaker": "Protagonist",
+          "text": "I know. That's the strange part.",
+          "source_line": 950
+        },
+        {
+          "id": "C2_08B.otherwise.006",
+          "speaker": "Mother",
+          "text": "Come inside. Start at the beginning.",
+          "source_line": 952
+        }
+      ],
+      "manual_advance": true,
+      "minimum_line_seconds": 0.75,
+      "completion_effects": {
+        "CONSEQUENCE_OBSERVED": true
+      }
+    }
+  },
+  "locked_statuses": {
+    "perspective": "PERSPECTIVE UNAVAILABLE — RELATIONSHIP NOT YET READY"
+  },
+  "optional_repeat_lines": {
+    "Mother": "The lamp will be here when you get back.",
+    "Healer_linen": "Sela's parcel should be wrapped and ready.",
+    "Sela_canvas": "You have the only sound sheet. Check the fixings before you settle on a place.",
+    "Healer_exhausted": "I should get back to work. You're welcome to the water."
+  },
+  "future_perspective": {
+    "enabled": false,
+    "requires": [
+      "TRUST == 100",
+      "EXPLICIT_CONSENT",
+      "SPECIFIC_AUTHORED_VIEW_EXISTS"
+    ],
+    "maximum_seconds": 30,
+    "lines": [
+      {
+        "speaker": "Protagonist",
+        "text": "The watch might let me see what you're seeing. Only for a few seconds."
+      },
+      {
+        "speaker": "NPC",
+        "text": "You'd have to ask me first."
+      },
+      {
+        "speaker": "Protagonist",
+        "text": "That's what I'm doing. You can stop it."
+      },
+      {
+        "speaker": "NPC",
+        "text": "All right. Just this once."
+      }
+    ]
+  }
+}

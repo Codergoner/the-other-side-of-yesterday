@@ -1,0 +1,855 @@
+{
+  "kind": "source_only",
+  "time_utc": "2026-11-02T07:21:57.176203+00:00",
+  "native_compilation_verified_by_this_script": false,
+  "candidate_activation_verified": false,
+  "native_tests_run_by_this_script": false,
+  "checks": [
+    {
+      "label": "Staging is in isolated release copy",
+      "pass": true
+    },
+    {
+      "label": "Plugin disabled by default",
+      "pass": true
+    },
+    {
+      "label": "Source candidate outside game Plugins",
+      "pass": true
+    },
+    {
+      "label": "Win64 + Android runtime candidate",
+      "pass": true
+    },
+    {
+      "label": "bcrypt.lib linked only on Win64",
+      "pass": true
+    },
+    {
+      "label": "Closed Schema() function present",
+      "pass": true
+    },
+    {
+      "label": "Closed schema block for campaign-v1",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate HomeExplored",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate PhotoSeen",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate PhotoBackSeen",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate LetterRead",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate MotherMet",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate MotherSpoken",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate MotherPromise",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate RepairIdentified",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate ComponentCollected",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate ComponentPlaced",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate WatchCalibrated",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate AnchorActivated",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate DrawerOpen",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate IntroSeen",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate PhotoExchangeDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate LetterExchangeDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate OriginalMemorialRead",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate DepartureDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate NeriMet",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate HealerMet",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate HealerTaskOffered",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate SelaMet",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate WaterTaken",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate LinenBundleReady",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate LinenThanksDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate CanvasRequestKnown",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate CanvasOffered",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate CanvasOwned",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate HealerReportDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate ConsequenceObserved",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate Chapter2Complete",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate HasDeparted",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate HasReturned",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate ReturnSignalActive",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate ClinicInspected",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate HarborInspected",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate Chapter",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate SchemaVersion",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate MotherOpeningResponse",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate EraIndex",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate LinenState",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate CanvasPlan",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate StormCover",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate CurrentChapter",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate HealerTrust",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate CalibrationTests",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate FinalResponse",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate Era",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate SafeLocationId",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate PriorTimelineObservation",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate LatestTimelineObservation",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate ReturnClockSeconds",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: no duplicate TrustEventIds",
+      "pass": true
+    },
+    {
+      "label": "campaign-v1: exact current source field/type parity",
+      "pass": true
+    },
+    {
+      "label": "Closed schema block for campaign-v2",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate HomeExplored",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate PhotoSeen",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate PhotoBackSeen",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate LetterRead",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate MotherMet",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate MotherSpoken",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate MotherPromise",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate RepairIdentified",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate ComponentCollected",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate ComponentPlaced",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate WatchCalibrated",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate AnchorActivated",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate DrawerOpen",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate IntroSeen",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate PhotoExchangeDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate LetterExchangeDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate OriginalMemorialRead",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate DepartureDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate NeriMet",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate HealerMet",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate HealerTaskOffered",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate SelaMet",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate WaterTaken",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate LinenBundleReady",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate LinenThanksDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate CanvasRequestKnown",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate CanvasOffered",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate CanvasOwned",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate HealerReportDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate ConsequenceObserved",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate Chapter2Complete",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate HasDeparted",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate HasReturned",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate ReturnSignalActive",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate ClinicInspected",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate HarborInspected",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate Chapter",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate SchemaVersion",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate MotherOpeningResponse",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate EraIndex",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate LinenState",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate CanvasPlan",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate StormCover",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate CurrentChapter",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate HealerTrust",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate CalibrationTests",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate FinalResponse",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate Era",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate SafeLocationId",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate PriorTimelineObservation",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate LatestTimelineObservation",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate ReturnClockSeconds",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate TrustEventIds",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate PublicChronologyObserved",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate OrderRegisterObserved",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: no duplicate MotherJourneyIntention",
+      "pass": true
+    },
+    {
+      "label": "campaign-v2: exact current source field/type parity",
+      "pass": true
+    },
+    {
+      "label": "Closed schema block for campaign-v3",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate HomeExplored",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate PhotoSeen",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate PhotoBackSeen",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate LetterRead",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate MotherMet",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate MotherSpoken",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate MotherPromise",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate RepairIdentified",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate ComponentCollected",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate ComponentPlaced",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate WatchCalibrated",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate AnchorActivated",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate DrawerOpen",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate IntroSeen",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate PhotoExchangeDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate LetterExchangeDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate OriginalMemorialRead",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate DepartureDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate NeriMet",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate HealerMet",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate HealerTaskOffered",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate SelaMet",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate WaterTaken",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate LinenBundleReady",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate LinenThanksDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate CanvasRequestKnown",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate CanvasOffered",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate CanvasOwned",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate HealerReportDone",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate ConsequenceObserved",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate Chapter2Complete",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate HasDeparted",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate HasReturned",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate ReturnSignalActive",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate ClinicInspected",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate HarborInspected",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate Chapter",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate SchemaVersion",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate MotherOpeningResponse",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate EraIndex",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate LinenState",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate CanvasPlan",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate StormCover",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate CurrentChapter",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate HealerTrust",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate CalibrationTests",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate FinalResponse",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate Era",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate SafeLocationId",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate PriorTimelineObservation",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate LatestTimelineObservation",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate ReturnClockSeconds",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate TrustEventIds",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate PublicChronologyObserved",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate OrderRegisterObserved",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate MotherJourneyIntention",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate IdentitySceneSeen",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate IdentityCustodianAccepted",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: no duplicate IdentityRecordMethod",
+      "pass": true
+    },
+    {
+      "label": "campaign-v3: exact current source field/type parity",
+      "pass": true
+    },
+    {
+      "label": "Closed schema block for profile-v1",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: no duplicate ActiveSlot",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: no duplicate ProfileVersion",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: no duplicate ResolutionIndex",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: no duplicate FrameCapIndex",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: no duplicate SensitivityIndex",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: no duplicate Windowed",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: no duplicate VSync",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: no duplicate InvertY",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: no duplicate LargeText",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: no duplicate ReducedMotion",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: no duplicate MuteWhenPaused",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: no duplicate MasterVolume",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: no duplicate AmbienceVolume",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: no duplicate MusicVolume",
+      "pass": true
+    },
+    {
+      "label": "profile-v1: exact current source field/type parity",
+      "pass": true
+    },
+    {
+      "label": "No unreviewed schema kinds",
+      "pass": true
+    },
+    {
+      "label": "Only pinned import calls raw decoder",
+      "pass": true
+    },
+    {
+      "label": "Windows CNG and Win32 file primitives are compiled only on Windows",
+      "pass": true
+    },
+    {
+      "label": "Portable SHA-256 and POSIX lock/rename exist for the Android target",
+      "pass": true
+    },
+    {
+      "label": "Portable SHA-256 is validated on the host by the automation test",
+      "pass": true
+    },
+    {
+      "label": "Descriptor version matches the campaign revisions plus the CNG baseline and the Android platform revision",
+      "pass": true
+    },
+    {
+      "label": "Exact legacy fixture hash pin matches protected fixture",
+      "pass": true
+    }
+  ],
+  "deployed_plugin_present": true,
+  "deployed_sources_match_candidate": false,
+  "schema_fields": {
+    "campaign-v1": 53,
+    "campaign-v2": 56,
+    "campaign-v3": 59,
+    "profile-v1": 14
+  },
+  "descriptor": {
+    "Version": 5,
+    "VersionName": "0.2.2-quest3-android"
+  },
+  "legacy_fixture_sha256": "0f698bb9c4a003a7aa2883af39317161a1e38290ca388626231bce5f1caf94e8",
+  "sources_sha256": {
+    "COMPILER_SETUP_PLAN.md": "bbda38a1dbfd1d4200864994d0523ffeba89ade4d2b987d94e3cdfa7cf1b27b1",
+    "README.md": "f4d83ca93aa94250887d4d03978ffe0bf233b57f5f5e340c9e633e7007ea3cdb",
+    "source_audit.py": "82e8b1c0008c6cc7e79683a51582db41c1dec575c9c5227f9d22b03fdd55a1c8",
+    "vs2022-saveguard.vsconfig": "1dcd558b1feab191c90819b72119ff15470d950a573f9e268d8f590bceb010c5",
+    "YesterdaySaveGuard\\Source\\YesterdaySaveGuard\\Private\\YesterdaySaveGuardLibrary.cpp": "1418be5232879bfdcca97ed5b0cc92a2f419dfe9c9d0a0f3ce6351b000fe1c6a",
+    "YesterdaySaveGuard\\Source\\YesterdaySaveGuard\\Private\\YesterdaySaveGuardModule.cpp": "a68dbfc2aedf7b18bfd1d9b844d6b9c2696e768ceb1553dab38fd357fea51b5b",
+    "YesterdaySaveGuard\\Source\\YesterdaySaveGuard\\Public\\YesterdaySaveGuardLibrary.h": "58dcf13f26a769984a60a00e9efa381b347f36b2f82e1ffa497b57c519f065f7",
+    "YesterdaySaveGuard\\Source\\YesterdaySaveGuard\\YesterdaySaveGuard.Build.cs": "4b3afa3b64045f134e52f74a4f5238cd37502ac7a60e21152872acc3aa0987f7",
+    "YesterdaySaveGuard\\YesterdaySaveGuard.uplugin": "2a93ba50569b0ba0a6563fe7fa0354ba775a1769fa081aeb63a5375f5e99d970"
+  },
+  "engine_sdk_config_sha256": "cb8a438df72f7068256547a9a225908deedfbf3226d893fddd1526ae686d74d3",
+  "toolchain_discovery": {
+    "cl_on_path": null,
+    "clang_cl_on_path": null,
+    "default_visual_studio_path_exists": true,
+    "vswhere_exists": true,
+    "windows_sdk_include_exists": true,
+    "custom_toolchain_search_exhaustive": false
+  },
+  "source_audit_passed": true
+}

@@ -1,0 +1,19 @@
+{
+  "unit_report": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\release_character_unit_probe_report.json",
+  "unit_report_sha256": "b0fbac1a91a54fb38a29da45438ff4a09e246b6f109689bb0793515e18aba743",
+  "retarget_report": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\release_mother_unit_retarget_report.json",
+  "retarget_report_sha256": "8daadb59aab8b7b460b133bea3da44ca53c5f95bde468172b826e695eda868dd",
+  "gait_report": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\release_mother_gait_review_report.json",
+  "gait_report_sha256": "49ac46e9fb0f706942622d400bf713d0f66bb208b959b3be0c145dd65d7155d0",
+  "gait_visually_approved": false,
+  "cloth_deformation_approved": false,
+  "basis_reviewed": false,
+  "mesh_relative_rotation_offset_degrees": [
+    0,
+    0,
+    0
+  ],
+  "basis_note": "Root must explicitly review the component basis; actor transform/scale stays unchanged. This is a blocked template, not approval.",
+  "calibration_report": "C:\\Users\\USER\\OneDrive\\Documents\\ChatGPT\\The other side of yesterday\\development\\Release_20261026\\game_unreal\\release_mother_walk_calibration.json",
+  "calibration_report_sha256": "WAIT_FOR_ACTUAL_NATIVE_STANCE_CALIBRATION"
+}

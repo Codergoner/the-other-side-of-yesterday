@@ -1,0 +1,8 @@
+# Unreal build output and caches
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+__pycache__/
+*.pyc
+*.log

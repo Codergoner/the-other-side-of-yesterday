@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "map": "/Game/Quest/Maps/Verdant_Desktop",
+  "actor_path": "/Game/Quest/Maps/Verdant_Desktop.Verdant_Desktop:PersistentLevel.SkyLight_1",
+  "selected_profile": "SkyScale020",
+  "selected_intensity": 0.21,
+  "baseline_intensity": 0.105,
+  "sun_intensity_unchanged": 3.5,
+  "baseline_light_state": {
+    "class": "/Script/Engine.SkyLight",
+    "location": [
+      0.0,
+      0.0,
+      10000.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "intensity": 0.10499999672174454,
+    "light_color": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "visible": true,
+    "cast_shadows": false,
+    "real_time_capture": false,
+    "cubemap": "/Game/Quest/PremiumArt/Data_c12ac589619f/T_PH_BelfastSunset_HDRCube.T_PH_BelfastSunset_HDRCube",
+    "source_cubemap_angle": 0.0
+  },
+  "capture_report_relative": "release_sky_ab_report.json",
+  "capture_report_sha256": "c3a56ffdab3454dbe59672025f1e7f1b91ee473b176f13c335287a887fa80044",
+  "native_application_status": "Pending serialized root writer queue",
+  "selection_basis": "Root reviewed actual .20/.30 harbor and .20 room captures and chose SkyScale020."
+}

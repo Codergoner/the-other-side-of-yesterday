@@ -1,0 +1,94 @@
+{
+  "revision": "supporting-cast-v1",
+  "source": "Lineup roles from the supplied NPC sheet; personal pressures from QUEST_AND_STORY_DESIGN_v02.md section 8. Ambient lines only: no flags, trust or inventory are granted by these conversations.",
+  "root": "SC.cast",
+  "roles": {
+    "HarborClerk": {
+      "tag": "cast.clerk", "era": "past", "speaker": "Enna", "title": "Port records and permits",
+      "prompt": "E  Talk to Enna (harbor clerk)",
+      "lines": [
+        ["Enna", "Port records and permits. Everyone sheltering tonight passes through this book."],
+        ["Enna", "A name in a ledger can bring a family back together. It can also bring the wrong person to their door."],
+        ["Protagonist", "So who decides what goes in?"],
+        ["Enna", "The person whose name it is. That is the only rule I trust."]
+      ]
+    },
+    "Tavi": {
+      "tag": "cast.dockworker", "era": "past", "speaker": "Tavi", "title": "The quay",
+      "prompt": "E  Talk to Tavi (dockworker)",
+      "lines": [
+        ["Tavi", "Tavi. I carry whatever comes off the boats. Tonight it's mostly people's lives in sacks."],
+        ["Tavi", "My brother will come looking for me. I haven't decided what I want him to find."]
+      ]
+    },
+    "Boatwright": {
+      "tag": "cast.boatwright", "era": "past", "speaker": "Boatwright", "title": "The slipway",
+      "prompt": "E  Talk to the boatwright",
+      "lines": [
+        ["Boatwright", "Three hulls to caulk before the tide turns, and half the street wants my hands for their roofs."],
+        ["Protagonist", "Can you help them?"],
+        ["Boatwright", "An hour, yes. Not a promise I can't keep. A boat that leaks because I was elsewhere drowns someone too."]
+      ]
+    },
+    "Fisherwoman": {
+      "tag": "cast.fisherwoman", "era": "past", "speaker": "Fisherwoman", "title": "The breakwater",
+      "prompt": "E  Talk to the fisherwoman",
+      "lines": [
+        ["Fisherwoman", "Someone saw a light past the breakwater and shouted that it was a warning."],
+        ["Fisherwoman", "It's a boat coming home with a cracked lamp. I know that rhythm."],
+        ["Fisherwoman", "Rumors sink more boats than storms. Ask before you repeat what you hear on this quay."]
+      ]
+    },
+    "Carpenter": {
+      "tag": "cast.carpenter", "era": "past", "speaker": "Carpenter", "title": "Timber for the night",
+      "prompt": "E  Talk to the carpenter",
+      "lines": [
+        ["Carpenter", "Everyone wants it mended tonight."],
+        ["Carpenter", "A patch that holds until morning isn't a repair. I'll tell them which one they're getting."]
+      ]
+    },
+    "Baker": {
+      "tag": "cast.baker", "era": "past", "speaker": "Baker", "title": "The bakery counter",
+      "prompt": "E  Talk to the baker",
+      "lines": [
+        ["Baker", "Half-loaves for the dock crews, whole ones for the shelter."],
+        ["Baker", "If the tally doesn't say which, somebody gets blamed for a loaf that was never missing."],
+        ["Baker", "If you're hungry, ask. I'd rather count a gift than chase a rumor."]
+      ]
+    },
+    "Archivist": {
+      "tag": "cast.archivist", "era": "present", "speaker": "Archivist", "title": "The archive desk",
+      "prompt": "E  Talk to the archivist",
+      "lines": [
+        ["Archivist", "The display says what it says. A summary repeated a hundred times is still one source."],
+        ["Archivist", "If you want to know what happened, find what was written on the day."]
+      ],
+      "lines_chronology": [
+        ["Archivist", "You've read the public chronology. Good. Now don't let the plaque do your thinking."],
+        ["Archivist", "A date in a summary is someone's conclusion. Look for the record it was drawn from."]
+      ],
+      "lines_register": [
+        ["Protagonist", "This says they were turning people away before the attack."],
+        ["Archivist", "It could have been the storm order."],
+        ["Protagonist", "The number is the same."],
+        ["Archivist", "Then you need the original. Not another summary."]
+      ]
+    },
+    "ShrineKeeper": {
+      "tag": "cast.shrinekeeper", "era": "present", "speaker": "Shrine keeper", "title": "The memorial lamps",
+      "prompt": "E  Talk to the shrine keeper",
+      "lines": [
+        ["Shrine keeper", "People come to light a lamp for names they're not sure of. I don't tell them they're wrong."],
+        ["Shrine keeper", "I tell them what we know, and what we don't. A memorial is a promise to remember. It isn't proof of what happened."]
+      ]
+    },
+    "LanternKeeper": {
+      "tag": "cast.lanternkeeper", "era": "present", "speaker": "Lantern keeper", "title": "The landing lamps",
+      "prompt": "E  Talk to the lantern keeper",
+      "lines": [
+        ["Lantern keeper", "Someone has to keep the landings lit, whether the city is grieving or celebrating."],
+        ["Lantern keeper", "The catch on the landing lamp keeps slipping. One more thing to mend before dark."]
+      ]
+    }
+  }
+}
